@@ -1,0 +1,4 @@
+db/pg
+db/mongo
+*.env
+!sample.env

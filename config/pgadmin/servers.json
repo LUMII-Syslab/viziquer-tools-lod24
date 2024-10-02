@@ -1,0 +1,13 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "Data Shape Server",
+            "Group": "Servers",
+            "Port": 5432,
+            "Username": "rdfmeta",
+            "Host": "postgres",
+            "SSLMode": "prefer",
+            "MaintenanceDB": "postgres"
+        }
+    }
+}
