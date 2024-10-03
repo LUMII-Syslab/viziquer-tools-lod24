@@ -6,8 +6,9 @@ This repository contains scripts and initial data for starting your own copy of 
 
 You should have some docker-compatible environment installed, e.g.
 
-- Docker Desktop
-- Podman
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [Podman[(https://podman.io/)
+- [OrbStack](https://orbstack.dev/)
 - ...
 
 You should have free disk space of ca. `10 GB` on the volume where you will run the Viziquer Tools.
@@ -30,6 +31,8 @@ To stop the Tools, issue the command
 ```
 docker-compose down
 ```
+
+Note: Depending on your version of container tools, instead of `docker-compose ...` you may need to use `docker compose ...`.
 
 ## Using Viziquer Tools
 
