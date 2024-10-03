@@ -13,13 +13,15 @@ You should have some docker-compatible environment installed, e.g.
 
 You should have free disk space of ca. `10 GB` on the volume where you will run the Viziquer Tools.
 
-## First Start
+## Before First Start
 
 Download this git repository, or clone it to a directory of your choice.
 
 Create a file `.env` as a copy of `sample.env`, and configure your preferences (ports, passwords, etc.)
 
-Then start the system by issuing the commands:
+## Start/Stop the Tools
+
+Start the Tools by issuing the commands:
 
 ```
 cd .../viziquer-tools
