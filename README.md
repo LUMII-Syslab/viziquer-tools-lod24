@@ -1,6 +1,6 @@
-# Viziquer Tools
+# ViziQuer Tools
 
-This repository contains scripts and initial data for starting your own copy of Viziquer Tools as a set of interlinked containers.
+This repository contains scripts and initial data for starting your own copy of ViziQuer Tools as a set of interlinked containers.
 
 This repository is just a glue + initial data; the tools itself come from repositories [ViziQuer](https://github.com/LUMII-Syslab/viziquer), [Data Shape Server](https://github.com/LUMII-Syslab/data-shape-server), [OBIS-SchemaExtractor](https://github.com/LUMII-Syslab/OBIS-SchemaExtractor).
 
@@ -45,13 +45,13 @@ docker-compose down
 
 Note: Depending on your version of container tools, instead of `docker-compose ...` you may need to use `docker compose ...`.
 
-## Using Viziquer Tools
+## Using ViziQuer Tools
 
-Viziquer Tools are availble via any modern Internet browser via addresses `http://localhost:%port%`.
+ViziQuer Tools are availble via any modern Internet browser via addresses `http://localhost:%port%`.
 
 The following addresses are shown assuming you used the default ports provided in `sample.env`
 
-You can connect to the Viziquer via `http://localhost:80`
+You can connect to the ViziQuer via `http://localhost:80`
 
 You can connect to the pgAdmin via `http://localhost:9001`; on first start you will be asked for the password for the rdfmeta user
 
@@ -64,10 +64,10 @@ Data from the directories `./db/init/pg` and `./db/init/mongo` will be imported 
 To restart later from scratch, remove the following directories:
 
 - `./db/pg` to restart with a fresh DSS database content
-- `./db/mongo` to restart with fresh content of Viziquer projects database
+- `./db/mongo` to restart with fresh content of ViziQuer projects database
 
-## Uninstalling Viziquer Tools
+## Uninstalling ViziQuer Tools
 
 Just delete the directory `./viziquer-tools` with all its subdirectories.
 
-Note: Don't forget to export your project data before uninstalling Viziquer Tools.
+Note: Don't forget to export your project data before uninstalling ViziQuer Tools.
