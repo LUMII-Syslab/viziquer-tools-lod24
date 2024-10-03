@@ -7,7 +7,7 @@ This repository contains scripts and initial data for starting your own copy of 
 You should have some docker-compatible environment installed, e.g.
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- [Podman[(https://podman.io/)
+- [Podman](https://podman.io/)
 - [OrbStack](https://orbstack.dev/)
 - ...
 
