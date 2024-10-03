@@ -38,6 +38,8 @@ Note: Depending on your version of container tools, instead of `docker-compose .
 
 ## Using Viziquer Tools
 
+Viziquer Tools are availble via any modern Internet browser via addresses `http://localhost:port`.
+
 The following addresses are shown assuming you used the default ports provided in `sample.env`
 
 You can connect to the Viziquer via `http://localhost:80`
