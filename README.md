@@ -16,26 +16,29 @@ You should have some docker-compatible environment installed, e.g.
 - any Linux server with Docker components installed, either on cloud or on-premise,
 - ...
 
-You should have free disk space of ca. `10 GB` on the volume where you will run the Viziquer Tools.
+You should have some free disk space for the data and for container images.
 
 ## Before First Start
 
-Download this git repository, or clone it to a directory of your choice.
+Download this git repository, or clone it to a local directory of your choice.
 
-Create a file `.env` as a copy of `sample.env`, and configure your preferences (ports, passwords, etc.)
+Create a file `.env` as a copy of `sample.env`, and configure it to your preferences (ports, passwords, etc.)
 
 ## Start/Stop the Tools
 
 Start the Tools by issuing the commands:
 
-```
+```bash
 cd .../viziquer-tools
 docker-compose up -d
 ```
 
+On the first start, the databases will be populated with starter data.
+
 To stop the Tools, issue the command
 
-```
+```bash
+cd .../viziquer-tools
 docker-compose down
 ```
 
