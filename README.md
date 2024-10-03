@@ -2,13 +2,18 @@
 
 This repository contains scripts and initial data for starting your own copy of Viziquer Tools as a set of containers.
 
+This is just a glue + initial data; the tools itself come from repositories [ViziQuer](https://github.com/LUMII-Syslab/viziquer), [Data Shape Server](https://github.com/LUMII-Syslab/data-shape-server), [OBIS-SchemaExtractor](https://github.com/LUMII-Syslab/OBIS-SchemaExtractor).
+
+For more information on the ViziQuer tools family, please visit [viziquer.lumii.lv](https://viziquer.lumii.lv/).
+
 ## Requirements
 
 You should have some docker-compatible environment installed, e.g.
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- [Podman](https://podman.io/)
-- [OrbStack](https://orbstack.dev/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/),
+- [Podman](https://podman.io/),
+- [OrbStack](https://orbstack.dev/),
+- any Linux server with Docker components installed, either on cloud or on-premise,
 - ...
 
 You should have free disk space of ca. `10 GB` on the volume where you will run the Viziquer Tools.
@@ -38,7 +43,7 @@ Note: Depending on your version of container tools, instead of `docker-compose .
 
 ## Using Viziquer Tools
 
-Viziquer Tools are availble via any modern Internet browser via addresses `http://localhost:port`.
+Viziquer Tools are availble via any modern Internet browser via addresses `http://localhost:%port%`.
 
 The following addresses are shown assuming you used the default ports provided in `sample.env`
 
