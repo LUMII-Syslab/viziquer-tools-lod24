@@ -53,3 +53,8 @@ To restart later from scratch, remove the following directories:
 - `./db/pg` to restart with a fresh DSS database content
 - `./db/mongo` to restart with fresh content of Viziquer projects database
 
+## Uninstalling Viziquer Tools
+
+Just delete the directory `./viziquer-tools` with all its subdirectories.
+
+Note: Don't forget to export your project data before uninstalling Viziquer Tools.
