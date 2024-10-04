@@ -2,12 +2,13 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped from database version 17.0 (Postgres.app)
+-- Dumped by pg_dump version 17.0 (Postgres.app)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
 SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
 SET client_encoding = 'UTF8';
 SET standard_conforming_strings = on;
 SELECT pg_catalog.set_config('search_path', '', false);
@@ -20,7 +21,7 @@ SET row_security = off;
 -- Name: public; Type: SCHEMA; Schema: -; Owner: -
 --
 
-CREATE SCHEMA IF NOT EXISTS public;
+CREATE SCHEMA public;
 
 
 --
@@ -206,128 +207,8 @@ CREATE VIEW public.v_configurations AS
 --
 
 COPY public.endpoints (id, sparql_url, public_url, named_graph, endpoint_type) FROM stdin;
-1	https://query.wikidata.org/sparql	https://www.wikidata.org	\N	generic
-3	http://sparql.europeana.eu/	https://www.europeana.eu	\N	virtuoso
-4	https://covidontheweb.inria.fr/sparql	https://covidontheweb.inria.fr	\N	virtuoso
-5	http://185.23.162.167:8833/sparql	http://185.23.162.167:8833	MiniBkusEN_1	virtuoso
-6	http://ldf.fi/warsa/sparql	http://ldf.fi/warsa/sparql	\N	generic
-7	http://ldf.fi/yoma/sparql	http://ldf.fi/yoma/sparql	\N	generic
-8	https://85.254.199.72:8890/sparql	https://85.254.199.72:8890/sparql	http://dblp.ex	virtuoso
-9	http://85.254.199.72:8899/sparql	http://85.254.199.72:8899	http://mini_univ.ex	virtuoso
-11	https://digital-agenda-data.eu/data/sparql	https://digital-agenda-data.eu/data/sparql	\N	generic
-16	http://servolis.irisa.fr/iswc2017/sparql	http://servolis.irisa.fr/iswc2017/sparql	\N	generic
-17	http://85.254.199.72:8890/sparql	http://85.254.199.72:8890/sparql	\N	virtuoso
-18	http://servolis.irisa.fr/dbpedia/sparql	http://servolis.irisa.fr/dbpedia/sparql	\N	virtuoso
-19	http://servolis.irisa.fr/mondial/sparql	http://servolis.irisa.fr:3232/mondial/sparql	\N	generic
-21	https://makg.org/sparql	https://makg.org/sparql	https://makg.org	virtuoso
-23	https://data.europa.eu/sparql	https://data.europa.eu/data/sparql	\N	generic
-24	http://libris.kb.se/sparql	http://libris.kb.se/sparql	\N	generic
-25	https://data.gesis.org/tweetscov19/sparql	https://data.gesis.org/tweetscov19/sparql	\N	generic
-35	https://projects.dharc.unibo.it/icondataset/sparql	https://projects.dharc.unibo.it/icondataset/sparql	\N	generic
-41	https://sparql.dblp.org/sparql	https://sparql.dblp.org/sparql	\N	generic
-44	https://lod.dati.lombardia.it/sparql	https://lod.dati.lombardia.it/sparql	\N	virtuoso
-43	http://185.23.162.167:8890/sparql	http://185.23.162.167:8890/sparql	http://starwars.org	virtuoso
-36	http://85.254.199.72:8890/sparql	http://85.254.199.72:8890/sparql	http://ex.virsis.lumii.lv	virtuoso
-40	https://orkg.org/triplestore	https://orkg.org/triplestore	http://orkg.org	virtuoso
-51	http://prod-dekalog.inria.fr/sparql	http://prod-dekalog.inria.fr/sparql	\N	virtuoso
-103	https://relate.racai.ro/datasets/rolex/query	https://relate.racai.ro/datasets/rolex/query	\N	generic
-55	http://147.100.179.235:8082/blazegraph/namespace/AnaEE_sites/sparql	http://147.100.179.235:8082/blazegraph/namespace/AnaEE_sites/sparql	\N	generic
-58	http://aemet.linkeddata.es/sparql	http://aemet.linkeddata.es/sparql	\N	generic
-104	https://student-oulad.khaos.uma.es/sparql	https://student-oulad.khaos.uma.es/sparql	\N	generic
-59	http://data.cervantesvirtual.com/sparql	http://data.cervantesvirtual.com/sparql	\N	generic
-62	http://data.bnf.fr/sparql/	http://data.bnf.fr/sparql/	\N	generic
-108	https://bittich.be/sparql	https://bittich.be/sparql	\N	generic
-45	https://dati.isprambiente.it/sparql	\N	\N	generic
-34	https://ldf.fi/kirjasampo/sparql	\N	\N	generic
-2	https://dbpedia.org/sparql	https://dbpedia.org/sparql	http://dbpedia.org	virtuoso
 20	http://85.254.199.72:8890/sparql	\N	http://nobelprizes.local	generic
-63	http://data.culture.fr/thesaurus/sparql	http://data.culture.fr/thesaurus/sparql	\N	generic
-64	http://data.mimo-db.eu/sparql	http://data.mimo-db.eu/sparql	\N	generic
-65	http://data.rism.info/sparql	http://data.rism.info/sparql	\N	generic
-66	http://datos.bcn.cl/sparql	http://datos.bcn.cl/sparql	http://datos.bcn.cl/recurso/cl/norma	generic
-67	http://datos.bne.es/sparql	http://datos.bne.es/sparql	\N	generic
-68	http://dbtune.org/classical/sparql	http://dbtune.org/classical/sparql	\N	generic
-69	http://digitaalerfgoed.poolparty.biz/PoolParty/sparql/term/id/cht	http://digitaalerfgoed.poolparty.biz/PoolParty/sparql/term/id/cht	\N	generic
-70	http://geco.ecophytopic.fr:8890/sparql	http://geco.ecophytopic.fr:8890/sparql	\N	generic
-71	http://genome.microbedb.jp/sparql	http://genome.microbedb.jp/sparql	\N	generic
-72	http://id.sgcb.mcu.es/sparql	http://id.sgcb.mcu.es/sparql	\N	generic
-73	http://ontology.inrae.fr/bsv/sparql	http://ontology.inrae.fr/bsv/sparql	\N	generic
-74	http://ontology.inrae.fr/frenchcropusage/sparql	http://ontology.inrae.fr/frenchcropusage/sparql	\N	generic
-75	http://ontology.inrae.fr/weather/sparql	http://ontology.inrae.fr/weather/sparql	\N	generic
-76	http://sparql.omabrowser.org/sparql	http://sparql.omabrowser.org/sparql	\N	generic
-77	http://sparql.rhea-db.org/sparql	http://sparql.rhea-db.org/sparql	\N	generic
-78	http://vocab.nerc.ac.uk/sparql/	http://vocab.nerc.ac.uk/sparql/	\N	generic
-79	http://webisa.webdatacommons.org/sparql	http://webisa.webdatacommons.org/sparql	\N	generic
-80	http://www.imagesnippets.com/sparql/images	http://www.imagesnippets.com/sparql/images	\N	generic
-81	http://www.snik.eu/sparql	http://www.snik.eu/sparql	http://www.snik.eu/ontology	generic
-82	http://www.ss-framework.com/sparql	http://www.ss-framework.com/sparql	\N	generic
-83	https://agrovoc.fao.org/sparql	https://agrovoc.fao.org/sparql	\N	generic
-57	https://alma.uni.lu/sparql	https://alma.uni.lu/sparql	\N	generic
-85	https://aopwiki.rdf.bigcat-bioinformatics.org/sparql	https://aopwiki.rdf.bigcat-bioinformatics.org/sparql	\N	generic
-86	https://api.triplydb.com/datasets/princeton/wordnet/services/wordnet/sparql	https://api.triplydb.com/datasets/princeton/wordnet/services/wordnet/sparql	\N	generic
-87	https://assignment-mud.khaos.uma.es/sparql	https://assignment-mud.khaos.uma.es/sparql	\N	generic
-88	https://data.cinematheque.qc.ca/sparql	https://data.cinematheque.qc.ca/sparql	\N	generic
-89	https://data.cssz.cz/sparql	https://data.cssz.cz/sparql	\N	generic
-90	https://data.entice.eu/sparql	https://data.entice.eu/sparql	\N	generic
-91	https://api.data.muziekweb.nl/datasets/MuziekwebOrganization/Muziekweb/services/Muziekweb/sparql	https://api.data.muziekweb.nl/datasets/MuziekwebOrganization/Muziekweb/services/Muziekweb/sparql	\N	generic
-92	https://datos-abertos.galiciana.gal/pt/sparql	https://datos-abertos.galiciana.gal/pt/sparql	\N	generic
-93	https://id.nlm.nih.gov/mesh/sparql	https://id.nlm.nih.gov/mesh/sparql	\N	generic
-94	https://ideal-rdf.dbcls.jp/sparql	https://ideal-rdf.dbcls.jp/sparql	\N	generic
-95	https://lingualibre.org/bigdata/namespace/wdq/sparql	https://lingualibre.org/bigdata/namespace/wdq/sparql	\N	generic
-96	https://linkedwiki.com/sparql	https://linkedwiki.com/sparql	\N	generic
-97	https://lod.ehri-project-test.eu/sparql	https://lod.ehri-project-test.eu/sparql	\N	generic
-98	https://log-mud.khaos.uma.es/sparql	https://log-mud.khaos.uma.es/sparql	\N	generic
-99	https://makg.org/sparql	https://makg.org/sparql	\N	generic
-100	https://module-oulad.khaos.uma.es/sparql	https://module-oulad.khaos.uma.es/sparql	\N	generic
-101	https://rdf.metanetx.org/sparql	https://rdf.metanetx.org/sparql	\N	generic
-102	https://relate.racai.ro/datasets/legalnero/query	https://relate.racai.ro/datasets/legalnero/query	\N	generic
-105	https://themis.vlaanderen.be/sparql	https://themis.vlaanderen.be/sparql	\N	generic
-106	https://user-mud.khaos.uma.es/sparql	https://user-mud.khaos.uma.es/sparql	\N	generic
-110	https://colil.dbcls.jp/sparql	\N	\N	virtuoso
-111	https://data.allie.dbcls.jp/sparql	\N	\N	generic
-112	https://data.doremus.org/sparql	\N	\N	generic
-113	https://data.gov.cz/sparql	\N	\N	generic
-114	https://data.persee.fr/sparql	\N	\N	generic
-115	https://dati.camera.it/sparql	\N	\N	generic
-117	https://glyconnect.expasy.org/sparql	\N	\N	generic
-118	https://kaiko.getalp.org/sparql	\N	\N	generic
-119	https://ldf.fi/folklore/sparql	\N	\N	generic
-121	https://ldf.fi/mufi/sparql	\N	\N	generic
-122	https://ldf.fi/warsa/sparql	\N	\N	generic
-123	https://ldf.fi/ww1lod/sparql	\N	\N	generic
-124	https://lod.abes.fr/sparql	\N	\N	generic
-125	https://sparql.wikipathways.org/sparql	\N	\N	generic
-126	https://www.govdata.de/sparql	\N	\N	generic
-127	https://www.snik.eu/sparql	\N	\N	generic
-128	http://data.logainm.ie/sparql	\N	\N	generic
-129	http://environment.data.gov.uk/sparql/bwq/query	\N	\N	generic
-130	http://utep.eagle-i.net/sparqler/sparql	\N	\N	generic
-132	http://85.254.199.72:8890/sparql	http://85.254.199.72:8890/sparql	http://sparql_endpoints.ex	virtuoso
-133	https://semopenalex.org/sparql	https://semopenalex.org/sparql	\N	generic
 134	http://lv.dbpedia.org:3030/starwars/	http://lv.dbpedia.org:3030/starwars/	\N	generic
-135	https://orkg.org/triplestore	\N	\N	generic
-137	http://localhost:8890/sparql	\N	http://nobel_prizes.vq.app	generic
-138	https://sparql.nextprot.org/	https://sparql.nextprot.org/	\N	generic
-139	http://affymetrix.bio2rdf.org/sparql	http://affymetrix.bio2rdf.org/sparql	\N	generic
-140	http://cr.eionet.europa.eu/sparql	http://cr.eionet.europa.eu/sparql	\N	generic
-141	http://data.allie.dbcls.jp/sparql	http://data.allie.dbcls.jp/sparql	\N	generic
-142	http://data.bnf.fr/sparql	http://data.bnf.fr/sparql	\N	generic
-143	http://dati.camera.it/sparql	http://dati.camera.it/sparql	\N	generic
-144	http://dati.isprambiente.it/sparql	http://dati.isprambiente.it/sparql	\N	generic
-145	http://en.openei.org/sparql	http://en.openei.org/sparql	\N	generic
-146	https://www.foodie-cloud.org/sparql	https://www.foodie-cloud.org/sparql	http://w3id.org/foodie/open/catchrecord/norway/	generic
-147	http://geo.linkeddata.es/sparql	http://geo.linkeddata.es/sparql	\N	generic
-148	http://id.eaufrance.fr/sparql	http://id.eaufrance.fr/sparql	\N	generic
-149	http://kaiko.getalp.org/sparql	http://kaiko.getalp.org/sparql	\N	generic
-150	https://libris.kb.se/sparql	https://libris.kb.se/sparql	\N	generic
-151	http://opendata.aragon.es/sparql	http://opendata.aragon.es/sparql	\N	generic
-152	http://premon.fbk.eu/sparql	http://premon.fbk.eu/sparql	\N	generic
-153	http://rdf.disgenet.org/sparql/	http://rdf.disgenet.org/sparql/	\N	generic
-154	http://sparql.odw.tw/	http://sparql.odw.tw/	\N	generic
-155	https://data.muziekweb.nl/MuziekwebOrganization/Muziekweb/sparql/Muziekweb	https://data.muziekweb.nl/MuziekwebOrganization/Muziekweb/sparql/Muziekweb	\N	generic
-156	https://opendata.aragon.es/sparql	https://opendata.aragon.es/sparql	\N	generic
-157	https://ruian.linked.opendata.cz/sparql	https://ruian.linked.opendata.cz/sparql	\N	generic
-158	https://taxref.mnhn.fr/sparql	https://taxref.mnhn.fr/sparql	\N	generic
 \.
 
 
@@ -3146,117 +3027,8 @@ COPY public.ns_prefixes (id, abbr, prefix) FROM stdin;
 --
 
 COPY public.schemata (id, display_name, db_schema_name, description, endpoint_id, is_active, is_default_for_endpoint, order_inx, tags) FROM stdin;
-60	InriaCatalog	inria_catalog		51	t	t	101	{}
-61	BlazeGraphNamespace	blazegraphnamespace		55	t	t	101	{}
-68	DataCultureThesaurus	dataculturethesaurus		63	t	t	101	{}
-69	DataMimo	datamimo		64	t	t	101	{}
-70	DataRism	datarism		65	t	t	101	{}
-71	DataBcn	databcn		66	t	t	101	{}
-72	DataBne	databne		67	t	t	101	{}
-73	DbTuneClassical	dbtuneclassical		68	t	t	101	{}
-74	Digitaalerfgoed	digitaalerfgoed		69	t	t	101	{}
-75	GecoEcophytopic	gecoecophytopic		70	t	t	101	{}
-76	GenomeMicrobedb	genomemicrobedb		71	t	t	101	{}
-77	IdSgcbMcu	idsgcbmcu		72	t	t	101	{}
-78	InraeBsv	inraebsv		73	t	t	101	{}
-79	InraeFrenchCropUsages	inraefrenchcropusages		74	t	t	101	{}
-81	Omabrowser	omabrowser		76	t	t	101	{}
-82	RheaDB	rheadb		77	t	t	101	{}
-83	VocabNerc	vocabnerc		78	t	t	101	{}
-85	ImageSnippets	imagesnippets		80	t	t	101	{}
-86	Snik	snik		81	t	t	101	{}
-87	SSFramework	ssframework		82	t	t	101	{}
-88	Agrovoc	agrovoc		83	t	t	101	{}
-89	AlmaUni	almauni		57	t	t	101	{}
-90	BigcatBioinformatics	bigcatbioinformatics		85	t	t	101	{}
-91	PrincetonWordnet	princetonwordnet		86	t	t	101	{}
-92	MudKhaosUma	mudkhaosuma		87	t	t	101	{}
-93	Cinematheque	cinematheque		88	t	t	101	{}
-94	Cssz	cssz		89	t	t	101	{}
-95	Entice	entice		90	t	t	101	{}
-96	Muziekweb	muziekweb		91	t	t	101	{}
-97	AbertosGaliciana	abertosgaliciana		92	t	t	101	{}
-98	IdNlm	idnlm		93	t	t	101	{}
-99	IdealRdfDbcls	idealrdfdbcls		94	t	t	101	{}
-100	Lingualibre	lingualibre		95	t	t	101	{}
-101	Linkedwiki	linkedwiki		96	t	t	101	{}
-102	LodEhri	lodehri		97	t	t	101	{}
-103	LodMudKhaos	lodmudkhaos		98	t	t	101	{}
-104	Makg	makg		99	t	t	101	{}
-105	ModuleOulad	moduleoulad		100	t	t	101	{}
-106	MetaNetx	metanetx		101	t	t	101	{}
-107	Legalnero	legalnero		102	t	t	101	{}
-108	Rolex	rolex		103	t	t	101	{}
-109	StudentOulad	studentoulad		104	t	t	101	{}
-110	ThemisVlaanderen	themisvlaanderen		105	t	t	101	{}
-111	UserMudKhaos	usermudkhaos		106	t	t	101	{}
-112	INRIA_SPARQL	inria_sparql	INRIA SPARQL Endpoints Catalogue	51	t	t	101	{}
-113	Bittich_BE	bittich_be	Bittich_BE	108	t	t	101	{}
-118	ISWC2017	iswc2017	\N	16	t	t	101	{}
-121	colil	colil	\N	110	t	t	101	{}
-122	https_data_allie_dbcls_jp_sparql	https_data_allie_dbcls_jp_sparql	\N	111	t	t	101	{}
-123	https_data_doremus_org_sparql	https_data_doremus_org_sparql	\N	112	t	t	101	{}
-124	https_data_gov_cz_sparql	https_data_gov_cz_sparql	\N	113	t	t	101	{}
-125	https_data_persee_fr_sparql	https_data_persee_fr_sparql	\N	114	t	t	101	{}
-126	https_dati_camera_it_sparql	https_dati_camera_it_sparql	\N	115	t	t	101	{}
-127	https_dati_isprambiente_it_sparql	https_dati_isprambiente_it_sparql	\N	45	t	t	101	{}
-128	https_glyconnect_expasy_org_sparql	https_glyconnect_expasy_org_sparql	\N	117	t	t	101	{}
-129	https_kaiko_getalp_org_sparql	https_kaiko_getalp_org_sparql	\N	118	t	t	101	{}
-130	https_ldf_fi_folklore_sparql	https_ldf_fi_folklore_sparql	\N	119	t	t	101	{}
-131	https_ldf_fi_kirjasampo_sparql	https_ldf_fi_kirjasampo_sparql	\N	34	t	t	101	{}
-132	https_ldf_fi_mufi_sparql	https_ldf_fi_mufi_sparql	\N	121	t	t	101	{}
-133	https_ldf_fi_warsa_sparql	https_ldf_fi_warsa_sparql	\N	122	t	t	101	{}
-134	https_ldf_fi_ww1lod_sparql	https_ldf_fi_ww1lod_sparql	\N	123	t	t	101	{}
-135	https_lod_abes_fr_sparql	https_lod_abes_fr_sparql	\N	124	t	t	101	{}
-136	https_sparql_wikipathways_org_sparql	https_sparql_wikipathways_org_sparql	\N	125	t	t	101	{}
-137	https_www_govdata_de_sparql	https_www_govdata_de_sparql	\N	126	t	t	101	{}
-138	https_www_snik_eu_sparql	https_www_snik_eu_sparql	\N	127	t	t	101	{}
-139	http_data_logainm_ie_sparql	http_data_logainm_ie_sparql	\N	128	t	t	101	{}
-140	http_environment_data_gov_uk_sparql_bwq_query	http_environment_data_gov_uk_sparql_bwq_query	\N	129	t	t	101	{}
-141	http_utep_eagle_i_net_sparqler_sparql	http_utep_eagle_i_net_sparqler_sparql	\N	130	t	t	101	{}
-114	AcademySampoX	academy_sampo_x	\N	7	t	t	8	{}
-115	WarSampo	war_sampo	\N	6	t	t	6	{}
 116	NobelPrizes	nobel_prizes	\N	20	t	t	4	{}
-117	DataEuropaEU	data_europa_eu	\N	23	t	t	7	{}
-119	Mondial	mondial	\N	19	t	t	5	{}
-142	DBpedia	dbpedia	\N	2	t	t	1	{}
-143	Wikidata	wikidata	\N	1	t	t	2	{}
-144	Europeana	europeana	\N	3	t	t	3	{}
-145	MiniHospital	mini_hospital	\N	5	t	t	11	{}
-146	MiniUniversity	mini_university	\N	9	t	t	10	{}
-148	Virsis	virsis	\N	36	t	t	91	{}
-153	dbpedia_onto_fragment	dbpedia_onto_fragment	\N	2	t	f	105	{schemas20}
 147	StarWars	starwars	\N	134	t	t	9	{}
-150	orkg_x	orkg_x	\N	135	t	t	101	{}
-151	nobel_prizes_simple	nobel_prizes_simple	\N	20	t	t	101	{}
-152	nobel_prizes_schema	nobel_prizes_schema	\N	137	t	t	101	{}
-154	http_affymetrix_bio2rdf_org	http_affymetrix_bio2rdf_org	\N	139	t	t	105	{schemas20}
-155	http_cr_eionet_europa_eu	http_cr_eionet_europa_eu	\N	140	t	t	105	{schemas20}
-156	http_data_allie_dbcls_jp_sparql	http_data_allie_dbcls_jp_sparql	\N	141	t	t	105	{schemas20}
-157	http_data_bnf_fr_sparql	http_data_bnf_fr_sparql	\N	142	t	t	105	{schemas20}
-158	http_data_rism_info_sparql	http_data_rism_info_sparql	\N	65	t	t	105	{schemas20}
-159	http_dati_camera_it_sparql	http_dati_camera_it_sparql	\N	143	t	t	105	{schemas20}
-160	http_dati_isprambiente_it_sparql	http_dati_isprambiente_it_sparql	\N	144	t	t	105	{schemas20}
-161	http_datos_bcn_ck_sparql	http_datos_bcn_ck_sparql	\N	66	t	t	105	{schemas20}
-162	http_datos_bne_es_sparql	http_datos_bne_es_sparql	\N	67	t	t	105	{schemas20}
-163	http_en_openei_org_sparql	http_en_openei_org_sparql	\N	145	t	t	105	{schemas20}
-164	http_foodie_cloud_catchrecord_norway	http_foodie_cloud_catchrecord_norway	\N	146	t	t	105	{schemas20}
-165	http_foodie_cloud_poi_rdf	http_foodie_cloud_poi_rdf	\N	146	t	t	105	{schemas20}
-166	http_geo_linkeddata_es_sparql	http_geo_linkeddata_es_sparql	\N	147	t	t	105	{schemas20}
-167	http_id_eaufrance_fr_sparql	http_id_eaufrance_fr_sparql	\N	148	t	t	105	{schemas20}
-168	http_kaiko_getalp_org_sparql	http_kaiko_getalp_org_sparql	\N	149	t	t	105	{schemas20}
-169	http_ldf_fi_warsa_sparql	http_ldf_fi_warsa_sparql	\N	6	t	t	105	{schemas20}
-170	http_ldf_fi_yoma_sparql	http_ldf_fi_yoma_sparql	\N	7	t	t	105	{schemas20}
-171	http_libris_kb_se_sparql	http_libris_kb_se_sparql	\N	150	t	t	105	{schemas20}
-172	http_opendata_aragon_es_sparql	http_opendata_aragon_es_sparql	\N	151	t	t	105	{schemas20}
-173	http_premon_fbk_eu_sparql	http_premon_fbk_eu_sparql	\N	152	t	t	105	{schemas20}
-174	http_rdf_disgenet_org_sparql_	http_rdf_disgenet_org_sparql_	\N	153	t	t	105	{schemas20}
-175	http_sparql_odw_tw	http_sparql_odw_tw	\N	154	t	t	105	{schemas20}
-176	https_data_muziekweb_nl_muziekweborganization_muziekweb_sparql_muziekweb	https_data_muziekweb_nl_muziekweborganization_muziekweb_sparql_muziekweb	\N	155	t	t	105	{schemas20}
-177	https_opendata_aragon_es_sparql	https_opendata_aragon_es_sparql	\N	156	t	t	105	{schemas20}
-178	https_ruian_linked_opendata_cz_sparql	https_ruian_linked_opendata_cz_sparql	\N	157	t	t	105	{schemas20}
-179	https_taxref_mnhn_fr_sparql	https_taxref_mnhn_fr_sparql	\N	158	t	t	105	{schemas20}
-180	https_www_nextprot_org	https_www_nextprot_org	\N	138	t	t	105	{schemas20}
 \.
 
 
@@ -3265,9 +3037,9 @@ COPY public.schemata (id, display_name, db_schema_name, description, endpoint_id
 --
 
 COPY public.schemata_tags (id, name, display_name, description, is_active) FROM stdin;
-1	tag1	tag one	\N	t
-2	tag2	tag two	\N	t
 3	schemas20	schemas20	LOD schema examples	t
+1	demo	Demo	\N	t
+2	sample	Sample	\N	t
 \.
 
 
@@ -3287,7 +3059,7 @@ COPY public.tree_profiles (id, profile_name, data, is_default) FROM stdin;
 -- Name: endpoints_id_seq; Type: SEQUENCE SET; Schema: public; Owner: -
 --
 
-SELECT pg_catalog.setval('public.endpoints_id_seq', 158, true);
+SELECT pg_catalog.setval('public.endpoints_id_seq', 165, true);
 
 
 --
@@ -3301,7 +3073,7 @@ SELECT pg_catalog.setval('public.ns_prefixes_id_seq', 2802, true);
 -- Name: schemata_id_seq; Type: SEQUENCE SET; Schema: public; Owner: -
 --
 
-SELECT pg_catalog.setval('public.schemata_id_seq', 180, true);
+SELECT pg_catalog.setval('public.schemata_id_seq', 187, true);
 
 
 --
