@@ -2,7 +2,7 @@
 
 networks:
   viziquer-network:
-    name: 'viziquer-tools'
+    name: "viziquer-tools"
 
 services:
   viziquer:
@@ -20,7 +20,7 @@ services:
       - PORT=3000
       - STARTUP_DELAY=10
       - SCHEMA_SERVER_URL=http://localhost:${DSS_PORT}/api
-      - SCHEMA_SERVER_URL2=http://dss:${DSS_PORT}/api
+      - REAL_SCHEMA_SERVER_URL=http://dss:${DSS_PORT}/api
     networks:
       - viziquer-network
 
