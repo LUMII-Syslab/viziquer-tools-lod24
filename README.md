@@ -30,7 +30,7 @@ Create a file `.env` as a copy of `sample.env`, and configure it to your prefere
 Start the Tools by issuing the commands:
 
 ```bash
-cd .../viziquer-tools
+cd viziquer-tools
 docker-compose up -d
 ```
 
@@ -39,7 +39,7 @@ On the first start, the databases will be populated with starter data.
 To stop the Tools, issue the command
 
 ```bash
-cd .../viziquer-tools
+cd viziquer-tools
 docker-compose down
 ```
 
