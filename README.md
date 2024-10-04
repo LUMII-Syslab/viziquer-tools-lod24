@@ -66,6 +66,13 @@ To restart later from scratch, remove the following directories:
 - `./db/pg` to restart with a fresh DSS database content
 - `./db/mongo` to restart with fresh content of ViziQuer projects database
 
+```bash
+cd viziquer-tools
+docker-compose down
+rm -rf db/pg
+docker-compose up -d
+```
+
 ## Updating components
 
 ```bash
