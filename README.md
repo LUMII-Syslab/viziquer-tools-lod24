@@ -34,7 +34,7 @@ cd viziquer-tools
 docker-compose up -d
 ```
 
-On the first start, the databases will be populated with starter data.
+On the first start, the required images will be pulled from registries, and the databases will be populated with starter data.
 
 To stop the Tools, issue the command
 
