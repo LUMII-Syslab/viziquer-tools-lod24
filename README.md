@@ -57,6 +57,8 @@ You can connect to the pgAdmin via `http://localhost:9001`; on first start you w
 
 You can connect to the DSS instance via `http://localhost:9005`
 
+The PostGres server is available at `localhost:5433`
+
 ## Populating the Data
 
 Initially, two example schemas are included: *Nobel_prizes* and *Starwars*.
@@ -64,19 +66,27 @@ Initially, two example schemas are included: *Nobel_prizes* and *Starwars*.
 To add a schema for another endpoint, whether public or your own, follow these two steps:
 
 - extract the schema from the endpoint
-- upload the schema to ViziQuer Tools
+- import the schema into ViziQuer Tools
 
 Note: these steps will be automated in one of the next releases.
 
+Alternatively, existing schemas (e.g., created on other servers) can be uploaded.
+
 ### Extracting the schema from the endpoint
 
-To extract a schema from an endpoint, you should use [OBIS-SchemaExtractor](https://github.com/LUMII-Syslab/OBIS-SchemaExtractor) and follow the instructions there.
+To extract a schema from an endpoint, you should use [OBIS-SchemaExtractor](https://github.com/LUMII-Syslab/OBIS-SchemaExtractor), version 2, and follow the instructions there.
 
-### Uploading (importing) the schema to ViziQuer Tools
+### Importing the schema into ViziQuer Tools
 
 Once you have obtained a JSON file with the extracted schema, you need to import this JSON file into ViziQuer Tools. 
 
-Currently, to upload the file, you must manually start the importer module from the [Data Shape Server](https://github.com/LUMII-Syslab/data-shape-server) repository .
+Currently, to import the schema, use the [importer module](https://github.com/LUMII-Syslab/data-shape-server/tree/main/import-generic)
+from the Data Shape Server repository .
+
+### Data schema uploading
+
+An existing SQL database schema script (like the ones in `./db/init/pg` directory) can be executed against the database instance to create a new schema. 
+Manual updates of tables `schemata` and `endpoints` in the `public` schema are needed to make this information accessible from the visual environment.
 
 ## (Re)starting from scratch
 
