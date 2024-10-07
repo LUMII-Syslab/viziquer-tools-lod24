@@ -57,6 +57,27 @@ You can connect to the pgAdmin via `http://localhost:9001`; on first start you w
 
 You can connect to the DSS instance via `http://localhost:9005`
 
+## Populating the Data
+
+Initially, there are 2 example schemas included, *Nobel_prizes* and *Starwars*.
+
+To add a schema for another endpoint, public or your own, two steps are necessary:
+
+- extracting the schema from the endpoint
+- uploading the schema to ViziQuer Tools
+
+Note: these steps will be automated in one of the next releases.
+
+### Extracting the schema from the endpoint
+
+To extract a schema from an endpoint, you should use [OBIS-SchemaExtractor](https://github.com/LUMII-Syslab/OBIS-SchemaExtractor) and follow the instructions there.
+
+### Uploading (importing) the schema to ViziQuer Tools
+
+After you obtained a JSON file with extracted schema, this JSON file has to be imported to ViziQuer Tools. 
+
+Currently, for uploading you have to manually start the importer module from the [Data Shape Server](https://github.com/LUMII-Syslab/data-shape-server).
+
 ## (Re)starting from scratch
 
 Data from the directories `./db/init/pg` and `./db/init/mongo` will be imported on first start of the system.
