@@ -59,12 +59,12 @@ You can connect to the DSS instance via `http://localhost:9005`
 
 ## Populating the Data
 
-Initially, there are 2 example schemas included, *Nobel_prizes* and *Starwars*.
+Initially, two example schemas are included: *Nobel_prizes* and *Starwars*.
 
-To add a schema for another endpoint, public or your own, two steps are necessary:
+To add a schema for another endpoint, whether public or your own, follow these two steps:
 
-- extracting the schema from the endpoint
-- uploading the schema to ViziQuer Tools
+- extract the schema from the endpoint
+- upload the schema to ViziQuer Tools
 
 Note: these steps will be automated in one of the next releases.
 
@@ -74,9 +74,9 @@ To extract a schema from an endpoint, you should use [OBIS-SchemaExtractor](http
 
 ### Uploading (importing) the schema to ViziQuer Tools
 
-After you obtained a JSON file with extracted schema, this JSON file has to be imported to ViziQuer Tools. 
+Once you have obtained a JSON file with the extracted schema, you need to import this JSON file into ViziQuer Tools. 
 
-Currently, for uploading you have to manually start the importer module from the [Data Shape Server](https://github.com/LUMII-Syslab/data-shape-server).
+Currently, to upload the file, you must manually start the importer module from the [Data Shape Server](https://github.com/LUMII-Syslab/data-shape-server) repository .
 
 ## (Re)starting from scratch
 
