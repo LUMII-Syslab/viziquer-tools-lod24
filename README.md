@@ -45,7 +45,7 @@ Note: Depending on your version of container tools, instead of `docker-compose .
 
 ## Using ViziQuer Tools
 
-ViziQuer Tools are availble via any modern Internet browser via addresses `http://localhost:%port%`.
+ViziQuer Tools are available via any modern Internet browser via addresses `http://localhost:%port%`.
 
 The following addresses are shown assuming you used the default ports provided in `sample.env`
 
@@ -53,9 +53,9 @@ You can connect to the ViziQuer via `http://localhost:80`
 
 You can connect to the pgAdmin via `http://localhost:9001`; on first start you will be asked for the password for the rdfmeta user
 
-You can connect to the DSS instance via `http://localhost:9005`
+The DSS instance API is available via `http://localhost:9005`
 
-The PostGres server is available at `localhost:5433`
+The Postgres server is available at `localhost:5433`
 
 ## Populating the Data
 
@@ -79,7 +79,7 @@ To extract a schema from an endpoint, you should use [OBIS-SchemaExtractor](http
 Once you have obtained a JSON file with the extracted schema, you need to import this JSON file into ViziQuer Tools. 
 
 Currently, to import the schema, use the [importer module](https://github.com/LUMII-Syslab/data-shape-server/tree/main/import-generic)
-from the Data Shape Server repository .
+from the Data Shape Server repository.
 
 ### Data schema uploading
 
