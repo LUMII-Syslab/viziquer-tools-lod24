@@ -2,18 +2,16 @@
 
 This repository contains scripts and initial data for starting your own copy of ViziQuer Tools as a set of interlinked containers.
 
-This repository is just a glue + initial data; the tools itself come from repositories [ViziQuer](https://github.com/LUMII-Syslab/viziquer), [Data Shape Server](https://github.com/LUMII-Syslab/data-shape-server), [OBIS-SchemaExtractor](https://github.com/LUMII-Syslab/OBIS-SchemaExtractor).
+This repository is just a glue + initial data; the tools themselves come from the following repositories:
+- [ViziQuer](https://github.com/LUMII-Syslab/viziquer)
+- [Data Shape Server](https://github.com/LUMII-Syslab/data-shape-server)
+- [OBIS-SchemaExtractor](https://github.com/LUMII-Syslab/OBIS-SchemaExtractor)
 
 For more information on the ViziQuer tools family, please visit [viziquer.lumii.lv](https://viziquer.lumii.lv/).
 
 ## Requirements
 
-You should have some docker-compatible environment installed, e.g.
-
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/),
-- [Podman](https://podman.io/),
-- [OrbStack](https://orbstack.dev/),
-- ...
+You should have a Docker-compatible environment installed (e.g. [Docker Desktop](https://www.docker.com/products/docker-desktop/), [Podman](https://podman.io/), [OrbStack](https://orbstack.dev/), ...).
 
 Any Linux server with Docker components installed will also be sufficient, either on cloud or on-premise.
 
