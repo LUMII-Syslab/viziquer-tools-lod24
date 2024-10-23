@@ -21,6 +21,9 @@ services:
       - STARTUP_DELAY=10
       - SCHEMA_SERVER_URL=http://localhost:${DSS_PORT}/api
       - REAL_SCHEMA_SERVER_URL=http://dss:${DSS_PORT}/api
+    volumes:
+      - ./vq/init/autoload.json:/opt/bundle/bundle/private/jsons/autoload.json
+      - ./vq/init/services.json:/opt/bundle/bundle/private/jsons/services.json
     networks:
       - viziquer-network
 
