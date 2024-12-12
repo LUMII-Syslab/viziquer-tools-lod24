@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped by pg_dump version 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -34053,7 +34053,6 @@ COPY http_datos_bcn_ck_sparql.ns (id, name, value, priority, is_local, basic_ord
 25	geo	http://www.w3.org/2003/01/geo/wgs84_pos#	0	f	0
 26	prov	http://www.w3.org/ns/prov#	0	f	0
 27	sd	http://www.w3.org/ns/sparql-service-description#	0	f	0
-73	n_1	http://datos.bcn.cl/ontologies/bcn-resources#	0	f	0
 29	georss	http://www.georss.org/georss/	0	f	0
 30	gold	http://purl.org/linguistics/gold/	0	f	0
 31	bibo	http://purl.org/ontology/bibo/	0	f	0
@@ -34073,35 +34072,36 @@ COPY http_datos_bcn_ck_sparql.ns (id, name, value, priority, is_local, basic_ord
 70	bio	http://purl.org/vocab/bio/0.1/	0	f	0
 71	geonames	http://www.geonames.org/ontology#	0	f	0
 72	time	http://www.w3.org/2006/time#	0	f	0
-74	n_2	http://datos.bcn.cl/recurso/editor/categoria/6	0	f	0
 75	bcncon	http://datos.bcn.cl/ontologies/bcn-congress#	0	f	0
-76	n_3	http://datos.bcn.cl/ontologies/bcn-bills#	0	f	0
 77	bcngeo	http://datos.bcn.cl/ontologies/bcn-geographics#	0	f	0
 78	bcnnorms	http://datos.bcn.cl/ontologies/bcn-norms#	0	f	0
-79	n_4	http://datos.bcn.cl/recurso/	0	f	0
-80	n_5	https://www.bcn.cl/presupuesto/vocabulario/	0	f	0
-81	n_6	http://datos.bcn.cl/recurso/editor/tipocomentario/1	0	f	0
-82	n_7	http://datos.bcn.cl/recurso/editor/tipocomentario/4	0	f	0
-83	n_8	http://datos.bcn.cl/recurso/editor/estadocomentario/2	0	f	0
-84	n_9	http://datos.bcn.cl/recurso/editor/estadocomentario/6	0	f	0
-85	n_10	http://datos.bcn.cl/ontologies/bcn-sessiondaily#	0	f	0
-86	n_11	http://datos.bcn.cl/recurso/editor/relacion/1	0	f	0
-87	n_12	http://datos.bcn.cl/recurso/editor/relacion/3	0	f	0
-88	n_13	http://datos.bcn.cl/recurso/editor/categoria/5	0	f	0
-89	n_14	http://datos.bcn.cl/recurso/editor/categoria/8	0	f	0
-90	n_15	http://vocab.org/bio/0.1/	0	f	0
-91	n_16	https://datos.bcn.cl/ontologies/bcn-resources#	0	f	0
-92	n_17	https://www.wikidata.org/wiki/	0	f	0
-93	n_18	http://datos.bcn.cl/recurso/editor/tipocomentario/2	0	f	0
-94	n_19	http://datos.bcn.cl/recurso/editor/tipocomentario/3	0	f	0
-95	n_20	http://datos.bcn.cl/recurso/editor/tipocomentario/5	0	f	0
-96	n_21	http://datos.bcn.cl/recurso/editor/estadocomentario/1	0	f	0
-97	n_22	http://datos.bcn.cl/recurso/editor/relacion/2	0	f	0
-98	n_23	http://datos.bcn.cl/recurso/editor/estadocomentario/0	0	f	0
-99	n_24	http://datos.bcn.cl/recurso/editor/estadocomentario/5	0	f	0
-100	n_25	http://datos.bcn.cl/recurso/editor/estadocomentario/3	0	f	0
-101	n_26	http://datos.bcn.cl/recurso/persona/	0	f	0
-102	n_27	http://datos.bcn.cl/recurso/temporal/	0	f	0
+73	bcn	http://datos.bcn.cl/ontologies/bcn-resources#	0	f	0
+76	bcn-bills	http://datos.bcn.cl/ontologies/bcn-bills#	0	f	0
+90	bio-vocab	http://vocab.org/bio/0.1/	0	f	0
+92	wiki	https://www.wikidata.org/wiki/	0	f	0
+74	categ_6	http://datos.bcn.cl/recurso/editor/categoria/6	0	f	0
+79	recurso	http://datos.bcn.cl/recurso/	0	f	0
+80	vocab-presup	https://www.bcn.cl/presupuesto/vocabulario/	0	f	0
+101	rec-persona	http://datos.bcn.cl/recurso/persona/	0	f	0
+102	rec-temporal	http://datos.bcn.cl/recurso/temporal/	0	f	0
+86	relac_1	http://datos.bcn.cl/recurso/editor/relacion/1	0	f	0
+97	relac_2	http://datos.bcn.cl/recurso/editor/relacion/2	0	f	0
+91	bcn-resources	https://datos.bcn.cl/ontologies/bcn-resources#	0	f	0
+85	bcn-daily	http://datos.bcn.cl/ontologies/bcn-sessiondaily#	0	f	0
+87	relac_3	http://datos.bcn.cl/recurso/editor/relacion/3	0	f	0
+81	tipo_1	http://datos.bcn.cl/recurso/editor/tipocomentario/1	0	f	0
+82	tipo_4	http://datos.bcn.cl/recurso/editor/tipocomentario/4	0	f	0
+83	estadoc_2	http://datos.bcn.cl/recurso/editor/estadocomentario/2	0	f	0
+84	estadoc_6	http://datos.bcn.cl/recurso/editor/estadocomentario/6	0	f	0
+88	categ_5	http://datos.bcn.cl/recurso/editor/categoria/5	0	f	0
+89	categ_8	http://datos.bcn.cl/recurso/editor/categoria/8	0	f	0
+93	tipo_2	http://datos.bcn.cl/recurso/editor/tipocomentario/2	0	f	0
+94	tipo_3	http://datos.bcn.cl/recurso/editor/tipocomentario/3	0	f	0
+95	tipo_5	http://datos.bcn.cl/recurso/editor/tipocomentario/5	0	f	0
+96	estadoc_1	http://datos.bcn.cl/recurso/editor/estadocomentario/1	0	f	0
+98	estadoc_0	http://datos.bcn.cl/recurso/editor/estadocomentario/0	0	f	0
+99	estadoc_5	http://datos.bcn.cl/recurso/editor/estadocomentario/5	0	f	0
+100	estadoc_3	http://datos.bcn.cl/recurso/editor/estadocomentario/3	0	f	0
 \.
 
 

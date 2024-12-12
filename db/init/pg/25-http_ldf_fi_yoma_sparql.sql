@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped by pg_dump version 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -5808,10 +5808,10 @@ COPY http_ldf_fi_yoma_sparql.ns (id, name, value, priority, is_local, basic_orde
 69		http://ldf.fi/schema/yoma/	0	t	0
 70	skosxl	http://www.w3.org/2008/05/skos-xl#	0	f	0
 71	gvp	http://vocab.getty.edu/ontology#	0	f	0
-72	n_1	http://ldf.fi/yoma/external/	0	f	0
-73	n_2	http://ldf.fi/yoma/relations/	0	f	0
-74	n_3	http://ldf.fi/schema/ldf/	0	f	0
 75	biocrm	http://ldf.fi/schema/bioc/	0	f	0
+72	y-ext	http://ldf.fi/yoma/external/	0	f	0
+73	y-rel	http://ldf.fi/yoma/relations/	0	f	0
+74	ldf-s	http://ldf.fi/schema/ldf/	0	f	0
 \.
 
 

@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped by pg_dump version 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -2674,7 +2674,6 @@ COPY http_ldf_fi_warsa_sparql.ns (id, name, value, priority, is_local, basic_ord
 22	dbc	http://dbpedia.org/resource/Category:	0	f	0
 23	cc	http://creativecommons.org/ns#	0	f	0
 24	vann	http://purl.org/vocab/vann/	0	f	0
-73	n_2	http://ldf.fi/schema/warsa/casualties/	0	f	0
 26	prov	http://www.w3.org/ns/prov#	0	f	0
 27	sd	http://www.w3.org/ns/sparql-service-description#	0	f	0
 28	frbr	http://vocab.org/frbr/core#	0	f	0
@@ -2694,24 +2693,25 @@ COPY http_ldf_fi_warsa_sparql.ns (id, name, value, priority, is_local, basic_ord
 69		http://ldf.fi/schema/warsa/	0	t	0
 70	crm	http://www.cidoc-crm.org/cidoc-crm/	0	f	0
 25	geo	http://www.w3.org/2003/01/geo/wgs84_pos#	0	f	0
-71	n_1	http://ldf.fi/schema/hipla/	0	f	0
 72	biocrm	http://ldf.fi/schema/bioc/	0	f	0
 74	ammo	http://ldf.fi/schema/ammo/	0	f	0
-75	n_3	http://ldf.fi/schema/warsa/photographs/	0	f	0
-76	n_4	http://www.yso.fi/onto/suo/	0	f	0
-77	n_5	http://ldf.fi/schema/warsa/prisoners/	0	f	0
-78	n_6	http://ldf.fi/warsa/actors/	0	f	0
-79	n_7	http://ldf.fi/schema/warsa/articles/	0	f	0
-80	n_8	http://ldf.fi/schema/warsa/actors/	0	f	0
-81	n_9	http://ldf.fi/schema/warsa/events/	0	f	0
-82	n_10	http://prismstandard.org/namespaces/basic/3.0/	0	f	0
-83	n_11	http://ldf.fi/warsa/events/	0	f	0
-84	n_12	http://ldf.fi/schema/warsa/places/cemeteries/	0	f	0
-85	n_13	http://ldf.fi/schema/ldf/	0	f	0
-86	n_14	http://rdf.muninn-project.org/ontologies/organization#	0	f	0
-87	n_15	http://ldf.fi/ammo/coo1980/	0	f	0
-88	n_16	http://ldf.fi/schema/narc-menehtyneet1939-45/	0	f	0
-89	n_17	http://ldf.fi/warsa/places/municipalities/	0	f	0
+71	hipla	http://ldf.fi/schema/hipla/	0	f	0
+73	w-casual	http://ldf.fi/schema/warsa/casualties/	0	f	0
+75	w-photo	http://ldf.fi/schema/warsa/photographs/	0	f	0
+76	y-suo	http://www.yso.fi/onto/suo/	0	f	0
+77	w-prisn	http://ldf.fi/schema/warsa/prisoners/	0	f	0
+78	w-actors	http://ldf.fi/warsa/actors/	0	f	0
+79	w-activities	http://ldf.fi/schema/warsa/articles/	0	f	0
+80	ws-actors	http://ldf.fi/schema/warsa/actors/	0	f	0
+81	ws-events	http://ldf.fi/schema/warsa/events/	0	f	0
+82	ns-prim	http://prismstandard.org/namespaces/basic/3.0/	0	f	0
+83	w-events	http://ldf.fi/warsa/events/	0	f	0
+84	ws-cemet	http://ldf.fi/schema/warsa/places/cemeteries/	0	f	0
+85	ldf-s	http://ldf.fi/schema/ldf/	0	f	0
+86	muninn-org	http://rdf.muninn-project.org/ontologies/organization#	0	f	0
+87	ammo-coo	http://ldf.fi/ammo/coo1980/	0	f	0
+88	meneh	http://ldf.fi/schema/narc-menehtyneet1939-45/	0	f	0
+89	w-munic	http://ldf.fi/warsa/places/municipalities/	0	f	0
 \.
 
 

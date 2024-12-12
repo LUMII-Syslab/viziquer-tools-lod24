@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped by pg_dump version 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -5381,25 +5381,25 @@ COPY http_data_bnf_fr_sparql.ns (id, name, value, priority, is_local, basic_orde
 72	dcmit	http://purl.org/dc/dcmitype/	0	f	0
 73	mo	http://purl.org/ontology/mo/	0	f	0
 74	isothes	http://purl.org/iso25964/skos-thes#	0	f	0
-75	n_1	http://rdaregistry.info/Elements/c/#	0	f	0
-76	n_2	http://data.bnf.fr/ontology/bnf-onto/	0	f	0
 77	rdafrbr	http://rdvocab.info/uri/schema/FRBRentitiesRDA/	0	f	0
-78	n_3	http://www.w3.org/TR/owl-time/	0	f	0
-79	n_4	http://nomisma.org/ontology#	0	f	0
 80	rdag2	http://rdvocab.info/ElementsGr2/	0	f	0
-81	n_5	http://vocab.org/bio/0.1/	0	f	0
 82	rdrel	http://rdvocab.info/RDARelationshipsWEMI/	0	f	0
-83	n_6	http://rdaregistry.info/Elements/a/#	0	f	0
-84	n_7	http://rdaregistry.info/Elements/m/#	0	f	0
 85	rdagr1	http://rdvocab.info/Elements/	0	f	0
-86	n_8	http://rdaregistry.info/Elements/e/#	0	f	0
 87	frgeo	http://rdf.insee.fr/geo/	0	f	0
-88	n_9	http://data.ign.fr/ontology/topo.owl/	0	f	0
-89	n_10	http://rdaregistry.info/Elements/w/#	0	f	0
-90	n_11	http://rdaregistry.info/Elements/u/#	0	f	0
-91	n_12	http://isni.org/ontology#	0	f	0
 92	ecrm	http://erlangen-crm.org/current/	0	f	0
-93	n_13	http://www.geonames.org/ontology/ontology_v3.1.rdf/	0	f	0
+75	rdac	http://rdaregistry.info/Elements/c/#	0	f	0
+76	onto	http://data.bnf.fr/ontology/bnf-onto/	0	f	0
+78	time	http://www.w3.org/TR/owl-time/	0	f	0
+79	nomisma	http://nomisma.org/ontology#	0	f	0
+81	vocab_bio	http://vocab.org/bio/0.1/	0	f	0
+83	rdaa	http://rdaregistry.info/Elements/a/#	0	f	0
+84	rdam	http://rdaregistry.info/Elements/m/#	0	f	0
+86	rdae	http://rdaregistry.info/Elements/e/#	0	f	0
+88	topo	http://data.ign.fr/ontology/topo.owl/	0	f	0
+89	rdaw	http://rdaregistry.info/Elements/w/#	0	f	0
+90	rdau	http://rdaregistry.info/Elements/u/#	0	f	0
+91	ismi	http://isni.org/ontology#	0	f	0
+93	geonames	http://www.geonames.org/ontology/ontology_v3.1.rdf/	0	f	0
 \.
 
 

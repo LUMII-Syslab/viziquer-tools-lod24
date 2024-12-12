@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped by pg_dump version 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -5001,7 +5001,6 @@ COPY http_opendata_aragon_es_sparql.ns (id, name, value, priority, is_local, bas
 22	dbc	http://dbpedia.org/resource/Category:	0	f	0
 23	cc	http://creativecommons.org/ns#	0	f	0
 24	vann	http://purl.org/vocab/vann/	0	f	0
-106	n_24	https://dbpedia.org/ontology/	0	f	0
 26	prov	http://www.w3.org/ns/prov#	0	f	0
 27	sd	http://www.w3.org/ns/sparql-service-description#	0	f	0
 28	frbr	http://vocab.org/frbr/core#	0	f	0
@@ -5028,40 +5027,23 @@ COPY http_opendata_aragon_es_sparql.ns (id, name, value, priority, is_local, bas
 75	bio	http://purl.org/vocab/bio/0.1/	0	f	0
 76	sf	http://www.opengis.net/ont/sf#	0	f	0
 77	dcmit	http://purl.org/dc/dcmitype/	0	f	0
-78	n_1	http://opendata.aragon.es/def/Aragopedia#	0	f	0
-79	n_2	http://icearagon.aragon.es/def/landscape#	0	f	0
 80	eco	http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#	0	f	0
-81	n_3	http://www.openlinksw.com/schemas/VSPX#	0	f	0
-82	n_4	http://crossforest.eu/ifi/ontology/	0	f	0
-83	n_5	http://icearagon.aragon.es/def/core#	0	f	0
-84	n_6	http://icearagon.aragon.es/def/hydro#	0	f	0
-85	n_7	http://icearagon.aragon.es/def/transport#	0	f	0
-86	n_8	http://data.tbfy.eu/ontology/ocds#	0	f	0
 87	eli	http://data.europa.eu/eli/ontology#	0	f	0
 88	n_9	http://icearagon.aragon.es/def/health#	0	f	0
-89	n_10	http://icearagon.aragon.es/def/bca#	0	f	0
-90	n_11	http://www.openlinksw.com/schemas/Image#	0	f	0
-91	n_12	http://icearagon.aragon.es/def/ps#	0	f	0
 92	geoes	http://geo.linkeddata.es/ontology/	0	f	0
-93	n_13	http://icearagon.aragon.es/def/education#	0	f	0
 94	sosa	http://www.w3.org/ns/sosa/	0	f	0
 95	n_14	http://vocab.linkeddata.es/datosabiertos/def/medio-ambiente/meteorologia#	0	f	0
-96	n_15	http://www.w3.org/2001/vcard-rdf/3.0#	0	f	0
-97	oplacl	http://www.openlinksw.com/ontology/acl#	0	f	0
-98	n_16	http://opendata.aragon.es/def/iaest/dimension#	0	f	0
 99	n_17	http://opendata.aragon.es/recurso/measureproperty/explotaciones-ganaderas-avicola-medida/	0	f	0
-100	n_18	http://opendata.aragon.es/def/ei2av2#	0	f	0
 101	n_19	http://opendata.aragon.es/recurso/dimensionproperty/explotaciones-ganaderas-piscicola-dimension/	0	f	0
 102	n_20	http://opendata.aragon.es/recurso/measureproperty/aulas-coronavirus-aragon-dimension/	0	f	0
 103	n_21	http://opendata.aragon.es/recurso/dimensionproperty/resultados-titulaciones-2020-2021-dimension/	0	f	0
 104	n_22	http://opendata.aragon.es/recurso/dimensionproperty/oferta-ocupacion-plazas-universidad-zaragoza-2020-2021-dimension/	0	f	0
 105	n_23	http://opendata.aragon.es/recurso/dimensionproperty/explotaciones-ganaderas-nucleos-zoologicos-dimension/	0	f	0
-107	n_25	http://opendata.aragon.es/	0	f	0
-108	n_26	http://www.w3.org/2006/	0	f	0
 109	n_27	http://opendata.aragon.es/recurso/measureproperty/explotaciones-ganaderas-piscicola-medida/	0	f	0
-110	n_28	http://schemas.opengis.net/geosparql/	0	f	0
 111	n_29	http://opendata.aragon.es/recurso/measureproperty/explotaciones-ganaderas-nucleos-zoologicos-medida/	0	f	0
 112	n_30	http://opendata.aragon.es/recurso/dimensionproperty/rendimiento-por-asignatura-y-titulacion-universidad-zaragoza-2020-2021-dimension/	0	f	0
+110	geosparql	http://schemas.opengis.net/geosparql/	0	f	0
+78	arago	http://opendata.aragon.es/def/Aragopedia#	0	f	0
 113	n_31	http://opendata.aragon.es/recurso/measureproperty/explotaciones-ganaderas-porcino-medida/	0	f	0
 114	n_32	http://opendata.aragon.es/recurso/dimensionproperty/explotaciones-ganaderas-cunicola-dimension/	0	f	0
 115	n_33	http://opendata.aragon.es/recurso/measureproperty/rendimiento-por-asignatura-y-titulacion-universidad-zaragoza-2020-2021-medida/	0	f	0
@@ -5071,7 +5053,6 @@ COPY http_opendata_aragon_es_sparql.ns (id, name, value, priority, is_local, bas
 119	n_37	http://opendata.aragon.es/recurso/measureproperty/alumnos-egresados-universidad-zaragoza-2019-2020-medida/	0	f	0
 120	sdo	https://schema.org/	0	f	0
 121	n_38	http://opendata.aragon.es/recurso/measureproperty/explotaciones-ganaderas-otras-medida/	0	f	0
-122	n_39	http://data.europa.eu/eli/ontology/	0	f	0
 123	n_40	http://www.w3.org/2015/03/inspire/ps#	0	f	0
 124	n_41	http://opendata.aragon.es/recurso/dimensionproperty/explotaciones-ganaderas-equido-dimension/	0	f	0
 125	n_42	http://opendata.aragon.es/recurso/dimensionproperty/aulas-coronavirus-aragon-dimension/	0	f	0
@@ -5081,7 +5062,6 @@ COPY http_opendata_aragon_es_sparql.ns (id, name, value, priority, is_local, bas
 129	n_45	http://opendata.aragon.es/recurso/measureproperty/aulas-coronavirus-aragon-medida/	0	f	0
 130	n_46	http://opendata.aragon.es/recurso/measureproperty/resultados-titulaciones-2020-2021-medida/	0	f	0
 131	n_47	http://opendata.aragon.es/recurso/dimensionproperty/alumnos-matriculados-universidad-zaragoza-2020-2021-dimension/	0	f	0
-132	n_48	https://www.geonames.org/ontology#	0	f	0
 133	n_49	http://opendata.aragon.es/recurso/measureproperty/casos-coronavirus-aragon-medida/	0	f	0
 134	n_50	http://opendata.aragon.es/recurso/dimensionproperty/datos-vacunas-dimension/	0	f	0
 135	n_51	http://opendata.aragon.es/recurso/measureproperty/casos-coronavirus-provincia-medida/	0	f	0
@@ -5096,14 +5076,34 @@ COPY http_opendata_aragon_es_sparql.ns (id, name, value, priority, is_local, bas
 144	n_60	http://opendata.aragon.es/recurso/dimensionproperty/explotaciones-ganaderas-apicola-dimension/	0	f	0
 145	n_61	http://opendata.aragon.es/recurso/dimensionproperty/alumnos-egresados-universidad-zaragoza-2019-2020-dimension/	0	f	0
 146	n_62	http://opendata.aragon.es/recurso/measureproperty/datos-vacunas-medida/	0	f	0
-147	n_63	http://opendata.aragon.es/def/	0	f	0
-148	n_64	https://www.w3.org/ns/dcat#	0	f	0
 149	n_65	http://opendata.aragon.es/recurso/measureproperty/oferta-ocupacion-plazas-universidad-zaragoza-2020-2021-medida/	0	f	0
 150	n_66	http://opendata.aragon.es/recurso/dimensionproperty/explotaciones-ganaderas-porcino-dimension/	0	f	0
 151	n_67	http://opendata.aragon.es/recurso/measureproperty/explotaciones-ganaderas-bovino-medida/	0	f	0
 152	n_68	http://opendata.aragon.es/recurso/dimensionproperty/casos-coronavirus-provincia-dimension/	0	f	0
 153	n_69	http://opendata.aragon.es/recurso/dimensionproperty/casos-coronavirus-hospitales-dimension/	0	f	0
 154	n_70	http://opendata.aragon.es/recurso/measureproperty/alumnos-matriculados-universidad-zaragoza-2020-2021-medida/	0	f	0
+122	eu-eli	http://data.europa.eu/eli/ontology/	0	f	0
+132	geo_onto	https://www.geonames.org/ontology#	0	f	0
+147	aragon_def	http://opendata.aragon.es/def/	0	f	0
+148	dcat_s	https://www.w3.org/ns/dcat#	0	f	0
+79	ia-landscape	http://icearagon.aragon.es/def/landscape#	0	f	0
+81	vspx	http://www.openlinksw.com/schemas/VSPX#	0	f	0
+82	cforest-lco	http://crossforest.eu/ifi/ontology/	0	f	0
+83	ia-core	http://icearagon.aragon.es/def/core#	0	f	0
+84	ia_hydro	http://icearagon.aragon.es/def/hydro#	0	f	0
+85	ia-transport	http://icearagon.aragon.es/def/transport#	0	f	0
+86	tbfy-ocds	http://data.tbfy.eu/ontology/ocds#	0	f	0
+89	a-bca	http://icearagon.aragon.es/def/bca#	0	f	0
+90	virt-image	http://www.openlinksw.com/schemas/Image#	0	f	0
+91	ps	http://icearagon.aragon.es/def/ps#	0	f	0
+93	ia-educ	http://icearagon.aragon.es/def/education#	0	f	0
+96	vcard-3	http://www.w3.org/2001/vcard-rdf/3.0#	0	f	0
+97	acl	http://www.openlinksw.com/ontology/acl#	0	f	0
+98	dimension	http://opendata.aragon.es/def/iaest/dimension#	0	f	0
+100	el2-av2	http://opendata.aragon.es/def/ei2av2#	0	f	0
+106	dbo_s	https://dbpedia.org/ontology/	0	f	0
+107	aragon	http://opendata.aragon.es/	0	f	0
+108	w3	http://www.w3.org/2006/	0	f	0
 \.
 
 

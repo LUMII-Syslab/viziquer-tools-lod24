@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped by pg_dump version 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -9044,28 +9044,28 @@ COPY https_taxref_mnhn_fr_sparql.ns (id, name, value, priority, is_local, basic_
 1355	n_1272	http://lod.taxonconcept.org/ses/z5bSA.html#	0	f	0
 1356	n_1273	http://lod.taxonconcept.org/ses/ibUB4.html#	0	f	0
 1357	n_1274	http://lod.taxonconcept.org/ses/UARq7.html#	0	f	0
-1358	n_1275	http://aims.fao.org/aos/agrontology#	0	f	0
-1359	n_1276	http://art.uniroma2.it/ontologies/vocbench#	0	f	0
 1360	taxrefprop	http://taxref.mnhn.fr/lod/property/	0	f	0
 1361	oboinowl	http://www.geneontology.org/formats/oboInOwl#	0	f	0
-1362	n_1277	http://rs.tdwg.org/ontology/voc/Common#	0	f	0
-1363	n_1278	http://www.openlinksw.com/virtdav#	0	f	0
 1364	dwc	http://rs.tdwg.org/dwc/terms/	0	f	0
-1365	n_1279	http://purl.org/rss/1.0/modules/event/	0	f	0
-1366	n_1280	http://purl.obolibrary.org/obo/ncbitaxon#	0	f	0
-1367	n_1281	http://www.w3.org/2002/12/cal#	0	f	0
-1368	n_1282	http://rs.tdwg.org/dwc/terms/attributes/	0	f	0
-1369	n_1283	http://purl.obolibrary.org/obo/vto#	0	f	0
 1370	cito	http://purl.org/spar/cito/	0	f	0
-1371	n_1284	http://rs.tdwg.org/ontology/voc/	0	f	0
-1372	n_1285	http://purl.obolibrary.org/obo/envo#	0	f	0
 1373	dwciri	http://rs.tdwg.org/dwc/iri/	0	f	0
 1374	wdrs	http://www.w3.org/2007/05/powder-s#	0	f	0
-1375	n_1286	http://www.geneontology.org/formats/oboInOWL#	0	f	0
-1376	n_1287	ttp://www.geneontology.org/formats/oboInOwl#	0	f	0
 1377	pav	http://purl.org/pav/	0	f	0
-1378	n_1288	http://swrl.stanford.edu/ontologies/3.3/swrla.owl#	0	f	0
-1379	n_1289	http://rs.tdwg.org/ontology/Base#	0	f	0
+1358	aims-agr	http://aims.fao.org/aos/agrontology#	0	f	0
+1359	vocbench	http://art.uniroma2.it/ontologies/vocbench#	0	f	0
+1362	tdwg-c	http://rs.tdwg.org/ontology/voc/Common#	0	f	0
+1363	virtdav	http://www.openlinksw.com/virtdav#	0	f	0
+1365	rss-event	http://purl.org/rss/1.0/modules/event/	0	f	0
+1366	obo-taxon	http://purl.obolibrary.org/obo/ncbitaxon#	0	f	0
+1367	cal	http://www.w3.org/2002/12/cal#	0	f	0
+1368	tdwg-attribs	http://rs.tdwg.org/dwc/terms/attributes/	0	f	0
+1369	obo-vto	http://purl.obolibrary.org/obo/vto#	0	f	0
+1371	tdwg-voc	http://rs.tdwg.org/ontology/voc/	0	f	0
+1372	obo-envo	http://purl.obolibrary.org/obo/envo#	0	f	0
+1375	go-oboinowl	http://www.geneontology.org/formats/oboInOWL#	0	f	0
+1376	go-oboinowl-1	ttp://www.geneontology.org/formats/oboInOwl#	0	f	0
+1378	swrl-33	http://swrl.stanford.edu/ontologies/3.3/swrla.owl#	0	f	0
+1379	tdwg-base	http://rs.tdwg.org/ontology/Base#	0	f	0
 \.
 
 

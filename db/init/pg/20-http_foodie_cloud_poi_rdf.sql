@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped by pg_dump version 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -9948,10 +9948,10 @@ COPY http_foodie_cloud_poi_rdf.ns (id, name, value, priority, is_local, basic_or
 68	bif	http://www.openlinksw.com/schemas/bif#	0	f	0
 69		http://gis.zcu.cz/SPOI/Ontology#	0	t	0
 25	geo	http://www.w3.org/2003/01/geo/wgs84_pos#	0	f	0
-70	n_1	http://www.openvoc.eu/poi#	0	f	0
 71	locn	http://www.w3.org/ns/locn#	0	f	0
-72	n_2	http://purl.org/dc/terms/1.1/	0	f	0
-74	n_4	http://www.w3.org/ns/	0	f	0
+70	poi	http://www.openvoc.eu/poi#	0	f	0
+72	dct-11	http://purl.org/dc/terms/1.1/	0	f	0
+74	org_1	http://www.w3.org/ns/	0	f	0
 \.
 
 

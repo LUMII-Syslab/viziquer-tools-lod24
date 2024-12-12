@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped by pg_dump version 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1354,11 +1354,6 @@ COPY http_id_eaufrance_fr_sparql.classes (id, iri, cnt, data, props_in_schema, n
 5	http://id.eaufrance.fr/ddd/par/3/ParHydrobioQual	128	\N	t	72	ParHydrobioQual	ParHydrobioQual	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	128
 6	http://id.eaufrance.fr/ddd/par/3/ParametreSynthese	844	\N	t	72	ParametreSynthese	ParametreSynthese	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	1266
 7	http://www.w3.org/2000/01/rdf-schema#Datatype	1	\N	t	2	Datatype	Datatype	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	\N
-8	http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat	144	\N	t	17	QuadMapFormat	QuadMapFormat	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	379
-9	http://www.openlinksw.com/schemas/virtrdf#QuadStorage	3	\N	t	17	QuadStorage	QuadStorage	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	2
-10	http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable	25	\N	t	17	array-of-QuadMapATable	array-of-QuadMapATable	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	31
-11	http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn	31	\N	t	17	array-of-QuadMapColumn	array-of-QuadMapColumn	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	31
-12	http://www.openlinksw.com/schemas/virtrdf#QuadMapATable	29	\N	t	17	QuadMapATable	QuadMapATable	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	29
 13	http://www.w3.org/2000/01/rdf-schema#Class	57	\N	t	2	Class	Class	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	379
 14	http://www.w3.org/2002/07/owl#AnnotationProperty	5	\N	t	7	AnnotationProperty	AnnotationProperty	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	14
 15	http://www.w3.org/2002/07/owl#Ontology	3	\N	t	7	Ontology	Ontology	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	2
@@ -1380,9 +1375,6 @@ COPY http_id_eaufrance_fr_sparql.classes (id, iri, cnt, data, props_in_schema, n
 32	http://id.eaufrance.fr/ddd/par/3/TraductionNomParametre	1211	\N	t	72	TraductionNomParametre	TraductionNomParametre	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	1211
 33	http://id.eaufrance.fr/ddd/par/3/ParPhysiqueQuant	480	\N	t	72	ParPhysiqueQuant	ParPhysiqueQuant	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	480
 34	http://id.eaufrance.fr/ddd/par/3/ParSyntheseQual	274	\N	t	72	ParSyntheseQual	ParSyntheseQual	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	274
-35	http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat	112	\N	t	17	array-of-QuadMapFormat	array-of-QuadMapFormat	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	112
-36	http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn	39	\N	t	17	QuadMapColumn	QuadMapColumn	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	39
-37	http://www.openlinksw.com/schemas/virtrdf#QuadMapFText	5	\N	t	17	QuadMapFText	QuadMapFText	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	5
 38	http://www.w3.org/1999/02/22-rdf-syntax-ns#Property	259	\N	t	1	Property	Property	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	1
 39	http://www.w3.org/ns/sparql-service-description#Service	5	\N	t	27	Service	Service	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	50
 40	http://www.w3.org/2002/07/owl#Class	4	\N	t	7	Class	Class	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	599
@@ -1413,10 +1405,6 @@ COPY http_id_eaufrance_fr_sparql.classes (id, iri, cnt, data, props_in_schema, n
 65	http://id.eaufrance.fr/ddd/par/3/ParametreHydrobiologique	954	\N	t	72	ParametreHydrobiologique	ParametreHydrobiologique	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	1431
 66	http://id.eaufrance.fr/ddd/par/3/ParHydrobioQuant	349	\N	t	72	ParHydrobioQuant	ParHydrobioQuant	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	349
 67	http://id.eaufrance.fr/ddd/par/3/ParametreMicrobiologique	718	\N	t	72	ParametreMicrobiologique	ParametreMicrobiologique	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	1077
-68	http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap	4	\N	t	17	array-of-QuadMap	array-of-QuadMap	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	6
-69	http://www.openlinksw.com/schemas/virtrdf#QuadMap	39	\N	t	17	QuadMap	QuadMap	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	41
-70	http://www.openlinksw.com/schemas/virtrdf#QuadMapValue	31	\N	t	17	QuadMapValue	QuadMapValue	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	71
-71	http://www.openlinksw.com/schemas/virtrdf#array-of-string	71	\N	t	17	array-of-string	array-of-string	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	71
 72	http://id.eaufrance.fr/ddd/INC/1.0/CdAlternatifInt	314317	\N	t	71	CdAlternatifInt	CdAlternatifInt	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	314317
 73	http://id.eaufrance.fr/ddd/APT/2.1/CodeAlternatif	122960	\N	t	81	CodeAlternatif	CodeAlternatif	175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	122960
 74	http://www.openlinksw.com/schemas/VAD#	3	\N	t	90			175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	\N	f	\N	\N	f	f	\N	f	\N	t	f	\N
@@ -1481,24 +1469,16 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 25	6	1	1	422	\N	422	\N	\N	0	1	2	f	\N	6	\N
 26	67	1	1	359	\N	359	\N	\N	0	1	2	f	\N	67	\N
 27	24	2	2	20701	\N	0	\N	\N	1	1	2	f	20701	\N	\N
-28	37	3	2	4	\N	0	\N	\N	1	1	2	f	4	\N	\N
 29	84	4	2	147429	\N	0	\N	\N	1	1	2	f	147429	\N	\N
 30	23	5	2	36681	\N	0	\N	\N	1	1	2	f	36681	\N	\N
-31	69	6	2	9	\N	9	\N	\N	1	1	2	f	0	\N	\N
-32	8	6	1	5	\N	5	\N	\N	1	1	2	f	\N	69	\N
-33	8	7	2	31	\N	0	\N	\N	1	1	2	f	31	\N	\N
-34	8	8	2	47	\N	0	\N	\N	1	1	2	f	47	\N	\N
 35	43	9	2	150125	\N	0	\N	\N	1	1	2	f	150125	\N	\N
 36	44	9	2	147279	\N	0	\N	\N	0	1	2	f	147279	\N	\N
 37	19	9	2	1910	\N	0	\N	\N	0	1	2	f	1910	\N	\N
 38	75	9	2	936	\N	0	\N	\N	0	1	2	f	936	\N	\N
 39	64	10	2	9274	\N	9274	\N	\N	1	1	2	f	0	\N	\N
-40	8	11	2	39	\N	0	\N	\N	1	1	2	f	39	\N	\N
 41	26	12	2	4	\N	4	\N	\N	1	1	2	f	0	27	\N
 42	27	12	1	4	\N	4	\N	\N	1	1	2	f	\N	26	\N
 43	15	13	2	1	\N	1	\N	\N	1	1	2	f	0	\N	\N
-44	8	14	2	53	\N	0	\N	\N	1	1	2	f	53	\N	\N
-45	8	15	2	219	\N	219	\N	\N	1	1	2	f	0	\N	\N
 46	43	16	2	788	\N	\N	\N	\N	1	1	2	f	788	\N	\N
 47	76	16	2	1	\N	1	\N	\N	2	1	2	f	\N	\N	\N
 48	44	16	2	598	\N	\N	\N	\N	0	1	2	f	598	\N	\N
@@ -1514,7 +1494,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 58	3	20	2	146	\N	0	\N	\N	1	1	2	f	146	\N	\N
 59	65	21	2	349	\N	349	\N	\N	1	1	2	f	0	66	\N
 60	66	21	1	349	\N	349	\N	\N	1	1	2	f	\N	65	\N
-61	8	22	2	39	\N	0	\N	\N	1	1	2	f	39	\N	\N
 62	18	23	2	1473	\N	0	\N	\N	1	1	2	f	1473	\N	\N
 63	16	23	2	1473	\N	0	\N	\N	0	1	2	f	1473	\N	\N
 64	64	23	2	943	\N	0	\N	\N	0	1	2	f	943	\N	\N
@@ -1523,9 +1502,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 67	65	23	2	128	\N	0	\N	\N	0	1	2	f	128	\N	\N
 68	67	23	2	94	\N	0	\N	\N	0	1	2	f	94	\N	\N
 69	23	24	2	36681	\N	0	\N	\N	1	1	2	f	36681	\N	\N
-70	9	25	2	2	\N	2	\N	\N	1	1	2	f	0	69	\N
-71	69	25	1	2	\N	2	\N	\N	1	1	2	f	\N	9	\N
-72	36	26	2	39	\N	0	\N	\N	1	1	2	f	39	\N	\N
 73	25	27	2	591	\N	0	\N	\N	1	1	2	f	591	\N	\N
 74	55	27	2	591	\N	0	\N	\N	0	1	2	f	591	\N	\N
 75	83	28	2	786	\N	0	\N	\N	1	1	2	f	786	\N	\N
@@ -1537,14 +1513,12 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 81	14	29	1	6	\N	6	\N	\N	2	1	2	f	\N	\N	\N
 82	13	29	1	2	\N	2	\N	\N	0	1	2	f	\N	\N	\N
 83	38	29	1	1	\N	1	\N	\N	0	1	2	f	\N	\N	\N
-84	8	30	2	45	\N	0	\N	\N	1	1	2	f	45	\N	\N
 85	43	31	2	788	\N	0	\N	\N	1	1	2	f	788	\N	\N
 86	44	31	2	598	\N	0	\N	\N	0	1	2	f	598	\N	\N
 87	19	31	2	117	\N	0	\N	\N	0	1	2	f	117	\N	\N
 88	75	31	2	73	\N	0	\N	\N	0	1	2	f	73	\N	\N
 89	40	32	1	2	\N	2	\N	\N	1	1	2	f	\N	\N	\N
 90	74	33	2	2	\N	0	\N	\N	1	1	2	f	2	\N	\N
-91	8	35	2	37	\N	0	\N	\N	1	1	2	f	37	\N	\N
 92	74	36	2	2	\N	0	\N	\N	1	1	2	f	2	\N	\N
 93	18	37	2	5858	\N	0	\N	\N	1	1	2	f	5858	\N	\N
 94	16	37	2	5858	\N	0	\N	\N	0	1	2	f	5858	\N	\N
@@ -1557,8 +1531,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 101	25	39	2	591	\N	0	\N	\N	1	1	2	f	591	\N	\N
 102	55	39	2	591	\N	0	\N	\N	0	1	2	f	591	\N	\N
 103	24	40	2	20412	\N	0	\N	\N	1	1	2	f	20412	\N	\N
-104	8	41	2	42	\N	0	\N	\N	1	1	2	f	42	\N	\N
-105	8	42	2	31	\N	0	\N	\N	1	1	2	f	31	\N	\N
 106	16	43	2	74476	\N	0	\N	\N	1	1	2	f	74476	\N	\N
 107	17	43	2	67831	\N	0	\N	\N	0	1	2	f	67831	\N	\N
 108	42	43	2	67831	\N	0	\N	\N	0	1	2	f	67831	\N	\N
@@ -1572,43 +1544,25 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 116	67	43	2	359	\N	0	\N	\N	0	1	2	f	359	\N	\N
 117	88	44	1	2	\N	2	\N	\N	1	1	2	f	\N	\N	\N
 118	49	45	2	3	\N	0	\N	\N	1	1	2	f	3	\N	\N
-119	8	46	2	45	\N	0	\N	\N	1	1	2	f	45	\N	\N
 120	31	47	2	66	\N	0	\N	\N	1	1	2	f	66	\N	\N
-121	8	48	2	113	\N	113	\N	\N	1	1	2	f	0	8	\N
-122	8	48	1	113	\N	113	\N	\N	1	1	2	f	\N	8	\N
 123	38	49	2	26	\N	0	\N	\N	1	1	2	f	26	\N	\N
 124	85	49	2	1	\N	0	\N	\N	0	1	2	f	1	\N	\N
-125	8	50	2	31	\N	0	\N	\N	1	1	2	f	31	\N	\N
 126	45	51	2	7130	\N	0	\N	\N	1	1	2	f	7130	\N	\N
-127	69	52	2	2	\N	2	\N	\N	1	1	2	f	0	70	\N
-128	70	52	1	2	\N	2	\N	\N	1	1	2	f	\N	69	\N
 129	67	53	2	1176	\N	1176	\N	\N	1	1	2	f	0	\N	\N
 130	38	54	2	2	\N	2	\N	\N	1	1	2	f	0	\N	\N
 131	15	54	1	1	\N	1	\N	\N	1	1	2	f	\N	38	\N
 132	83	55	2	16078	\N	0	\N	\N	1	1	2	f	16078	\N	\N
 133	77	57	2	3	\N	3	\N	\N	1	1	2	f	0	49	\N
 134	49	57	1	3	\N	3	\N	\N	1	1	2	f	\N	77	\N
-135	37	58	2	3	\N	0	\N	\N	1	1	2	f	3	\N	\N
-136	36	59	2	39	\N	0	\N	\N	1	1	2	f	39	\N	\N
-137	8	60	2	2	\N	0	\N	\N	1	1	2	f	2	\N	\N
-138	70	61	2	3	\N	3	\N	\N	1	1	2	f	0	37	\N
-139	37	61	1	3	\N	3	\N	\N	1	1	2	f	\N	70	\N
 140	74	62	2	2	\N	0	\N	\N	1	1	2	f	2	\N	\N
-141	69	63	2	36	\N	36	\N	\N	1	1	2	f	0	\N	\N
-142	14	63	1	7	\N	7	\N	\N	1	1	2	f	\N	69	\N
 143	17	64	2	67831	\N	67831	\N	\N	1	1	2	f	0	\N	\N
 144	16	64	2	67831	\N	67831	\N	\N	0	1	2	f	0	\N	\N
 145	42	64	2	67831	\N	67831	\N	\N	0	1	2	f	0	\N	\N
 146	56	65	2	14	\N	14	\N	\N	1	1	2	f	0	\N	\N
-147	8	66	2	29	\N	0	\N	\N	1	1	2	f	29	\N	\N
 148	61	67	2	157053	\N	0	\N	\N	1	1	2	f	157053	\N	\N
 149	25	68	2	591	\N	0	\N	\N	1	1	2	f	591	\N	\N
 150	55	68	2	591	\N	0	\N	\N	0	1	2	f	591	\N	\N
 151	77	69	2	18	\N	18	\N	\N	1	1	2	f	0	\N	\N
-152	69	70	2	38	\N	38	\N	\N	1	1	2	f	0	70	\N
-153	70	70	1	38	\N	38	\N	\N	1	1	2	f	\N	69	\N
-154	8	71	2	10	\N	10	\N	\N	1	1	2	f	0	71	\N
-155	71	71	1	10	\N	10	\N	\N	1	1	2	f	\N	8	\N
 156	33	72	2	5	\N	0	\N	\N	1	1	2	f	5	\N	\N
 157	34	73	2	1217	\N	1217	\N	\N	1	1	2	f	0	3	\N
 158	3	73	1	1217	\N	1217	\N	\N	1	1	2	f	\N	34	\N
@@ -1642,13 +1596,11 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 186	16	79	2	122960	\N	122960	\N	\N	0	1	2	f	0	73	\N
 187	42	79	2	122960	\N	122960	\N	\N	0	1	2	f	0	73	\N
 188	73	79	1	122960	\N	122960	\N	\N	1	1	2	f	\N	42	\N
-189	8	80	2	2	\N	0	\N	\N	1	1	2	f	2	\N	\N
 190	77	81	2	6	\N	6	\N	\N	1	1	2	f	0	\N	\N
 191	74	82	2	2	\N	0	\N	\N	1	1	2	f	2	\N	\N
 192	17	83	2	64980	\N	0	\N	\N	1	1	2	f	64980	\N	\N
 193	16	83	2	64980	\N	0	\N	\N	0	1	2	f	64980	\N	\N
 194	42	83	2	64980	\N	0	\N	\N	0	1	2	f	64980	\N	\N
-195	8	84	2	31	\N	0	\N	\N	1	1	2	f	31	\N	\N
 196	45	85	2	140452	\N	0	\N	\N	1	1	2	f	140452	\N	\N
 197	1	86	2	137517	\N	0	\N	\N	1	1	2	f	137517	\N	\N
 198	84	87	2	147429	\N	0	\N	\N	1	1	2	f	147429	\N	\N
@@ -1656,19 +1608,14 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 200	44	88	2	157053	\N	157053	\N	\N	0	1	2	f	0	\N	\N
 201	19	88	2	1910	\N	1910	\N	\N	0	1	2	f	0	\N	\N
 202	75	88	2	936	\N	936	\N	\N	0	1	2	f	0	\N	\N
-203	70	89	2	2	\N	2	\N	\N	1	1	2	f	0	37	\N
-204	37	89	1	2	\N	2	\N	\N	1	1	2	f	\N	70	\N
 205	24	90	2	1393	\N	1393	\N	\N	1	1	2	f	0	53	\N
 206	57	90	2	132	\N	132	\N	\N	2	1	2	f	0	53	\N
 207	53	90	1	786	\N	786	\N	\N	1	1	2	f	\N	\N	\N
-208	69	91	2	37	\N	37	\N	\N	1	1	2	f	0	71	\N
-209	71	91	1	37	\N	37	\N	\N	1	1	2	f	\N	69	\N
 210	61	92	2	157053	\N	0	\N	\N	1	1	2	f	157053	\N	\N
 211	66	94	2	6	\N	0	\N	\N	1	1	2	f	6	\N	\N
 212	84	95	2	147429	\N	0	\N	\N	1	1	2	f	147429	\N	\N
 213	61	96	2	37208	\N	0	\N	\N	1	1	2	f	37208	\N	\N
 214	6	97	2	422	\N	0	\N	\N	1	1	2	f	422	\N	\N
-215	69	98	2	4	\N	4	\N	\N	1	1	2	f	0	\N	\N
 216	49	99	2	3	\N	0	\N	\N	1	1	2	f	3	\N	\N
 217	72	100	2	314317	\N	314317	\N	\N	1	1	2	f	0	43	\N
 218	45	100	2	158777	\N	158777	\N	\N	2	1	2	f	0	43	\N
@@ -1695,8 +1642,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 239	6	102	2	422	\N	0	\N	\N	0	1	2	f	422	\N	\N
 240	67	102	2	359	\N	0	\N	\N	0	1	2	f	359	\N	\N
 241	53	103	2	786	\N	0	\N	\N	1	1	2	f	786	\N	\N
-242	8	104	2	2	\N	0	\N	\N	1	1	2	f	2	\N	\N
-243	8	105	2	2	\N	0	\N	\N	1	1	2	f	2	\N	\N
 244	67	107	2	359	\N	359	\N	\N	1	1	2	f	0	67	\N
 245	16	107	2	359	\N	359	\N	\N	0	1	2	f	0	67	\N
 246	18	107	2	359	\N	359	\N	\N	0	1	2	f	0	67	\N
@@ -1708,7 +1653,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 252	76	108	2	1	\N	1	\N	\N	5	1	2	f	0	\N	\N
 253	15	108	1	1	\N	1	\N	\N	1	1	2	f	\N	38	\N
 254	64	109	2	1867	\N	0	\N	\N	1	1	2	f	1867	\N	\N
-255	8	110	2	53	\N	0	\N	\N	1	1	2	f	53	\N	\N
 256	3	111	2	12634	\N	12634	\N	\N	1	1	2	f	0	\N	\N
 257	72	112	2	314317	\N	0	\N	\N	1	1	2	f	314317	\N	\N
 258	25	113	2	591	\N	0	\N	\N	1	1	2	f	591	\N	\N
@@ -1740,8 +1684,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 284	47	127	1	3	\N	3	\N	\N	1	1	2	f	\N	77	\N
 285	74	128	2	2	\N	0	\N	\N	1	1	2	f	2	\N	\N
 286	66	130	2	6	\N	0	\N	\N	1	1	2	f	6	\N	\N
-287	70	131	2	31	\N	0	\N	\N	1	1	2	f	31	\N	\N
-288	8	132	2	31	\N	0	\N	\N	1	1	2	f	31	\N	\N
 289	18	133	2	1211	\N	1211	\N	\N	1	1	2	f	0	32	\N
 290	16	133	2	1211	\N	1211	\N	\N	0	1	2	f	0	32	\N
 291	64	133	2	1171	\N	1171	\N	\N	0	1	2	f	0	32	\N
@@ -1754,10 +1696,7 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 298	54	135	2	147429	\N	147429	\N	\N	1	1	2	f	0	84	\N
 299	84	135	1	147429	\N	147429	\N	\N	1	1	2	f	\N	54	\N
 300	76	136	2	1	\N	1	\N	\N	1	1	2	f	0	\N	\N
-301	8	137	2	144	\N	0	\N	\N	1	1	2	f	144	\N	\N
 302	6	138	2	148	\N	0	\N	\N	1	1	2	f	148	\N	\N
-303	8	139	2	2	\N	2	\N	\N	1	1	2	f	0	8	\N
-304	8	139	1	2	\N	2	\N	\N	1	1	2	f	\N	8	\N
 305	43	140	2	158777	\N	158777	\N	\N	1	1	2	f	0	45	\N
 306	44	140	2	157052	\N	157052	\N	\N	0	1	2	f	0	45	\N
 307	75	140	2	933	\N	933	\N	\N	0	1	2	f	0	45	\N
@@ -1773,8 +1712,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 317	52	143	2	787	\N	0	\N	\N	0	1	2	f	787	\N	\N
 318	83	144	2	14693	\N	0	\N	\N	1	1	2	f	14693	\N	\N
 319	3	146	2	12634	\N	0	\N	\N	1	1	2	f	12634	\N	\N
-320	8	147	2	61	\N	0	\N	\N	1	1	2	f	61	\N	\N
-321	9	148	2	2	\N	2	\N	\N	1	1	2	f	0	\N	\N
 322	84	149	2	147429	\N	0	\N	\N	1	1	2	f	147429	\N	\N
 323	4	150	2	1036	\N	1036	\N	\N	1	1	2	f	0	3	\N
 324	3	150	1	1036	\N	1036	\N	\N	1	1	2	f	\N	4	\N
@@ -1794,8 +1731,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 338	65	152	2	477	\N	477	\N	\N	0	1	2	f	\N	\N	\N
 339	6	152	2	422	\N	422	\N	\N	0	1	2	f	\N	\N	\N
 340	67	152	2	359	\N	359	\N	\N	0	1	2	f	\N	\N	\N
-341	8	153	2	112	\N	112	\N	\N	1	1	2	f	0	35	\N
-342	35	153	1	112	\N	112	\N	\N	1	1	2	f	\N	8	\N
 343	56	154	2	8	\N	8	\N	\N	1	1	2	f	0	\N	\N
 344	18	155	2	5858	\N	5858	\N	\N	1	1	2	f	0	\N	\N
 345	16	155	2	5858	\N	5858	\N	\N	0	1	2	f	0	\N	\N
@@ -1813,7 +1748,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 357	65	157	2	477	\N	0	\N	\N	0	1	2	f	477	\N	\N
 358	6	157	2	422	\N	0	\N	\N	0	1	2	f	422	\N	\N
 359	67	157	2	359	\N	0	\N	\N	0	1	2	f	359	\N	\N
-360	8	159	2	10	\N	0	\N	\N	1	1	2	f	10	\N	\N
 361	43	160	2	159899	\N	0	\N	\N	1	1	2	f	159899	\N	\N
 362	16	160	2	74476	\N	0	\N	\N	2	1	2	f	74476	\N	\N
 363	44	160	2	157053	\N	0	\N	\N	0	1	2	f	157053	\N	\N
@@ -1840,7 +1774,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 384	42	162	2	67831	\N	67831	\N	\N	0	1	2	f	0	\N	\N
 385	67	163	2	211	\N	211	\N	\N	1	1	2	f	0	3	\N
 386	3	163	1	211	\N	211	\N	\N	1	1	2	f	\N	67	\N
-387	12	164	2	29	\N	0	\N	\N	1	1	2	f	29	\N	\N
 388	2	165	2	142	\N	142	\N	\N	1	1	2	f	0	4	\N
 389	4	165	1	142	\N	142	\N	\N	1	1	2	f	\N	2	\N
 390	75	169	2	936	\N	936	\N	\N	1	1	2	f	0	62	\N
@@ -1849,8 +1782,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 393	51	170	2	787	\N	0	\N	\N	1	1	2	f	787	\N	\N
 394	16	170	2	787	\N	0	\N	\N	0	1	2	f	787	\N	\N
 395	52	170	2	787	\N	0	\N	\N	0	1	2	f	787	\N	\N
-396	69	171	2	29	\N	29	\N	\N	1	1	2	f	0	70	\N
-397	70	171	1	29	\N	29	\N	\N	1	1	2	f	\N	69	\N
 398	38	172	2	34	\N	34	\N	\N	1	1	2	f	0	85	\N
 399	85	172	2	2	\N	2	\N	\N	0	1	2	f	0	85	\N
 400	85	172	1	35	\N	35	\N	\N	1	1	2	f	\N	\N	\N
@@ -1884,32 +1815,20 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 428	34	175	2	274	\N	274	\N	\N	23	1	2	f	0	\N	\N
 429	38	175	2	265	\N	265	\N	\N	24	1	2	f	0	\N	\N
 430	58	175	2	195	\N	195	\N	\N	25	1	2	f	0	\N	\N
-431	8	175	2	144	\N	144	\N	\N	26	1	2	f	0	\N	\N
 432	4	175	2	142	\N	142	\N	\N	27	1	2	f	0	\N	\N
 433	5	175	2	128	\N	128	\N	\N	28	1	2	f	0	\N	\N
-434	35	175	2	112	\N	112	\N	\N	29	1	2	f	0	\N	\N
-435	71	175	2	71	\N	71	\N	\N	30	1	2	f	0	\N	\N
 436	31	175	2	66	\N	66	\N	\N	31	1	2	f	0	\N	\N
-437	36	175	2	39	\N	39	\N	\N	32	1	2	f	0	\N	\N
-438	69	175	2	39	\N	39	\N	\N	33	1	2	f	0	\N	\N
-439	11	175	2	31	\N	31	\N	\N	34	1	2	f	0	\N	\N
-440	70	175	2	31	\N	31	\N	\N	35	1	2	f	0	\N	\N
-441	12	175	2	29	\N	29	\N	\N	36	1	2	f	0	\N	\N
 442	39	175	2	25	\N	25	\N	\N	37	1	2	f	0	\N	\N
-443	10	175	2	25	\N	25	\N	\N	38	1	2	f	0	\N	\N
 444	56	175	2	14	\N	14	\N	\N	39	1	2	f	0	\N	\N
 445	59	175	2	10	\N	10	\N	\N	40	1	2	f	0	\N	\N
 446	80	175	2	6	\N	6	\N	\N	41	1	2	f	0	\N	\N
 447	26	175	2	6	\N	6	\N	\N	42	1	2	f	0	\N	\N
 448	27	175	2	5	\N	5	\N	\N	43	1	2	f	0	\N	\N
-449	37	175	2	5	\N	5	\N	\N	44	1	2	f	0	\N	\N
 450	28	175	2	4	\N	4	\N	\N	45	1	2	f	0	\N	\N
 451	22	175	2	4	\N	3	\N	\N	46	1	2	f	0	\N	\N
 452	46	175	2	3	\N	\N	\N	\N	46	1	2	f	0	\N	\N
 453	40	175	2	4	\N	4	\N	\N	47	1	2	f	0	\N	\N
 454	60	175	2	4	\N	4	\N	\N	48	1	2	f	0	\N	\N
-455	68	175	2	4	\N	4	\N	\N	49	1	2	f	0	\N	\N
-456	9	175	2	3	\N	3	\N	\N	50	1	2	f	0	\N	\N
 457	15	175	2	3	\N	3	\N	\N	51	1	2	f	0	\N	\N
 458	49	175	2	3	\N	3	\N	\N	53	1	2	f	0	\N	\N
 459	74	175	2	3	\N	3	\N	\N	54	1	2	f	0	\N	\N
@@ -1949,18 +1868,12 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 493	82	175	2	2	\N	2	\N	\N	0	1	2	f	0	\N	\N
 494	40	175	1	591	\N	591	\N	\N	1	1	2	f	\N	55	\N
 495	13	175	1	35	\N	35	\N	\N	0	1	2	f	\N	\N	\N
-496	8	176	2	2	\N	0	\N	\N	1	1	2	f	2	\N	\N
 497	15	177	2	2	\N	2	\N	\N	1	1	2	f	0	\N	\N
 498	57	179	2	19730	\N	0	\N	\N	1	1	2	f	19730	\N	\N
-499	15	180	2	1	\N	0	\N	\N	1	1	2	f	1	\N	\N
 500	17	181	2	67831	\N	67831	\N	\N	1	1	2	f	0	\N	\N
 501	16	181	2	67831	\N	67831	\N	\N	0	1	2	f	0	\N	\N
 502	42	181	2	67831	\N	67831	\N	\N	0	1	2	f	0	\N	\N
-503	69	182	2	2	\N	2	\N	\N	1	1	2	f	0	70	\N
-504	70	182	1	2	\N	2	\N	\N	1	1	2	f	\N	69	\N
 505	74	183	2	2	\N	0	\N	\N	1	1	2	f	2	\N	\N
-506	70	184	2	31	\N	31	\N	\N	1	1	2	f	0	8	\N
-507	8	184	1	31	\N	31	\N	\N	1	1	2	f	\N	70	\N
 508	43	185	2	159899	\N	159899	\N	\N	1	1	2	f	\N	43	\N
 509	16	185	2	74476	\N	5858	\N	\N	2	1	2	f	68618	\N	\N
 510	44	185	2	157053	\N	157053	\N	\N	0	1	2	f	\N	44	\N
@@ -1987,16 +1900,8 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 531	65	185	1	477	\N	477	\N	\N	0	1	2	f	\N	65	\N
 532	6	185	1	422	\N	422	\N	\N	0	1	2	f	\N	6	\N
 533	67	185	1	359	\N	359	\N	\N	0	1	2	f	\N	67	\N
-534	8	186	2	39	\N	0	\N	\N	1	1	2	f	39	\N	\N
 535	76	187	2	1	\N	0	\N	\N	1	1	2	f	1	\N	\N
 536	45	188	2	158563	\N	0	\N	\N	1	1	2	f	158563	\N	\N
-537	8	189	2	4	\N	0	\N	\N	1	1	2	f	4	\N	\N
-538	8	190	2	84	\N	84	\N	\N	1	1	2	f	0	\N	\N
-539	69	191	2	8	\N	8	\N	\N	1	1	2	f	0	71	\N
-540	71	191	1	8	\N	8	\N	\N	1	1	2	f	\N	69	\N
-541	8	192	2	14	\N	0	\N	\N	1	1	2	f	14	\N	\N
-542	70	193	2	12	\N	12	\N	\N	1	1	2	f	0	8	\N
-543	8	193	1	12	\N	12	\N	\N	1	1	2	f	\N	70	\N
 544	18	194	2	5858	\N	5858	\N	\N	1	1	2	f	0	\N	\N
 545	16	194	2	5858	\N	5858	\N	\N	0	1	2	f	0	\N	\N
 546	64	194	2	3978	\N	3978	\N	\N	0	1	2	f	0	\N	\N
@@ -2031,7 +1936,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 575	65	201	2	477	\N	0	\N	\N	0	1	2	f	477	\N	\N
 576	6	201	2	422	\N	0	\N	\N	0	1	2	f	422	\N	\N
 577	67	201	2	359	\N	0	\N	\N	0	1	2	f	359	\N	\N
-578	37	202	2	5	\N	0	\N	\N	1	1	2	f	5	\N	\N
 579	25	203	2	591	\N	0	\N	\N	1	1	2	f	591	\N	\N
 580	55	203	2	591	\N	0	\N	\N	0	1	2	f	591	\N	\N
 581	61	204	2	151407	\N	0	\N	\N	1	1	2	f	151407	\N	\N
@@ -2042,13 +1946,11 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 586	65	205	2	477	\N	477	\N	\N	0	1	2	f	0	\N	\N
 587	6	205	2	422	\N	422	\N	\N	0	1	2	f	0	\N	\N
 588	67	205	2	359	\N	359	\N	\N	0	1	2	f	0	\N	\N
-589	69	206	2	30	\N	0	\N	\N	1	1	2	f	30	\N	\N
 590	77	207	2	9	\N	9	\N	\N	1	1	2	f	0	\N	\N
 591	24	208	2	20412	\N	0	\N	\N	1	1	2	f	20412	\N	\N
 592	17	209	2	22396	\N	0	\N	\N	1	1	2	f	22396	\N	\N
 593	16	209	2	22396	\N	0	\N	\N	0	1	2	f	22396	\N	\N
 594	42	209	2	22396	\N	0	\N	\N	0	1	2	f	22396	\N	\N
-595	69	210	2	36	\N	36	\N	\N	1	1	2	f	0	\N	\N
 596	21	211	2	1	\N	1	\N	\N	1	1	2	f	0	\N	\N
 597	76	211	2	1	\N	1	\N	\N	2	1	2	f	0	\N	\N
 598	31	212	2	66	\N	0	\N	\N	1	1	2	f	66	\N	\N
@@ -2072,7 +1974,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 616	73	220	2	123205	\N	0	\N	\N	1	1	2	f	123205	\N	\N
 617	84	221	2	147429	\N	0	\N	\N	1	1	2	f	147429	\N	\N
 618	77	222	2	3	\N	0	\N	\N	1	1	2	f	3	\N	\N
-619	70	223	2	31	\N	0	\N	\N	1	1	2	f	31	\N	\N
 620	17	226	2	67831	\N	0	\N	\N	1	1	2	f	67831	\N	\N
 621	16	226	2	67831	\N	0	\N	\N	0	1	2	f	67831	\N	\N
 622	42	226	2	67831	\N	0	\N	\N	0	1	2	f	67831	\N	\N
@@ -2105,11 +2006,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 649	16	235	2	71305	\N	71305	\N	\N	0	1	2	f	0	\N	\N
 650	42	235	2	71305	\N	71305	\N	\N	0	1	2	f	0	\N	\N
 651	56	236	2	14	\N	14	\N	\N	1	1	2	f	0	\N	\N
-652	8	237	2	2	\N	0	\N	\N	1	1	2	f	2	\N	\N
-653	70	238	2	14	\N	14	\N	\N	1	1	2	f	0	71	\N
-654	71	238	1	14	\N	14	\N	\N	1	1	2	f	\N	70	\N
-655	37	239	2	2	\N	2	\N	\N	1	1	2	f	0	71	\N
-656	71	239	1	2	\N	2	\N	\N	1	1	2	f	\N	37	\N
 657	76	241	2	3	\N	3	\N	\N	1	1	2	f	0	77	\N
 658	77	241	1	3	\N	3	\N	\N	1	1	2	f	\N	76	\N
 659	17	242	2	67831	\N	0	\N	\N	1	1	2	f	67831	\N	\N
@@ -2119,7 +2015,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 663	16	243	2	787	\N	787	\N	\N	0	1	2	f	0	83	\N
 664	52	243	2	787	\N	787	\N	\N	0	1	2	f	0	83	\N
 665	83	243	1	787	\N	787	\N	\N	1	1	2	f	\N	51	\N
-666	8	244	2	1	\N	0	\N	\N	1	1	2	f	1	\N	\N
 667	38	245	2	2	\N	2	\N	\N	1	1	2	f	0	\N	\N
 668	43	246	2	150125	\N	0	\N	\N	1	1	2	f	150125	\N	\N
 669	16	246	2	74476	\N	0	\N	\N	2	1	2	f	74476	\N	\N
@@ -2177,26 +2072,18 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 721	28	251	2	2	\N	0	\N	\N	1	1	2	f	2	\N	\N
 722	88	251	2	2	\N	0	\N	\N	2	1	2	f	2	\N	\N
 723	29	251	2	2	\N	0	\N	\N	0	1	2	f	2	\N	\N
-724	8	252	2	31	\N	0	\N	\N	1	1	2	f	31	\N	\N
 725	50	253	2	2	\N	2	\N	\N	1	1	2	f	0	\N	\N
 726	17	254	2	67831	\N	67831	\N	\N	1	1	2	f	0	44	\N
 727	16	254	2	67831	\N	67831	\N	\N	0	1	2	f	0	44	\N
 728	42	254	2	67831	\N	67831	\N	\N	0	1	2	f	0	44	\N
 729	44	254	1	67831	\N	67831	\N	\N	1	1	2	f	\N	42	\N
 730	43	254	1	67831	\N	67831	\N	\N	0	1	2	f	\N	17	\N
-731	8	255	2	45	\N	0	\N	\N	1	1	2	f	45	\N	\N
-732	8	256	1	126	\N	126	\N	\N	1	1	2	f	\N	\N	\N
-733	9	256	1	2	\N	2	\N	\N	2	1	2	f	\N	\N	\N
-734	68	256	1	2	\N	2	\N	\N	3	1	2	f	\N	\N	\N
-735	69	256	1	2	\N	2	\N	\N	4	1	2	f	\N	\N	\N
 736	53	257	2	786	\N	0	\N	\N	1	1	2	f	786	\N	\N
 737	17	258	2	67831	\N	67831	\N	\N	1	1	2	f	0	\N	\N
 738	16	258	2	67831	\N	67831	\N	\N	0	1	2	f	0	\N	\N
 739	42	258	2	67831	\N	67831	\N	\N	0	1	2	f	0	\N	\N
 740	61	259	2	125067	\N	0	\N	\N	1	1	2	f	125067	\N	\N
 741	58	260	2	195	\N	0	\N	\N	1	1	2	f	195	\N	\N
-742	8	261	2	6	\N	0	\N	\N	1	1	2	f	6	\N	\N
-743	8	262	2	53	\N	0	\N	\N	1	1	2	f	53	\N	\N
 744	39	263	2	200	\N	200	\N	\N	1	1	2	f	0	\N	\N
 745	18	264	2	5858	\N	0	\N	\N	1	1	2	f	5858	\N	\N
 746	16	264	2	5858	\N	0	\N	\N	0	1	2	f	5858	\N	\N
@@ -2211,11 +2098,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 755	45	266	2	143381	\N	0	\N	\N	1	1	2	f	143381	\N	\N
 756	40	268	2	2	\N	2	\N	\N	1	1	2	f	0	40	\N
 757	40	268	1	2	\N	2	\N	\N	1	1	2	f	\N	40	\N
-758	8	269	2	31	\N	0	\N	\N	1	1	2	f	31	\N	\N
-759	70	270	2	31	\N	31	\N	\N	1	1	2	f	0	11	\N
-760	11	270	1	31	\N	31	\N	\N	1	1	2	f	\N	70	\N
-761	8	271	2	2	\N	0	\N	\N	1	1	2	f	2	\N	\N
-762	8	272	2	7	\N	0	\N	\N	1	1	2	f	7	\N	\N
 763	72	273	2	333100	\N	0	\N	\N	1	1	2	f	333100	\N	\N
 764	57	274	2	19705	\N	0	\N	\N	1	1	2	f	19705	\N	\N
 765	38	275	2	91	\N	0	\N	\N	1	1	2	f	91	\N	\N
@@ -2253,7 +2135,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 797	44	280	2	12488	\N	0	\N	\N	0	1	2	f	12488	\N	\N
 798	75	280	2	228	\N	0	\N	\N	0	1	2	f	228	\N	\N
 799	19	280	2	87	\N	0	\N	\N	0	1	2	f	87	\N	\N
-800	8	281	2	8	\N	0	\N	\N	1	1	2	f	8	\N	\N
 801	38	282	2	279	\N	279	\N	\N	1	1	2	f	0	\N	\N
 802	41	282	2	4	\N	4	\N	\N	0	1	2	f	0	\N	\N
 803	48	282	1	13	\N	13	\N	\N	1	1	2	f	\N	38	\N
@@ -2262,8 +2143,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 806	40	282	1	2	\N	2	\N	\N	4	1	2	f	\N	38	\N
 807	13	282	1	262	\N	262	\N	\N	0	1	2	f	\N	38	\N
 808	31	284	2	66	\N	0	\N	\N	1	1	2	f	66	\N	\N
-809	8	285	2	19	\N	0	\N	\N	1	1	2	f	19	\N	\N
-810	8	286	2	2	\N	0	\N	\N	1	1	2	f	2	\N	\N
 811	45	287	2	32562	\N	0	\N	\N	1	1	2	f	32562	\N	\N
 812	43	288	2	159898	\N	159898	\N	\N	1	1	2	f	0	44	\N
 813	16	288	2	68618	\N	68618	\N	\N	2	1	2	f	0	44	\N
@@ -2276,18 +2155,11 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 820	52	288	2	787	\N	787	\N	\N	0	1	2	f	0	44	\N
 821	44	288	1	228516	\N	228516	\N	\N	1	1	2	f	\N	\N	\N
 822	43	288	1	228516	\N	228516	\N	\N	0	1	2	f	\N	\N	\N
-823	8	289	2	4	\N	0	\N	\N	1	1	2	f	4	\N	\N
-824	68	290	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-825	69	290	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
 826	84	291	2	147429	\N	147429	\N	\N	1	1	2	f	0	18	\N
 827	18	291	1	147429	\N	147429	\N	\N	1	1	2	f	\N	84	\N
 828	16	291	1	147429	\N	147429	\N	\N	0	1	2	f	\N	84	\N
 829	2	291	1	118679	\N	118679	\N	\N	0	1	2	f	\N	84	\N
 830	64	291	1	28750	\N	28750	\N	\N	0	1	2	f	\N	84	\N
-831	68	292	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-832	69	292	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
-833	68	293	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-834	69	293	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
 835	83	294	2	14693	\N	0	\N	\N	1	1	2	f	14693	\N	\N
 836	18	294	2	5858	\N	0	\N	\N	2	1	2	f	5858	\N	\N
 837	16	294	2	5858	\N	0	\N	\N	0	1	2	f	5858	\N	\N
@@ -2300,16 +2172,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 844	16	295	2	477	\N	477	\N	\N	0	1	2	f	0	65	\N
 845	18	295	2	477	\N	477	\N	\N	0	1	2	f	0	65	\N
 846	65	295	1	477	\N	477	\N	\N	1	1	2	f	\N	65	\N
-847	68	296	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-848	69	296	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
-849	70	297	2	31	\N	31	\N	\N	1	1	2	f	0	10	\N
-850	10	297	1	31	\N	31	\N	\N	1	1	2	f	\N	70	\N
-851	68	298	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-852	69	298	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
-853	68	299	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-854	69	299	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
-855	68	300	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-856	69	300	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
 857	18	301	2	5858	\N	0	\N	\N	1	1	2	f	5858	\N	\N
 858	16	301	2	5858	\N	0	\N	\N	0	1	2	f	5858	\N	\N
 859	64	301	2	3978	\N	0	\N	\N	0	1	2	f	3978	\N	\N
@@ -2317,7 +2179,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 861	65	301	2	477	\N	0	\N	\N	0	1	2	f	477	\N	\N
 862	6	301	2	422	\N	0	\N	\N	0	1	2	f	422	\N	\N
 863	67	301	2	359	\N	0	\N	\N	0	1	2	f	359	\N	\N
-864	37	302	2	3	\N	0	\N	\N	1	1	2	f	3	\N	\N
 865	2	303	2	622	\N	622	\N	\N	1	1	2	f	0	2	\N
 866	16	303	2	622	\N	622	\N	\N	0	1	2	f	0	2	\N
 867	18	303	2	622	\N	622	\N	\N	0	1	2	f	0	2	\N
@@ -2325,17 +2186,8 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 869	2	304	2	480	\N	480	\N	\N	1	1	2	f	0	33	\N
 870	33	304	1	480	\N	480	\N	\N	1	1	2	f	\N	2	\N
 871	54	305	2	104095	\N	0	\N	\N	1	1	2	f	104095	\N	\N
-872	68	306	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-873	69	306	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
 874	56	307	2	26	\N	26	\N	\N	1	1	2	f	0	57	\N
 875	57	307	1	26	\N	26	\N	\N	1	1	2	f	\N	56	\N
-876	69	308	2	144	\N	144	\N	\N	1	1	2	f	0	\N	\N
-877	68	309	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-878	69	309	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
-879	68	310	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-880	69	310	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
-881	68	311	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-882	69	311	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
 883	18	312	2	5858	\N	0	\N	\N	1	1	2	f	5858	\N	\N
 884	16	312	2	5858	\N	0	\N	\N	0	1	2	f	5858	\N	\N
 885	64	312	2	3978	\N	0	\N	\N	0	1	2	f	3978	\N	\N
@@ -2343,8 +2195,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 887	65	312	2	477	\N	0	\N	\N	0	1	2	f	477	\N	\N
 888	6	312	2	422	\N	0	\N	\N	0	1	2	f	422	\N	\N
 889	67	312	2	359	\N	0	\N	\N	0	1	2	f	359	\N	\N
-890	9	313	2	3	\N	3	\N	\N	1	1	2	f	0	68	\N
-891	68	313	1	3	\N	3	\N	\N	1	1	2	f	\N	9	\N
 892	18	314	2	5858	\N	0	\N	\N	1	1	2	f	5858	\N	\N
 893	16	314	2	5858	\N	0	\N	\N	0	1	2	f	5858	\N	\N
 894	64	314	2	3978	\N	0	\N	\N	0	1	2	f	3978	\N	\N
@@ -2357,28 +2207,17 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 901	19	315	2	2266	\N	2266	\N	\N	0	1	2	f	0	72	\N
 902	75	315	2	1227	\N	1227	\N	\N	0	1	2	f	0	72	\N
 903	72	315	1	314317	\N	314317	\N	\N	1	1	2	f	\N	43	\N
-904	68	316	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-905	69	316	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
 906	51	317	2	16079	\N	16079	\N	\N	1	1	2	f	0	83	\N
 907	16	317	2	16079	\N	16079	\N	\N	0	1	2	f	0	83	\N
 908	52	317	2	16079	\N	16079	\N	\N	0	1	2	f	0	83	\N
 909	83	317	1	16079	\N	16079	\N	\N	1	1	2	f	\N	51	\N
-910	8	318	2	57	\N	0	\N	\N	1	1	2	f	57	\N	\N
-911	68	319	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-912	69	319	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
-913	68	320	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-914	69	320	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
 915	74	321	2	2	\N	0	\N	\N	1	1	2	f	2	\N	\N
-916	8	323	2	31	\N	0	\N	\N	1	1	2	f	31	\N	\N
 917	18	324	2	3978	\N	3978	\N	\N	1	1	2	f	0	64	\N
 918	16	324	2	3978	\N	3978	\N	\N	0	1	2	f	0	64	\N
 919	64	324	2	3978	\N	3978	\N	\N	0	1	2	f	0	64	\N
 920	64	324	1	3978	\N	3978	\N	\N	1	1	2	f	\N	18	\N
-921	8	325	2	39	\N	0	\N	\N	1	1	2	f	39	\N	\N
-922	8	326	2	47	\N	0	\N	\N	1	1	2	f	47	\N	\N
 923	47	327	2	1	\N	1	\N	\N	1	1	2	f	0	\N	\N
 924	76	327	2	1	\N	1	\N	\N	2	1	2	f	0	\N	\N
-925	69	328	2	148	\N	148	\N	\N	1	1	2	f	0	\N	\N
 926	62	329	2	936	\N	0	\N	\N	1	1	2	f	936	\N	\N
 927	39	330	2	25	\N	25	\N	\N	1	1	2	f	0	39	\N
 928	39	330	1	25	\N	25	\N	\N	1	1	2	f	\N	39	\N
@@ -2393,9 +2232,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 937	20	333	1	1	\N	1	\N	\N	0	1	2	f	\N	49	\N
 938	81	333	1	1	\N	1	\N	\N	0	1	2	f	\N	49	\N
 939	82	333	1	1	\N	1	\N	\N	0	1	2	f	\N	49	\N
-940	8	335	2	22	\N	0	\N	\N	1	1	2	f	22	\N	\N
-941	69	336	2	1	\N	1	\N	\N	1	1	2	f	0	68	\N
-942	68	336	1	1	\N	1	\N	\N	1	1	2	f	\N	69	\N
 943	84	337	2	147429	\N	0	\N	\N	1	1	2	f	147429	\N	\N
 944	18	338	2	8548	\N	8548	\N	\N	1	1	2	f	0	\N	\N
 945	16	338	2	8548	\N	8548	\N	\N	0	1	2	f	0	\N	\N
@@ -2407,17 +2243,11 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 951	74	340	2	3	\N	3	\N	\N	1	1	2	f	0	\N	\N
 952	84	341	2	147429	\N	147429	\N	\N	1	1	2	f	0	\N	\N
 953	30	342	2	159899	\N	0	\N	\N	1	1	2	f	159899	\N	\N
-954	15	343	2	1	\N	0	\N	\N	1	1	2	f	1	\N	\N
-955	8	344	2	6	\N	0	\N	\N	1	1	2	f	6	\N	\N
 956	17	345	2	53363	\N	0	\N	\N	1	1	2	f	53363	\N	\N
 957	16	345	2	53363	\N	0	\N	\N	0	1	2	f	53363	\N	\N
 958	42	345	2	53363	\N	0	\N	\N	0	1	2	f	53363	\N	\N
 959	58	346	2	195	\N	195	\N	\N	1	1	2	f	0	\N	\N
 960	30	347	2	159899	\N	0	\N	\N	1	1	2	f	159899	\N	\N
-961	68	348	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-962	69	348	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
-963	68	349	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-964	69	349	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
 965	18	350	2	4998	\N	4998	\N	\N	1	1	2	f	0	\N	\N
 966	16	350	2	4998	\N	4998	\N	\N	0	1	2	f	0	\N	\N
 967	64	350	2	3250	\N	3250	\N	\N	0	1	2	f	0	\N	\N
@@ -2425,36 +2255,16 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 969	67	350	2	472	\N	472	\N	\N	0	1	2	f	0	\N	\N
 970	6	350	2	420	\N	420	\N	\N	0	1	2	f	0	\N	\N
 971	65	350	2	351	\N	351	\N	\N	0	1	2	f	0	\N	\N
-972	68	351	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-973	69	351	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
-974	68	352	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-975	69	352	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
-976	68	353	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-977	69	353	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
-978	68	354	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-979	69	354	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
 980	84	355	2	147429	\N	147429	\N	\N	1	1	2	f	0	25	\N
 981	25	355	1	147429	\N	147429	\N	\N	1	1	2	f	\N	84	\N
 982	55	355	1	147429	\N	147429	\N	\N	0	1	2	f	\N	84	\N
-983	68	356	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-984	69	356	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
-985	68	357	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-986	69	357	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
 987	83	358	2	16079	\N	0	\N	\N	1	1	2	f	16079	\N	\N
-988	68	359	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-989	69	359	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
-990	68	360	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-991	69	360	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
 992	17	361	2	67831	\N	0	\N	\N	1	1	2	f	67831	\N	\N
 993	16	361	2	67831	\N	0	\N	\N	0	1	2	f	67831	\N	\N
 994	42	361	2	67831	\N	0	\N	\N	0	1	2	f	67831	\N	\N
-995	8	362	2	26	\N	0	\N	\N	1	1	2	f	26	\N	\N
-996	8	363	2	45	\N	0	\N	\N	1	1	2	f	45	\N	\N
 997	66	364	2	1	\N	0	\N	\N	1	1	2	f	1	\N	\N
 998	53	365	2	104095	\N	104095	\N	\N	1	1	2	f	0	54	\N
 999	54	365	1	104095	\N	104095	\N	\N	1	1	2	f	\N	53	\N
-1000	68	366	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-1001	69	366	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
 1002	18	367	2	5858	\N	0	\N	\N	1	1	2	f	5858	\N	\N
 1003	16	367	2	5858	\N	0	\N	\N	0	1	2	f	5858	\N	\N
 1004	64	367	2	3978	\N	0	\N	\N	0	1	2	f	3978	\N	\N
@@ -2462,11 +2272,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 1006	65	367	2	477	\N	0	\N	\N	0	1	2	f	477	\N	\N
 1007	6	367	2	422	\N	0	\N	\N	0	1	2	f	422	\N	\N
 1008	67	367	2	359	\N	0	\N	\N	0	1	2	f	359	\N	\N
-1009	68	368	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-1010	69	368	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
-1011	68	369	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-1012	69	369	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
-1013	8	370	2	31	\N	0	\N	\N	1	1	2	f	31	\N	\N
 1014	43	371	2	159899	\N	159899	\N	\N	1	1	2	f	\N	\N	\N
 1015	16	371	2	74476	\N	5858	\N	\N	2	1	2	f	68618	\N	\N
 1016	44	371	2	157053	\N	157053	\N	\N	0	1	2	f	\N	\N	\N
@@ -2482,13 +2287,10 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 1026	65	371	2	477	\N	477	\N	\N	0	1	2	f	\N	\N	\N
 1027	6	371	2	422	\N	422	\N	\N	0	1	2	f	\N	\N	\N
 1028	67	371	2	359	\N	359	\N	\N	0	1	2	f	\N	\N	\N
-1029	12	372	2	29	\N	0	\N	\N	1	1	2	f	29	\N	\N
 1030	51	373	2	787	\N	0	\N	\N	1	1	2	f	787	\N	\N
 1031	16	373	2	787	\N	0	\N	\N	0	1	2	f	787	\N	\N
 1032	52	373	2	787	\N	0	\N	\N	0	1	2	f	787	\N	\N
-1033	8	374	2	31	\N	0	\N	\N	1	1	2	f	31	\N	\N
 1034	32	375	2	1211	\N	1211	\N	\N	1	1	2	f	0	\N	\N
-1035	8	377	2	40	\N	0	\N	\N	1	1	2	f	40	\N	\N
 1036	48	378	2	1	\N	1	\N	\N	1	1	2	f	0	\N	\N
 1037	78	378	2	1	\N	1	\N	\N	2	1	2	f	0	\N	\N
 1038	79	378	2	1	\N	1	\N	\N	3	1	2	f	0	\N	\N
@@ -2507,7 +2309,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 1051	19	382	2	1910	\N	1910	\N	\N	0	1	2	f	0	\N	\N
 1052	75	382	2	936	\N	936	\N	\N	0	1	2	f	0	\N	\N
 1053	62	383	2	185	\N	0	\N	\N	1	1	2	f	185	\N	\N
-1054	8	384	2	31	\N	0	\N	\N	1	1	2	f	31	\N	\N
 1055	33	385	2	485	\N	485	\N	\N	1	1	2	f	0	\N	\N
 1056	45	386	2	662	\N	0	\N	\N	1	1	2	f	662	\N	\N
 1057	23	388	2	218128	\N	218128	\N	\N	1	1	2	f	0	\N	\N
@@ -2517,7 +2318,6 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 1061	82	390	2	1	\N	1	\N	\N	2	1	2	f	0	\N	\N
 1062	77	390	2	1	\N	1	\N	\N	3	1	2	f	0	\N	\N
 1063	80	390	2	1	\N	1	\N	\N	0	1	2	f	0	\N	\N
-1064	69	391	2	37	\N	37	\N	\N	1	1	2	f	0	\N	\N
 1065	19	392	2	1910	\N	1910	\N	\N	1	1	2	f	0	63	\N
 1066	43	392	2	1910	\N	1910	\N	\N	0	1	2	f	0	63	\N
 1067	63	392	1	1910	\N	1910	\N	\N	1	1	2	f	\N	19	\N
@@ -2532,53 +2332,12 @@ COPY http_id_eaufrance_fr_sparql.cp_rels (id, class_id, property_id, type_id, cn
 1076	53	396	2	786	\N	0	\N	\N	1	1	2	f	786	\N	\N
 1077	6	397	2	274	\N	274	\N	\N	1	1	2	f	0	34	\N
 1078	34	397	1	274	\N	274	\N	\N	1	1	2	f	\N	6	\N
-1079	8	398	2	2	\N	0	\N	\N	1	1	2	f	2	\N	\N
-1080	68	399	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-1081	69	399	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
-1082	68	400	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-1083	69	400	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
-1084	68	401	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-1085	69	401	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
 1086	74	402	2	2	\N	0	\N	\N	1	1	2	f	2	\N	\N
-1087	35	403	2	3	\N	3	\N	\N	1	1	2	f	0	8	\N
-1088	68	403	2	1	\N	1	\N	\N	2	1	2	f	0	69	\N
-1089	8	403	1	3	\N	3	\N	\N	1	1	2	f	\N	35	\N
-1090	69	403	1	1	\N	1	\N	\N	2	1	2	f	\N	68	\N
-1091	68	404	2	1	\N	1	\N	\N	1	1	2	f	0	69	\N
-1092	69	404	1	1	\N	1	\N	\N	1	1	2	f	\N	68	\N
-1093	35	405	2	10	\N	10	\N	\N	1	1	2	f	\N	8	\N
-1094	68	405	2	1	\N	1	\N	\N	2	1	2	f	\N	69	\N
-1095	71	405	2	1	\N	\N	\N	\N	3	1	2	f	1	\N	\N
-1096	8	405	1	10	\N	10	\N	\N	1	1	2	f	\N	35	\N
-1097	69	405	1	1	\N	1	\N	\N	2	1	2	f	\N	68	\N
-1098	35	406	2	3	\N	3	\N	\N	1	1	2	f	0	8	\N
-1099	68	406	2	1	\N	1	\N	\N	2	1	2	f	0	69	\N
-1100	8	406	1	3	\N	3	\N	\N	1	1	2	f	\N	35	\N
-1101	69	406	1	1	\N	1	\N	\N	2	1	2	f	\N	68	\N
 1102	77	407	2	3	\N	0	\N	\N	1	1	2	f	3	\N	\N
 1103	45	408	2	317488	\N	317488	\N	\N	1	1	2	f	0	\N	\N
 1104	23	408	1	154227	\N	154227	\N	\N	1	1	2	f	\N	45	\N
 1105	58	408	1	603	\N	603	\N	\N	2	1	2	f	\N	45	\N
 1106	31	408	1	66	\N	66	\N	\N	3	1	2	f	\N	45	\N
-1107	35	409	2	61	\N	61	\N	\N	1	1	2	f	\N	8	\N
-1108	71	409	2	52	\N	\N	\N	\N	2	1	2	f	52	\N	\N
-1109	11	409	2	31	\N	31	\N	\N	3	1	2	f	\N	36	\N
-1110	10	409	2	25	\N	25	\N	\N	4	1	2	f	\N	12	\N
-1111	68	409	2	2	\N	2	\N	\N	5	1	2	f	\N	69	\N
-1112	8	409	1	61	\N	61	\N	\N	1	1	2	f	\N	35	\N
-1113	36	409	1	31	\N	31	\N	\N	2	1	2	f	\N	11	\N
-1114	12	409	1	25	\N	25	\N	\N	3	1	2	f	\N	10	\N
-1115	69	409	1	2	\N	2	\N	\N	4	1	2	f	\N	68	\N
-1116	8	410	2	31	\N	0	\N	\N	1	1	2	f	31	\N	\N
-1117	35	411	2	13	\N	13	\N	\N	1	1	2	f	\N	8	\N
-1118	11	411	2	8	\N	8	\N	\N	2	1	2	f	\N	36	\N
-1119	10	411	2	4	\N	4	\N	\N	3	1	2	f	\N	12	\N
-1120	71	411	2	2	\N	\N	\N	\N	4	1	2	f	2	\N	\N
-1121	68	411	2	1	\N	1	\N	\N	5	1	2	f	\N	69	\N
-1122	8	411	1	13	\N	13	\N	\N	1	1	2	f	\N	35	\N
-1123	36	411	1	8	\N	8	\N	\N	2	1	2	f	\N	11	\N
-1124	12	411	1	4	\N	4	\N	\N	3	1	2	f	\N	10	\N
-1125	69	411	1	1	\N	1	\N	\N	4	1	2	f	\N	68	\N
 1126	28	412	1	2	\N	2	\N	\N	1	1	2	f	\N	\N	\N
 1127	29	412	1	2	\N	2	\N	\N	0	1	2	f	\N	\N	\N
 1128	50	413	2	2	\N	2	\N	\N	1	1	2	f	0	\N	\N
@@ -2708,8 +2467,6 @@ COPY http_id_eaufrance_fr_sparql.cpc_rels (id, cp_rel_id, other_class_id, cnt, d
 76	26	18	359	\N	0	\N
 77	26	16	359	\N	0	\N
 78	26	67	359	\N	1	\N
-79	31	8	5	\N	1	\N
-80	32	69	5	\N	1	\N
 81	41	27	4	\N	1	\N
 82	42	26	4	\N	1	\N
 83	51	16	67795	\N	0	\N
@@ -2732,26 +2489,12 @@ COPY http_id_eaufrance_fr_sparql.cpc_rels (id, cp_rel_id, other_class_id, cnt, d
 100	56	17	67795	\N	0	\N
 101	59	66	349	\N	1	\N
 102	60	65	349	\N	1	\N
-103	70	69	2	\N	1	\N
-104	71	9	2	\N	1	\N
 105	79	13	2	\N	0	\N
 106	82	13	2	\N	0	\N
-107	121	8	113	\N	1	\N
-108	122	8	113	\N	1	\N
-109	127	70	2	\N	1	\N
-110	128	69	2	\N	1	\N
 111	130	15	1	\N	1	\N
 112	131	38	1	\N	1	\N
 113	133	49	3	\N	1	\N
 114	134	77	3	\N	1	\N
-115	138	37	3	\N	1	\N
-116	139	70	3	\N	1	\N
-117	141	14	7	\N	1	\N
-118	142	69	7	\N	1	\N
-119	152	70	38	\N	1	\N
-120	153	69	38	\N	1	\N
-121	154	71	10	\N	1	\N
-122	155	8	10	\N	1	\N
 123	157	3	1217	\N	1	\N
 124	158	34	1217	\N	1	\N
 125	160	5	128	\N	1	\N
@@ -2768,14 +2511,10 @@ COPY http_id_eaufrance_fr_sparql.cpc_rels (id, cp_rel_id, other_class_id, cnt, d
 136	188	42	122960	\N	1	\N
 137	188	17	122960	\N	0	\N
 138	188	16	122960	\N	0	\N
-139	203	37	2	\N	1	\N
-140	204	70	2	\N	1	\N
 141	205	53	1393	\N	1	\N
 142	206	53	132	\N	1	\N
 143	207	57	132	\N	2	\N
 144	207	24	1393	\N	1	\N
-145	208	71	37	\N	1	\N
-146	209	69	37	\N	1	\N
 147	217	44	310824	\N	0	\N
 148	217	43	314317	\N	1	\N
 149	217	75	1227	\N	0	\N
@@ -2842,8 +2581,6 @@ COPY http_id_eaufrance_fr_sparql.cpc_rels (id, cp_rel_id, other_class_id, cnt, d
 210	297	61	137517	\N	1	\N
 211	298	84	147429	\N	1	\N
 212	299	54	147429	\N	1	\N
-213	303	8	2	\N	1	\N
-214	304	8	2	\N	1	\N
 215	305	45	158777	\N	1	\N
 216	306	45	157052	\N	1	\N
 217	307	45	933	\N	1	\N
@@ -2860,8 +2597,6 @@ COPY http_id_eaufrance_fr_sparql.cpc_rels (id, cp_rel_id, other_class_id, cnt, d
 228	314	77	2	\N	1	\N
 229	323	3	1036	\N	1	\N
 230	324	4	1036	\N	1	\N
-231	341	35	112	\N	1	\N
-232	342	8	112	\N	1	\N
 233	351	83	16078	\N	1	\N
 234	352	83	16078	\N	1	\N
 235	376	48	1	\N	3	\N
@@ -2882,8 +2617,6 @@ COPY http_id_eaufrance_fr_sparql.cpc_rels (id, cp_rel_id, other_class_id, cnt, d
 250	391	62	936	\N	1	\N
 251	392	43	936	\N	0	\N
 252	392	75	936	\N	1	\N
-253	396	70	29	\N	1	\N
-254	397	69	29	\N	1	\N
 255	398	86	8	\N	0	\N
 256	398	85	34	\N	1	\N
 257	399	86	1	\N	0	\N
@@ -2912,10 +2645,6 @@ COPY http_id_eaufrance_fr_sparql.cpc_rels (id, cp_rel_id, other_class_id, cnt, d
 280	495	40	4	\N	5	\N
 281	495	38	5	\N	0	\N
 282	495	14	5	\N	3	\N
-283	503	70	2	\N	1	\N
-284	504	69	2	\N	1	\N
-285	506	8	31	\N	1	\N
-286	507	70	31	\N	1	\N
 287	508	44	157053	\N	0	\N
 288	508	43	159899	\N	1	\N
 289	508	19	1910	\N	0	\N
@@ -2994,10 +2723,6 @@ COPY http_id_eaufrance_fr_sparql.cpc_rels (id, cp_rel_id, other_class_id, cnt, d
 362	533	18	359	\N	0	\N
 363	533	16	359	\N	0	\N
 364	533	67	359	\N	1	\N
-365	539	71	8	\N	1	\N
-366	540	69	8	\N	1	\N
-367	542	8	12	\N	1	\N
-368	543	70	12	\N	1	\N
 369	553	24	556	\N	1	\N
 370	554	56	556	\N	1	\N
 371	558	23	20415	\N	1	\N
@@ -3016,10 +2741,6 @@ COPY http_id_eaufrance_fr_sparql.cpc_rels (id, cp_rel_id, other_class_id, cnt, d
 384	628	61	157053	\N	1	\N
 385	629	43	157053	\N	0	\N
 386	629	44	157053	\N	1	\N
-387	653	71	14	\N	1	\N
-388	654	70	14	\N	1	\N
-389	655	71	2	\N	1	\N
-390	656	37	2	\N	1	\N
 391	657	77	3	\N	1	\N
 392	658	76	3	\N	1	\N
 393	662	83	787	\N	1	\N
@@ -3042,8 +2763,6 @@ COPY http_id_eaufrance_fr_sparql.cpc_rels (id, cp_rel_id, other_class_id, cnt, d
 410	730	42	67831	\N	0	\N
 411	756	40	2	\N	1	\N
 412	757	40	2	\N	1	\N
-413	759	11	31	\N	1	\N
-414	760	70	31	\N	1	\N
 415	786	3	10170	\N	1	\N
 416	787	5	10170	\N	1	\N
 417	801	48	13	\N	1	\N
@@ -3094,8 +2813,6 @@ COPY http_id_eaufrance_fr_sparql.cpc_rels (id, cp_rel_id, other_class_id, cnt, d
 462	822	43	159898	\N	1	\N
 463	822	44	157052	\N	0	\N
 464	822	52	787	\N	0	\N
-465	824	69	1	\N	1	\N
-466	825	68	1	\N	1	\N
 467	826	16	147429	\N	0	\N
 468	826	2	118679	\N	0	\N
 469	826	18	147429	\N	1	\N
@@ -3104,26 +2821,12 @@ COPY http_id_eaufrance_fr_sparql.cpc_rels (id, cp_rel_id, other_class_id, cnt, d
 472	828	84	147429	\N	1	\N
 473	829	84	118679	\N	1	\N
 474	830	84	28750	\N	1	\N
-475	831	69	1	\N	1	\N
-476	832	68	1	\N	1	\N
-477	833	69	1	\N	1	\N
-478	834	68	1	\N	1	\N
 479	843	65	477	\N	1	\N
 480	844	65	477	\N	1	\N
 481	845	65	477	\N	1	\N
 482	846	65	477	\N	1	\N
 483	846	18	477	\N	0	\N
 484	846	16	477	\N	0	\N
-485	847	69	1	\N	1	\N
-486	848	68	1	\N	1	\N
-487	849	10	31	\N	1	\N
-488	850	70	31	\N	1	\N
-489	851	69	1	\N	1	\N
-490	852	68	1	\N	1	\N
-491	853	69	1	\N	1	\N
-492	854	68	1	\N	1	\N
-493	855	69	1	\N	1	\N
-494	856	68	1	\N	1	\N
 495	865	2	622	\N	1	\N
 496	866	2	622	\N	1	\N
 497	867	2	622	\N	1	\N
@@ -3132,18 +2835,8 @@ COPY http_id_eaufrance_fr_sparql.cpc_rels (id, cp_rel_id, other_class_id, cnt, d
 500	868	18	622	\N	0	\N
 501	869	33	480	\N	1	\N
 502	870	2	480	\N	1	\N
-503	872	69	1	\N	1	\N
-504	873	68	1	\N	1	\N
 505	874	57	49	\N	1	\N
 506	875	56	49	\N	1	\N
-507	877	69	1	\N	1	\N
-508	878	68	1	\N	1	\N
-509	879	69	1	\N	1	\N
-510	880	68	1	\N	1	\N
-511	881	69	1	\N	1	\N
-512	882	68	1	\N	1	\N
-513	890	68	3	\N	1	\N
-514	891	9	3	\N	1	\N
 515	899	72	314317	\N	1	\N
 516	900	72	310824	\N	1	\N
 517	901	72	2266	\N	1	\N
@@ -3152,18 +2845,12 @@ COPY http_id_eaufrance_fr_sparql.cpc_rels (id, cp_rel_id, other_class_id, cnt, d
 520	903	44	310824	\N	0	\N
 521	903	75	1227	\N	0	\N
 522	903	19	2266	\N	0	\N
-523	904	69	1	\N	1	\N
-524	905	68	1	\N	1	\N
 525	906	83	16079	\N	1	\N
 526	907	83	16079	\N	1	\N
 527	908	83	16079	\N	1	\N
 528	909	16	16079	\N	0	\N
 529	909	51	16079	\N	1	\N
 530	909	52	16079	\N	0	\N
-531	911	69	1	\N	1	\N
-532	912	68	1	\N	1	\N
-533	913	69	1	\N	1	\N
-534	914	68	1	\N	1	\N
 535	917	64	3978	\N	1	\N
 536	918	64	3978	\N	1	\N
 537	919	64	3978	\N	1	\N
@@ -3188,40 +2875,12 @@ COPY http_id_eaufrance_fr_sparql.cpc_rels (id, cp_rel_id, other_class_id, cnt, d
 556	937	49	1	\N	1	\N
 557	938	49	1	\N	1	\N
 558	939	49	1	\N	1	\N
-559	941	68	1	\N	1	\N
-560	942	69	1	\N	1	\N
-561	961	69	1	\N	1	\N
-562	962	68	1	\N	1	\N
-563	963	69	1	\N	1	\N
-564	964	68	1	\N	1	\N
-565	972	69	1	\N	1	\N
-566	973	68	1	\N	1	\N
-567	974	69	1	\N	1	\N
-568	975	68	1	\N	1	\N
-569	976	69	1	\N	1	\N
-570	977	68	1	\N	1	\N
-571	978	69	1	\N	1	\N
-572	979	68	1	\N	1	\N
 573	980	25	147429	\N	1	\N
 574	980	55	147429	\N	0	\N
 575	981	84	147429	\N	1	\N
 576	982	84	147429	\N	1	\N
-577	983	69	1	\N	1	\N
-578	984	68	1	\N	1	\N
-579	985	69	1	\N	1	\N
-580	986	68	1	\N	1	\N
-581	988	69	1	\N	1	\N
-582	989	68	1	\N	1	\N
-583	990	69	1	\N	1	\N
-584	991	68	1	\N	1	\N
 585	998	54	104095	\N	1	\N
 586	999	53	104095	\N	1	\N
-587	1000	69	1	\N	1	\N
-588	1001	68	1	\N	1	\N
-589	1009	69	1	\N	1	\N
-590	1010	68	1	\N	1	\N
-591	1011	69	1	\N	1	\N
-592	1012	68	1	\N	1	\N
 593	1039	13	32	\N	0	\N
 594	1040	13	32	\N	0	\N
 595	1057	23	218038	\N	1	\N
@@ -3238,48 +2897,12 @@ COPY http_id_eaufrance_fr_sparql.cpc_rels (id, cp_rel_id, other_class_id, cnt, d
 606	1071	26	1	\N	1	\N
 607	1077	34	274	\N	1	\N
 608	1078	6	274	\N	1	\N
-609	1080	69	1	\N	1	\N
-610	1081	68	1	\N	1	\N
-611	1082	69	1	\N	1	\N
-612	1083	68	1	\N	1	\N
-613	1084	69	1	\N	1	\N
-614	1085	68	1	\N	1	\N
-615	1087	8	3	\N	1	\N
-616	1088	69	1	\N	1	\N
-617	1089	35	3	\N	1	\N
-618	1090	68	1	\N	1	\N
-619	1091	69	1	\N	1	\N
-620	1092	68	1	\N	1	\N
-621	1093	8	10	\N	1	\N
-622	1094	69	1	\N	1	\N
-623	1096	35	10	\N	1	\N
-624	1097	68	1	\N	1	\N
-625	1098	8	3	\N	1	\N
-626	1099	69	1	\N	1	\N
-627	1100	35	3	\N	1	\N
-628	1101	68	1	\N	1	\N
 629	1103	58	603	\N	2	\N
 630	1103	31	66	\N	3	\N
 631	1103	23	154227	\N	1	\N
 632	1104	45	154227	\N	1	\N
 633	1105	45	603	\N	1	\N
 634	1106	45	66	\N	1	\N
-635	1107	8	61	\N	1	\N
-636	1109	36	31	\N	1	\N
-637	1110	12	25	\N	1	\N
-638	1111	69	2	\N	1	\N
-639	1112	35	61	\N	1	\N
-640	1113	11	31	\N	1	\N
-641	1114	10	25	\N	1	\N
-642	1115	68	2	\N	1	\N
-643	1117	8	13	\N	1	\N
-644	1118	36	8	\N	1	\N
-645	1119	12	4	\N	1	\N
-646	1121	69	1	\N	1	\N
-647	1122	35	13	\N	1	\N
-648	1123	11	8	\N	1	\N
-649	1124	10	4	\N	1	\N
-650	1125	68	1	\N	1	\N
 651	1135	43	787	\N	0	\N
 652	1135	44	787	\N	1	\N
 653	1136	43	787	\N	0	\N
@@ -3371,30 +2994,30 @@ COPY http_id_eaufrance_fr_sparql.ns (id, name, value, priority, is_local, basic_
 39	vcard	http://www.w3.org/2006/vcard/ns#	0	f	0
 40	obo	http://purl.obolibrary.org/obo/	0	f	0
 68	bif	http://www.openlinksw.com/schemas/bif#	0	f	0
-17		http://www.openlinksw.com/schemas/virtrdf#	0	t	0
 70	xhv	http://www.w3.org/1999/xhtml/vocab#	0	f	0
-71	n_1	http://id.eaufrance.fr/ddd/INC/1.0/	0	f	0
-72	n_2	http://id.eaufrance.fr/ddd/par/3/	0	f	0
 73	dwc	http://rs.tdwg.org/dwc/terms/	0	f	0
 75	igeo	http://rdf.insee.fr/def/geo#	0	f	0
-76	n_3	http://owl.sandre.eaufrance.fr/odp/1.1#	0	f	0
-77	n_4	http://somewhere/ApplicationSchema#	0	f	0
-78	n_5	http://www.opengis.net/rdf#	0	f	0
-79	n_6	http://www.w3.org/2001/vcard-rdf/3.0#	0	f	0
-80	n_7	http://id.eaufrance.fr/ddd/COM/4/	0	f	0
-81	n_8	http://id.eaufrance.fr/ddd/APT/2.1/	0	f	0
 82	oplacl	http://www.openlinksw.com/ontology/acl#	0	f	0
 83	prv	http://purl.org/net/provenance/ns#	0	f	0
 84	n_9	http://id.eaufrance.fr/ddd/MAT/3.1/	0	f	0
-85	n_10	http://owl.sandre.eaufrance.fr/pmo/1.2#	0	f	0
-86	n_11	http://owl.sandre.eaufrance.fr/par/2.3#	0	f	0
-87	n_12	http://owl.sandre.eaufrance.fr/mat/2#	0	f	0
-88	n_13	http://owl.sandre.eaufrance.fr/scl/1.1#	0	f	0
-89	n_14	http://owl.sandre.eaufrance.fr/com/3#	0	f	0
-90	n_15	http://www.openlinksw.com/schemas/VAD#	0	f	0
-91	n_16	http://www.openlinksw.com/virtdav#	0	f	0
 92	rdfa	http://www.w3.org/ns/rdfa#	0	f	0
 93	sirene	https://sireneld.io/vocab/sirene#	0	f	0
+17	virtrdf	http://www.openlinksw.com/schemas/virtrdf#	0	f	0
+71	eau	http://id.eaufrance.fr/ddd/INC/1.0/	0	f	0
+72	e	http://id.eaufrance.fr/ddd/par/3/	0	t	0
+85	e-pmo	http://owl.sandre.eaufrance.fr/pmo/1.2#	0	f	0
+86	e-par	http://owl.sandre.eaufrance.fr/par/2.3#	0	f	0
+87	e-mat	http://owl.sandre.eaufrance.fr/mat/2#	0	f	0
+88	e-sci	http://owl.sandre.eaufrance.fr/scl/1.1#	0	f	0
+89	e-com	http://owl.sandre.eaufrance.fr/com/3#	0	f	0
+76	e-odp	http://owl.sandre.eaufrance.fr/odp/1.1#	0	f	0
+77	app-s	http://somewhere/ApplicationSchema#	0	f	0
+78	opengis	http://www.opengis.net/rdf#	0	f	0
+79	vcard-rdf	http://www.w3.org/2001/vcard-rdf/3.0#	0	f	0
+80	e-com-4	http://id.eaufrance.fr/ddd/COM/4/	0	f	0
+81	e-apt	http://id.eaufrance.fr/ddd/APT/2.1/	0	f	0
+90	vad	http://www.openlinksw.com/schemas/VAD#	0	f	0
+91	virtdav	http://www.openlinksw.com/virtdav#	0	f	0
 \.
 
 
@@ -3461,76 +3084,49 @@ COPY http_id_eaufrance_fr_sparql.pp_rels (id, property_1_id, property_2_id, type
 COPY http_id_eaufrance_fr_sparql.properties (id, iri, cnt, data, ns_id, display_name, local_name, is_unique, object_cnt, max_cardinality, inverse_max_cardinality, source_cover_complete, target_cover_complete, domain_class_id, range_class_id, data_cnt, classes_in_schema, is_classifier, use_in_class, classif_prefix, values_have_cp, props_in_schema, pp_ask_endpoint, pc_ask_endpoint) FROM stdin;
 1	http://xmlns.com/foaf/0.1/page	234375	\N	8	page	page	f	165757	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 2	http://owl.sandre.eaufrance.fr/odp/1.1#CdOuvrageDepollution	20419	\N	76	CdOuvrageDepollution	CdOuvrageDepollution	f	0	1	\N	f	f	24	\N	\N	t	f	\N	\N	\N	t	f	f
-3	http://www.openlinksw.com/schemas/virtrdf#qmvftXmlIndex	4	\N	17	qmvftXmlIndex	qmvftXmlIndex	f	0	1	\N	f	f	37	\N	\N	t	f	\N	\N	\N	t	f	f
 4	http://owl.sandre.eaufrance.fr/pmo/1.2#RsAnalyse	147429	\N	85	RsAnalyse	RsAnalyse	f	0	1	\N	f	f	84	\N	\N	t	f	\N	\N	\N	t	f	f
 5	http://rdf.insee.fr/def/geo#nom	36681	\N	75	nom	nom	f	0	1	\N	f	f	23	\N	\N	t	f	\N	\N	\N	t	f	f
-6	http://www.openlinksw.com/schemas/virtrdf#qmObjectRange-rvrFixedValue	9	\N	17	qmObjectRange-rvrFixedValue	qmObjectRange-rvrFixedValue	f	9	1	1	f	f	69	\N	\N	t	f	\N	\N	\N	t	f	f
-7	http://www.openlinksw.com/schemas/virtrdf#qmfShortOfLongTmpl	31	\N	17	qmfShortOfLongTmpl	qmfShortOfLongTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-8	http://www.openlinksw.com/schemas/virtrdf#qmfBoolOfShortTmpl	47	\N	17	qmfBoolOfShortTmpl	qmfBoolOfShortTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 9	http://id.eaufrance.fr/ddd/INC/1.0/MnInterlocuteur	150125	\N	71	MnInterlocuteur	MnInterlocuteur	f	0	1	\N	f	f	43	\N	\N	t	f	\N	\N	\N	t	f	f
 10	http://id.eaufrance.fr/ddd/par/3/parChimEstExprimeEn	9274	\N	72	parChimEstExprimeEn	parChimEstExprimeEn	f	9274	-1	-1	f	f	64	\N	\N	t	f	\N	\N	\N	t	f	f
-11	http://www.openlinksw.com/schemas/virtrdf#qmfTypeminTmpl	39	\N	17	qmfTypeminTmpl	qmfTypeminTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 12	http://somewhere/ApplicationSchema#hasPointGeometry	4	\N	77	hasPointGeometry	hasPointGeometry	f	4	1	1	f	f	26	27	\N	t	f	\N	\N	\N	t	f	f
 13	http://www.w3.org/2002/07/owl#priorVersion	1	\N	7	priorVersion	priorVersion	f	1	1	1	f	f	15	\N	\N	t	f	\N	\N	\N	t	f	f
-14	http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalOfShortTmpl	53	\N	17	qmfSqlvalOfShortTmpl	qmfSqlvalOfShortTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-15	http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrRestrictions	219	\N	17	qmfValRange-rvrRestrictions	qmfValRange-rvrRestrictions	f	219	-1	-1	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 16	http://xmlns.com/foaf/0.1/homepage	789	\N	8	homepage	homepage	f	1	1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 17	http://id.eaufrance.fr/ddd/APT/2.1/AppelTaxonParent	67795	\N	81	AppelTaxonParent	AppelTaxonParent	f	67795	1	-1	f	f	17	17	\N	t	f	\N	\N	\N	t	f	f
 18	http://id.eaufrance.fr/ddd/INC/1.0/StruCdAlternInterlocuteur	314317	\N	71	StruCdAlternInterlocuteur	StruCdAlternInterlocuteur	f	314317	1	-1	f	f	72	\N	\N	t	f	\N	\N	\N	t	f	f
 19	http://purl.org/dc/terms/abstract	71570	\N	5	abstract	abstract	f	0	-1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 20	http://id.eaufrance.fr/ddd/par/3/DefValeursPossiblesParametre	146	\N	72	DefValeursPossiblesParametre	DefValeursPossiblesParametre	f	0	1	\N	f	f	3	\N	\N	t	f	\N	\N	\N	t	f	f
 21	http://id.eaufrance.fr/ddd/par/3/ParHydrobioQuant	349	\N	72	ParHydrobioQuant	ParHydrobioQuant	f	349	1	1	f	f	65	66	\N	t	f	\N	\N	\N	t	f	f
-22	http://www.openlinksw.com/schemas/virtrdf#qmfUriIdOffset	39	\N	17	qmfUriIdOffset	qmfUriIdOffset	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 23	http://id.eaufrance.fr/ddd/par/3/ComParametre	1473	\N	72	ComParametre	ComParametre	f	0	1	\N	f	f	18	\N	\N	t	f	\N	\N	\N	t	f	f
 24	http://rdf.insee.fr/def/geo#codeCommune	36681	\N	75	codeCommune	codeCommune	f	0	1	\N	f	f	23	\N	\N	t	f	\N	\N	\N	t	f	f
-25	http://www.openlinksw.com/schemas/virtrdf#qsDefaultMap	2	\N	17	qsDefaultMap	qsDefaultMap	f	2	1	1	f	f	9	69	\N	t	f	\N	\N	\N	t	f	f
-26	http://www.openlinksw.com/schemas/virtrdf#qmvcAlias	39	\N	17	qmvcAlias	qmvcAlias	f	0	1	\N	f	f	36	\N	\N	t	f	\N	\N	\N	t	f	f
 27	http://owl.sandre.eaufrance.fr/par/2.3#StUniteMesure	591	\N	86	StUniteMesure	StUniteMesure	f	0	1	\N	f	f	25	\N	\N	t	f	\N	\N	\N	t	f	f
 28	http://id.eaufrance.fr/ddd/MAT/3.1/DateCreationElement	786	\N	84	DateCreationElement	DateCreationElement	f	0	1	\N	f	f	83	\N	\N	t	f	\N	\N	\N	t	f	f
 29	http://www.w3.org/2000/01/rdf-schema#subPropertyOf	457	\N	2	subPropertyOf	subPropertyOf	f	457	-1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-30	http://www.openlinksw.com/schemas/virtrdf#qmfLongOfShortTmpl	45	\N	17	qmfLongOfShortTmpl	qmfLongOfShortTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 31	http://id.eaufrance.fr/ddd/INC/1.0/WebInterlocuteur	788	\N	71	WebInterlocuteur	WebInterlocuteur	f	0	1	\N	f	f	43	\N	\N	t	f	\N	\N	\N	t	f	f
 32	http://www.w3.org/1999/02/22-rdf-syntax-ns#first	2	\N	1	first	first	f	2	1	1	f	f	\N	40	\N	t	f	\N	\N	\N	t	f	f
 33	http://www.openlinksw.com/schemas/VAD#versionNumber	2	\N	90	versionNumber	versionNumber	f	0	1	\N	f	f	74	\N	\N	t	f	\N	\N	\N	t	f	f
 34	http://purl.org/dc/terms/format	27252	\N	5	format	format	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-35	http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvOfShortTmpl	37	\N	17	qmfSparqlEbvOfShortTmpl	qmfSparqlEbvOfShortTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 36	http://www.openlinksw.com/virtdav#dynRdfExtractor	2	\N	91	dynRdfExtractor	dynRdfExtractor	f	0	1	\N	f	f	74	\N	\N	t	f	\N	\N	\N	t	f	f
 37	http://id.eaufrance.fr/ddd/par/3/DateCreationParametre	5858	\N	72	DateCreationParametre	DateCreationParametre	f	0	1	\N	f	f	18	\N	\N	t	f	\N	\N	\N	t	f	f
 38	http://purl.org/dc/terms/extent	3411	\N	5	extent	extent	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 39	http://owl.sandre.eaufrance.fr/par/2.3#DateMajUniteMesure	591	\N	86	DateMajUniteMesure	DateMajUniteMesure	f	0	-1	\N	f	f	25	\N	\N	t	f	\N	\N	\N	t	f	f
 40	http://owl.sandre.eaufrance.fr/odp/1.1#DateMiseServiceOuvrageDepollution	20271	\N	76	DateMiseServiceOuvrageDepollution	DateMiseServiceOuvrageDepollution	f	0	1	\N	f	f	24	\N	\N	t	f	\N	\N	\N	t	f	f
-41	http://www.openlinksw.com/schemas/virtrdf#qmfBoolTmpl	42	\N	17	qmfBoolTmpl	qmfBoolTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 124	http://purl.org/dc/terms/audience	623	\N	5	audience	audience	f	0	-1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-42	http://www.openlinksw.com/schemas/virtrdf#qmfShortOfUriTmpl	31	\N	17	qmfShortOfUriTmpl	qmfShortOfUriTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 43	http://purl.org/dc/elements/1.1/title	74476	\N	6	title	title	f	0	1	\N	f	f	16	\N	\N	t	f	\N	\N	\N	t	f	f
 44	http://www.w3.org/2001/vcard-rdf/3.0#EMAIL	2	\N	79	EMAIL	EMAIL	f	2	1	1	f	f	\N	88	\N	t	f	\N	\N	\N	t	f	f
 45	http://purl.org/goodrelations/v1#amountOfThisGood	3	\N	36	amountOfThisGood	amountOfThisGood	f	0	1	\N	f	f	49	\N	\N	t	f	\N	\N	\N	t	f	f
-46	http://www.openlinksw.com/schemas/virtrdf#qmfUriOfShortTmpl	45	\N	17	qmfUriOfShortTmpl	qmfUriOfShortTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 47	http://id.eaufrance.fr/ddd/COM/4/LbCommune	66	\N	80	LbCommune	LbCommune	f	0	1	\N	f	f	31	\N	\N	t	f	\N	\N	\N	t	f	f
-48	http://www.openlinksw.com/schemas/virtrdf#inheritFrom	113	\N	17	inheritFrom	inheritFrom	f	113	1	-1	f	f	8	8	\N	t	f	\N	\N	\N	t	f	f
 49	http://www.w3.org/ns/rdfa#term	26	\N	92	term	term	f	0	1	\N	f	f	38	\N	\N	t	f	\N	\N	\N	t	f	f
-50	http://www.openlinksw.com/schemas/virtrdf#qmfShortTmpl	31	\N	17	qmfShortTmpl	qmfShortTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 51	http://id.eaufrance.fr/ddd/INC/1.0/LieuDitAdresse	7130	\N	71	LieuDitAdresse	LieuDitAdresse	f	0	1	\N	f	f	45	\N	\N	t	f	\N	\N	\N	t	f	f
-52	http://www.openlinksw.com/schemas/virtrdf#qmPredicateMap	2	\N	17	qmPredicateMap	qmPredicateMap	f	2	1	1	f	f	69	70	\N	t	f	\N	\N	\N	t	f	f
 53	http://id.eaufrance.fr/ddd/par/3/parMicrobioEstExprimeEn	1176	\N	72	parMicrobioEstExprimeEn	parMicrobioEstExprimeEn	f	1176	-1	-1	f	f	67	\N	\N	t	f	\N	\N	\N	t	f	f
 54	http://www.w3.org/2000/01/rdf-schema#isDescribedUsing	2	\N	2	isDescribedUsing	isDescribedUsing	f	2	1	1	f	f	38	\N	\N	t	f	\N	\N	\N	t	f	f
 55	http://id.eaufrance.fr/ddd/MAT/3.1/LbElement	16078	\N	84	LbElement	LbElement	f	0	1	\N	f	f	83	\N	\N	t	f	\N	\N	\N	t	f	f
-56	http://www.openlinksw.com/schemas/virtrdf#loadAs	7	\N	17	loadAs	loadAs	f	7	1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 57	http://purl.org/goodrelations/v1#includesObject	3	\N	36	includesObject	includesObject	f	3	1	1	f	f	77	49	\N	t	f	\N	\N	\N	t	f	f
-58	http://www.openlinksw.com/schemas/virtrdf#qmvftTableName	3	\N	17	qmvftTableName	qmvftTableName	f	0	1	\N	f	f	37	\N	\N	t	f	\N	\N	\N	t	f	f
-59	http://www.openlinksw.com/schemas/virtrdf#qmvcColumnName	39	\N	17	qmvcColumnName	qmvcColumnName	f	0	1	\N	f	f	36	\N	\N	t	f	\N	\N	\N	t	f	f
-60	http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfLongTmpl	2	\N	17	qmfExistingShortOfLongTmpl	qmfExistingShortOfLongTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-61	http://www.openlinksw.com/schemas/virtrdf#qmvFText	3	\N	17	qmvFText	qmvFText	f	3	1	1	f	f	70	37	\N	t	f	\N	\N	\N	t	f	f
 62	http://www.openlinksw.com/schemas/VAD#versionBuild	2	\N	90	versionBuild	versionBuild	f	0	1	\N	f	f	74	\N	\N	t	f	\N	\N	\N	t	f	f
-63	http://www.openlinksw.com/schemas/virtrdf#qmPredicateRange-rvrFixedValue	36	\N	17	qmPredicateRange-rvrFixedValue	qmPredicateRange-rvrFixedValue	f	36	1	-1	f	f	69	\N	\N	t	f	\N	\N	\N	t	f	f
 64	http://id.eaufrance.fr/ddd/APT/2.1/NiveauTaxonomique	67831	\N	81	NiveauTaxonomique	NiveauTaxonomique	f	67831	1	-1	f	f	17	\N	\N	t	f	\N	\N	\N	t	f	f
 65	http://owl.sandre.eaufrance.fr/mat/2#APourEmetteur	12	\N	87	APourEmetteur	APourEmetteur	f	12	1	1	f	f	56	\N	\N	t	f	\N	\N	\N	t	f	f
-66	http://www.openlinksw.com/schemas/virtrdf#qmfSparqlEbvTmpl	29	\N	17	qmfSparqlEbvTmpl	qmfSparqlEbvTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 67	http://id.eaufrance.fr/ddd/INC/1.0/NomEtab	157053	\N	71	NomEtab	NomEtab	f	0	1	\N	f	f	61	\N	\N	t	f	\N	\N	\N	t	f	f
 68	http://owl.sandre.eaufrance.fr/par/2.3#RefUniteMesure	591	\N	86	RefUniteMesure	RefUniteMesure	f	0	1	\N	f	f	25	\N	\N	t	f	\N	\N	\N	t	f	f
 69	http://purl.org/goodrelations/v1#acceptedPaymentMethods	18	\N	36	acceptedPaymentMethods	acceptedPaymentMethods	f	18	-1	-1	f	f	77	\N	\N	t	f	\N	\N	\N	t	f	f
-70	http://www.openlinksw.com/schemas/virtrdf#qmSubjectMap	38	\N	17	qmSubjectMap	qmSubjectMap	f	38	1	-1	f	f	69	70	\N	t	f	\N	\N	\N	t	f	f
-71	http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrSprintffs	10	\N	17	qmfValRange-rvrSprintffs	qmfValRange-rvrSprintffs	f	10	1	1	f	f	8	71	\N	t	f	\N	\N	\N	t	f	f
 72	http://id.eaufrance.fr/ddd/par/3/BorneBasseParPhyQuant	5	\N	72	BorneBasseParPhyQuant	BorneBasseParPhyQuant	f	0	1	\N	f	f	33	\N	\N	t	f	\N	\N	\N	t	f	f
 73	http://id.eaufrance.fr/ddd/par/3/parSyntAPourResultat	1217	\N	72	parSyntAPourResultat	parSyntAPourResultat	f	1217	-1	1	f	f	34	3	\N	t	f	\N	\N	\N	t	f	f
 74	http://id.eaufrance.fr/ddd/par/3/CdCASSubstanceChimique	3268	\N	72	CdCASSubstanceChimique	CdCASSubstanceChimique	f	0	1	\N	f	f	64	\N	\N	t	f	\N	\N	\N	t	f	f
@@ -3539,37 +3135,29 @@ COPY http_id_eaufrance_fr_sparql.properties (id, iri, cnt, data, ns_id, display_
 77	http://id.eaufrance.fr/ddd/INC/1.0/StInterlocuteur	159899	\N	71	StInterlocuteur	StInterlocuteur	f	159899	1	-1	f	f	43	\N	\N	t	f	\N	\N	\N	t	f	f
 78	http://id.eaufrance.fr/ddd/par/3/ParametreSynthese	422	\N	72	ParametreSynthese	ParametreSynthese	f	422	1	1	f	f	6	6	\N	t	f	\N	\N	\N	t	f	f
 79	http://id.eaufrance.fr/ddd/APT/2.1/CodeAlternatifAp	122960	\N	81	CodeAlternatifAp	CodeAlternatifAp	f	122960	-1	1	f	f	17	73	\N	t	f	\N	\N	\N	t	f	f
-80	http://www.openlinksw.com/schemas/virtrdf#qmf01uriOfShortTmpl	2	\N	17	qmf01uriOfShortTmpl	qmf01uriOfShortTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 81	http://purl.org/goodrelations/v1#hasBusinessFunction	6	\N	36	hasBusinessFunction	hasBusinessFunction	f	6	-1	-1	f	f	77	\N	\N	t	f	\N	\N	\N	t	f	f
 82	http://www.openlinksw.com/schemas/VAD#packageName	2	\N	90	packageName	packageName	f	0	1	\N	f	f	74	\N	\N	t	f	\N	\N	\N	t	f	f
 83	http://id.eaufrance.fr/ddd/APT/2.1/AuteurAppelTaxon	64980	\N	81	AuteurAppelTaxon	AuteurAppelTaxon	f	0	1	\N	f	f	17	\N	\N	t	f	\N	\N	\N	t	f	f
-84	http://www.openlinksw.com/schemas/virtrdf#qmfDatatypeOfShortTmpl	31	\N	17	qmfDatatypeOfShortTmpl	qmfDatatypeOfShortTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 85	http://id.eaufrance.fr/ddd/INC/1.0/NumLbVoieAdresse	140452	\N	71	NumLbVoieAdresse	NumLbVoieAdresse	f	0	1	\N	f	f	45	\N	\N	t	f	\N	\N	\N	t	f	f
 86	http://id.eaufrance.fr/ddd/INC/1.0/CodeNAF	137517	\N	71	CodeNAF	CodeNAF	f	0	1	\N	f	f	1	\N	\N	t	f	\N	\N	\N	t	f	f
 87	http://owl.sandre.eaufrance.fr/pmo/1.2#QualRsAnalyse	147429	\N	85	QualRsAnalyse	QualRsAnalyse	f	0	1	\N	f	f	84	\N	\N	t	f	\N	\N	\N	t	f	f
 88	http://id.eaufrance.fr/ddd/INC/1.0/EtatInterlocuteur	159899	\N	71	EtatInterlocuteur	EtatInterlocuteur	f	159899	1	-1	f	f	43	\N	\N	t	f	\N	\N	\N	t	f	f
-89	http://www.openlinksw.com/schemas/virtrdf#qmvGeo	2	\N	17	qmvGeo	qmvGeo	f	2	1	1	f	f	70	37	\N	t	f	\N	\N	\N	t	f	f
 90	http://owl.sandre.eaufrance.fr/odp/1.1#APourPointMesure	786	\N	76	APourPointMesure	APourPointMesure	f	786	-1	1	f	f	\N	53	\N	t	f	\N	\N	\N	t	f	f
-91	http://www.openlinksw.com/schemas/virtrdf#qmAliasesKeyrefdByQuad	37	\N	17	qmAliasesKeyrefdByQuad	qmAliasesKeyrefdByQuad	f	37	1	1	f	f	69	71	\N	t	f	\N	\N	\N	t	f	f
 92	https://sireneld.io/vocab/sirene#siret	157053	\N	93	siret	siret	f	0	1	\N	f	f	61	\N	\N	t	f	\N	\N	\N	t	f	f
 93	http://purl.org/dc/terms/contributor	86779	\N	5	contributor	contributor	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 94	http://id.eaufrance.fr/ddd/par/3/BorneBasseParHydQuant	6	\N	72	BorneBasseParHydQuant	BorneBasseParHydQuant	f	0	1	\N	f	f	66	\N	\N	t	f	\N	\N	\N	t	f	f
 95	http://owl.sandre.eaufrance.fr/pmo/1.2#DateAnalyse	147429	\N	85	DateAnalyse	DateAnalyse	f	0	1	\N	f	f	84	\N	\N	t	f	\N	\N	\N	t	f	f
 96	http://id.eaufrance.fr/ddd/INC/1.0/DateFinActEtab	37208	\N	71	DateFinActEtab	DateFinActEtab	f	0	1	\N	f	f	61	\N	\N	t	f	\N	\N	\N	t	f	f
 97	http://id.eaufrance.fr/ddd/par/3/DsCalculParSynthese	422	\N	72	DsCalculParSynthese	DsCalculParSynthese	f	0	1	\N	f	f	6	\N	\N	t	f	\N	\N	\N	t	f	f
-98	http://www.openlinksw.com/schemas/virtrdf#qmMatchingFlags	4	\N	17	qmMatchingFlags	qmMatchingFlags	f	4	-1	-1	f	f	69	\N	\N	t	f	\N	\N	\N	t	f	f
 99	http://purl.org/goodrelations/v1#hasUnitOfMeasurement	3	\N	36	hasUnitOfMeasurement	hasUnitOfMeasurement	f	0	1	\N	f	f	49	\N	\N	t	f	\N	\N	\N	t	f	f
 100	http://purl.org/dc/terms/isPartOf	772032	\N	5	isPartOf	isPartOf	f	772032	1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 101	http://www.w3.org/1999/02/22-rdf-syntax-ns#rest	2	\N	1	rest	rest	f	2	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 102	http://www.w3.org/2004/02/skos/core#definition	14472	\N	4	definition	definition	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 103	http://owl.sandre.eaufrance.fr/pmo/1.2#LocGlobalePointMesure	786	\N	85	LocGlobalePointMesure	LocGlobalePointMesure	f	0	1	\N	f	f	53	\N	\N	t	f	\N	\N	\N	t	f	f
-104	http://www.openlinksw.com/schemas/virtrdf#qmfDatatypeTmpl	2	\N	17	qmfDatatypeTmpl	qmfDatatypeTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-105	http://www.openlinksw.com/schemas/virtrdf#qmfWrapDistinct	2	\N	17	qmfWrapDistinct	qmfWrapDistinct	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 106	http://www.w3.org/1999/xhtml/vocab#stylesheet	1	\N	70	stylesheet	stylesheet	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 107	http://id.eaufrance.fr/ddd/par/3/ParametreMicrobiologique	359	\N	72	ParametreMicrobiologique	ParametreMicrobiologique	f	359	1	1	f	f	67	67	\N	t	f	\N	\N	\N	t	f	f
 108	http://www.w3.org/2000/01/rdf-schema#isDefinedBy	10	\N	2	isDefinedBy	isDefinedBy	f	10	-1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 109	http://id.eaufrance.fr/ddd/par/3/NomIUPACSubstanceChimique	1867	\N	72	NomIUPACSubstanceChimique	NomIUPACSubstanceChimique	f	0	1	\N	f	f	64	\N	\N	t	f	\N	\N	\N	t	f	f
-110	http://www.openlinksw.com/schemas/virtrdf#qmfStrsqlvalOfShortTmpl	53	\N	17	qmfStrsqlvalOfShortTmpl	qmfStrsqlvalOfShortTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 111	http://id.eaufrance.fr/ddd/par/3/StValeursPossiblesParametre	12634	\N	72	StValeursPossiblesParametre	StValeursPossiblesParametre	f	12634	1	-1	f	f	3	\N	\N	t	f	\N	\N	\N	t	f	f
 112	http://id.eaufrance.fr/ddd/INC/1.0/OrCdAlternInterlocuteur	314317	\N	71	OrCdAlternInterlocuteur	OrCdAlternInterlocuteur	f	0	1	\N	f	f	72	\N	\N	t	f	\N	\N	\N	t	f	f
 113	http://owl.sandre.eaufrance.fr/par/2.3#CdUniteReference	591	\N	86	CdUniteReference	CdUniteReference	f	0	1	\N	f	f	25	\N	\N	t	f	\N	\N	\N	t	f	f
@@ -3587,17 +3175,12 @@ COPY http_id_eaufrance_fr_sparql.properties (id, iri, cnt, data, ns_id, display_
 126	http://purl.org/goodrelations/v1#eligibleRegions	738	\N	36	eligibleRegions	eligibleRegions	f	0	-1	\N	f	f	77	\N	\N	t	f	\N	\N	\N	t	f	f
 127	http://purl.org/goodrelations/v1#availableAtOrFrom	3	\N	36	availableAtOrFrom	availableAtOrFrom	f	3	1	-1	f	f	77	47	\N	t	f	\N	\N	\N	t	f	f
 128	http://www.openlinksw.com/schemas/VAD#packageTitle	2	\N	90	packageTitle	packageTitle	f	0	1	\N	f	f	74	\N	\N	t	f	\N	\N	\N	t	f	f
-129	http://www.openlinksw.com/schemas/virtrdf#dialect	4	\N	17	dialect	dialect	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 130	http://id.eaufrance.fr/ddd/par/3/BorneHauteParHydQuant	6	\N	72	BorneHauteParHydQuant	BorneHauteParHydQuant	f	0	1	\N	f	f	66	\N	\N	t	f	\N	\N	\N	t	f	f
-131	http://www.openlinksw.com/schemas/virtrdf#qmvTableName	31	\N	17	qmvTableName	qmvTableName	f	0	1	\N	f	f	70	\N	\N	t	f	\N	\N	\N	t	f	f
-132	http://www.openlinksw.com/schemas/virtrdf#qmfIsrefOfShortTmpl	31	\N	17	qmfIsrefOfShortTmpl	qmfIsrefOfShortTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 133	http://id.eaufrance.fr/ddd/par/3/aCommeTraduction	1211	\N	72	aCommeTraduction	aCommeTraduction	f	1211	1	1	f	f	18	32	\N	t	f	\N	\N	\N	t	f	f
 134	http://id.eaufrance.fr/ddd/INC/1.0/Naf	137517	\N	71	Naf	Naf	f	137517	1	1	f	f	61	1	\N	t	f	\N	\N	\N	t	f	f
 135	http://owl.sandre.eaufrance.fr/pmo/1.2#APourAnalyse	147429	\N	85	APourAnalyse	APourAnalyse	f	147429	-1	1	f	f	54	84	\N	t	f	\N	\N	\N	t	f	f
 136	http://xmlns.com/foaf/0.1/logo	1	\N	8	logo	logo	f	1	1	1	f	f	76	\N	\N	t	f	\N	\N	\N	t	f	f
-137	http://www.openlinksw.com/schemas/virtrdf#qmfName	144	\N	17	qmfName	qmfName	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 138	http://id.eaufrance.fr/ddd/par/3/ParSyntheseQuant	148	\N	72	ParSyntheseQuant	ParSyntheseQuant	f	0	1	\N	f	f	6	\N	\N	t	f	\N	\N	\N	t	f	f
-139	http://www.openlinksw.com/schemas/virtrdf#qmfSubFormatForRefs	2	\N	17	qmfSubFormatForRefs	qmfSubFormatForRefs	f	2	1	1	f	f	8	8	\N	t	f	\N	\N	\N	t	f	f
 140	http://id.eaufrance.fr/ddd/INC/1.0/AdresseInterlocuteur	158777	\N	71	AdresseInterlocuteur	AdresseInterlocuteur	f	158777	1	1	f	f	43	45	\N	t	f	\N	\N	\N	t	f	f
 141	http://www.w3.org/ns/sparql-service-description#supportedLanguage	5	\N	27	supportedLanguage	supportedLanguage	f	5	1	1	f	f	39	\N	\N	t	f	\N	\N	\N	t	f	f
 142	http://purl.org/goodrelations/v1#includes	2	\N	36	includes	includes	f	2	-1	1	f	f	77	\N	\N	t	f	\N	\N	\N	t	f	f
@@ -3605,52 +3188,36 @@ COPY http_id_eaufrance_fr_sparql.properties (id, iri, cnt, data, ns_id, display_
 144	http://id.eaufrance.fr/ddd/MAT/3.1/MnElement	14693	\N	84	MnElement	MnElement	f	0	1	\N	f	f	83	\N	\N	t	f	\N	\N	\N	t	f	f
 145	http://purl.org/dc/terms/issued	40509	\N	5	issued	issued	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 146	http://id.eaufrance.fr/ddd/par/3/CdValeursPossiblesParametre	12634	\N	72	CdValeursPossiblesParametre	CdValeursPossiblesParametre	f	0	1	\N	f	f	3	\N	\N	t	f	\N	\N	\N	t	f	f
-147	http://www.openlinksw.com/schemas/virtrdf#qmfIsBijection	61	\N	17	qmfIsBijection	qmfIsBijection	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-148	http://www.openlinksw.com/schemas/virtrdf#qsMatchingFlags	2	\N	17	qsMatchingFlags	qsMatchingFlags	f	2	1	-1	f	f	9	\N	\N	t	f	\N	\N	\N	t	f	f
 149	http://owl.sandre.eaufrance.fr/pmo/1.2#StatutRsAnalyse	147429	\N	85	StatutRsAnalyse	StatutRsAnalyse	f	0	1	\N	f	f	84	\N	\N	t	f	\N	\N	\N	t	f	f
 150	http://id.eaufrance.fr/ddd/par/3/parPhysiqueAPourResultat	1036	\N	72	parPhysiqueAPourResultat	parPhysiqueAPourResultat	f	1036	-1	1	f	f	4	3	\N	t	f	\N	\N	\N	t	f	f
 151	http://owl.sandre.eaufrance.fr/pmo/1.2#APourSupport	104095	\N	85	APourSupport	APourSupport	f	104095	1	-1	f	f	54	\N	\N	t	f	\N	\N	\N	t	f	f
 152	http://www.w3.org/2004/02/skos/core#inScheme	234375	\N	4	inScheme	inScheme	f	165757	1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-153	http://www.openlinksw.com/schemas/virtrdf#qmfSuperFormats	112	\N	17	qmfSuperFormats	qmfSuperFormats	f	112	1	1	f	f	8	35	\N	t	f	\N	\N	\N	t	f	f
 154	http://owl.sandre.eaufrance.fr/mat/2#APourDestinataire	8	\N	87	APourDestinataire	APourDestinataire	f	8	1	1	f	f	56	\N	\N	t	f	\N	\N	\N	t	f	f
 155	http://id.eaufrance.fr/ddd/par/3/Contributor	5858	\N	72	Contributor	Contributor	f	5858	1	-1	f	f	18	\N	\N	t	f	\N	\N	\N	t	f	f
 156	http://id.eaufrance.fr/ddd/MAT/3.1/StElement	16079	\N	84	StElement	StElement	f	16078	1	-1	f	f	83	\N	\N	t	f	\N	\N	\N	t	f	f
 157	http://id.eaufrance.fr/ddd/par/3/LbCourtParametre	5858	\N	72	LbCourtParametre	LbCourtParametre	f	0	1	\N	f	f	18	\N	\N	t	f	\N	\N	\N	t	f	f
 158	http://purl.org/dc/terms/subject	554659	\N	5	subject	subject	f	0	-1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-159	http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrSprintffCount	10	\N	17	qmfValRange-rvrSprintffCount	qmfValRange-rvrSprintffCount	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 160	http://purl.org/dc/elements/1.1/publisher	234375	\N	6	publisher	publisher	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 161	http://www.w3.org/2000/01/rdf-schema#range	167	\N	2	range	range	f	167	1	-1	f	f	38	\N	\N	t	f	\N	\N	\N	t	f	f
 162	http://id.eaufrance.fr/ddd/APT/2.1/ThemeTaxon	67831	\N	81	ThemeTaxon	ThemeTaxon	f	67831	1	-1	f	f	17	\N	\N	t	f	\N	\N	\N	t	f	f
 163	http://id.eaufrance.fr/ddd/par/3/parMicrobioAPourResultat	211	\N	72	parMicrobioAPourResultat	parMicrobioAPourResultat	f	211	-1	1	f	f	67	3	\N	t	f	\N	\N	\N	t	f	f
-164	http://www.openlinksw.com/schemas/virtrdf#qmvaTableName	29	\N	17	qmvaTableName	qmvaTableName	f	0	1	\N	f	f	12	\N	\N	t	f	\N	\N	\N	t	f	f
 165	http://id.eaufrance.fr/ddd/par/3/ParPhysiqueQual	142	\N	72	ParPhysiqueQual	ParPhysiqueQual	f	142	1	1	f	f	2	4	\N	t	f	\N	\N	\N	t	f	f
 166	http://www.w3.org/2001/vcard-rdf/3.0#Pcode	2	\N	79	Pcode	Pcode	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 167	http://purl.org/dc/elements/1.1/format	3871	\N	6	format	format	f	0	-1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 168	http://purl.org/dc/terms/publisher	114286	\N	5	publisher	publisher	f	0	-1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 169	http://id.eaufrance.fr/ddd/INC/1.0/Service	936	\N	71	Service	Service	f	936	1	1	f	f	75	62	\N	t	f	\N	\N	\N	t	f	f
 170	http://id.eaufrance.fr/ddd/MAT/3.1/LbNomenclature	787	\N	84	LbNomenclature	LbNomenclature	f	0	1	\N	f	f	51	\N	\N	t	f	\N	\N	\N	t	f	f
-171	http://www.openlinksw.com/schemas/virtrdf#qmObjectMap	29	\N	17	qmObjectMap	qmObjectMap	f	29	1	-1	f	f	69	70	\N	t	f	\N	\N	\N	t	f	f
 172	http://www.w3.org/2000/01/rdf-schema#member	35	\N	2	member	member	f	35	1	-1	f	f	\N	85	\N	t	f	\N	\N	\N	t	f	f
 173	http://id.eaufrance.fr/ddd/MAT/3.1/DateCreationNomenclature	787	\N	84	DateCreationNomenclature	DateCreationNomenclature	f	0	1	\N	f	f	51	\N	\N	t	f	\N	\N	\N	t	f	f
 174	http://id.eaufrance.fr/ddd/APT/2.1/OrgCdAlternatif	122960	\N	81	OrgCdAlternatif	OrgCdAlternatif	f	122960	1	-1	f	f	73	\N	\N	t	f	\N	\N	\N	t	f	f
-176	http://www.openlinksw.com/schemas/virtrdf#qmf01blankOfShortTmpl	2	\N	17	qmf01blankOfShortTmpl	qmf01blankOfShortTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 177	http://www.w3.org/2002/07/owl#imports	2	\N	7	imports	imports	f	2	1	1	f	f	15	\N	\N	t	f	\N	\N	\N	t	f	f
 178	http://www.w3.org/2001/vcard-rdf/3.0#City	2	\N	79	City	City	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 179	http://owl.sandre.eaufrance.fr/scl/1.1#CdSystemeCollecte	19706	\N	88	CdSystemeCollecte	CdSystemeCollecte	f	0	1	\N	f	f	57	\N	\N	t	f	\N	\N	\N	t	f	f
-180	http://www.openlinksw.com/schemas/virtrdf#catName	1	\N	17	catName	catName	f	0	1	\N	f	f	15	\N	\N	t	f	\N	\N	\N	t	f	f
 181	http://id.eaufrance.fr/ddd/APT/2.1/StAppelTaxon	67831	\N	81	StAppelTaxon	StAppelTaxon	f	67831	1	-1	f	f	17	\N	\N	t	f	\N	\N	\N	t	f	f
-182	http://www.openlinksw.com/schemas/virtrdf#qmGraphMap	2	\N	17	qmGraphMap	qmGraphMap	f	2	1	1	f	f	69	70	\N	t	f	\N	\N	\N	t	f	f
 183	http://www.openlinksw.com/schemas/VAD#releaseDate	2	\N	90	releaseDate	releaseDate	f	0	1	\N	f	f	74	\N	\N	t	f	\N	\N	\N	t	f	f
-184	http://www.openlinksw.com/schemas/virtrdf#qmvFormat	31	\N	17	qmvFormat	qmvFormat	f	31	1	-1	f	f	70	8	\N	t	f	\N	\N	\N	t	f	f
 185	http://purl.org/dc/elements/1.1/identifier	234375	\N	6	identifier	identifier	f	165757	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-186	http://www.openlinksw.com/schemas/virtrdf#qmfCmpFuncName	39	\N	17	qmfCmpFuncName	qmfCmpFuncName	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 187	http://purl.org/goodrelations/v1#legalName	1	\N	36	legalName	legalName	f	0	1	\N	f	f	76	\N	\N	t	f	\N	\N	\N	t	f	f
 188	http://id.eaufrance.fr/ddd/INC/1.0/LgAcheAdresse	158563	\N	71	LgAcheAdresse	LgAcheAdresse	f	0	1	\N	f	f	45	\N	\N	t	f	\N	\N	\N	t	f	f
-189	http://www.openlinksw.com/schemas/virtrdf#qmfLanguageTmpl	4	\N	17	qmfLanguageTmpl	qmfLanguageTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-190	http://www.openlinksw.com/schemas/virtrdf#noInherit	84	\N	17	noInherit	noInherit	f	84	-1	-1	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-191	http://www.openlinksw.com/schemas/virtrdf#qmConds	8	\N	17	qmConds	qmConds	f	8	1	1	f	f	69	71	\N	t	f	\N	\N	\N	t	f	f
-192	http://www.openlinksw.com/schemas/virtrdf#qmfDerefFlags	14	\N	17	qmfDerefFlags	qmfDerefFlags	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-193	http://www.openlinksw.com/schemas/virtrdf#qmvIriClass	12	\N	17	qmvIriClass	qmvIriClass	f	12	1	-1	f	f	70	8	\N	t	f	\N	\N	\N	t	f	f
 194	http://id.eaufrance.fr/ddd/par/3/StParametre	5858	\N	72	StParametre	StParametre	f	5858	1	-1	f	f	18	\N	\N	t	f	\N	\N	\N	t	f	f
 195	http://owl.sandre.eaufrance.fr/par/2.3#SymUniteMesure	591	\N	86	SymUniteMesure	SymUniteMesure	f	0	1	\N	f	f	25	\N	\N	t	f	\N	\N	\N	t	f	f
 196	http://owl.sandre.eaufrance.fr/mat/2#APourOuvrageDepollution	148	\N	87	APourOuvrageDepollution	APourOuvrageDepollution	f	148	-1	1	f	f	56	24	\N	t	f	\N	\N	\N	t	f	f
@@ -3659,16 +3226,13 @@ COPY http_id_eaufrance_fr_sparql.properties (id, iri, cnt, data, ns_id, display_
 199	http://owl.sandre.eaufrance.fr/odp/1.1#APourCommune	40111	\N	76	APourCommune	APourCommune	f	40111	-1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 200	http://www.w3.org/ns/sparql-service-description#endpoint	5	\N	27	endpoint	endpoint	f	5	1	1	f	f	39	39	\N	t	f	\N	\N	\N	t	f	f
 201	http://purl.org/dc/elements/1.1/language	234375	\N	6	language	language	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-202	http://www.openlinksw.com/schemas/virtrdf#qmvftColumnName	5	\N	17	qmvftColumnName	qmvftColumnName	f	0	1	\N	f	f	37	\N	\N	t	f	\N	\N	\N	t	f	f
 203	http://owl.sandre.eaufrance.fr/par/2.3#DateCreUniteMesure	591	\N	86	DateCreUniteMesure	DateCreUniteMesure	f	0	-1	\N	f	f	25	\N	\N	t	f	\N	\N	\N	t	f	f
 204	http://id.eaufrance.fr/ddd/INC/1.0/DateCreEtab	151407	\N	71	DateCreEtab	DateCreEtab	f	0	1	\N	f	f	61	\N	\N	t	f	\N	\N	\N	t	f	f
 205	http://id.eaufrance.fr/ddd/par/3/NatParametre	5858	\N	72	NatParametre	NatParametre	f	5858	1	-1	f	f	18	\N	\N	t	f	\N	\N	\N	t	f	f
-206	http://www.openlinksw.com/schemas/virtrdf#qmTableName	30	\N	17	qmTableName	qmTableName	f	0	1	\N	f	f	69	\N	\N	t	f	\N	\N	\N	t	f	f
 207	http://purl.org/goodrelations/v1#eligibleCustomerTypes	9	\N	36	eligibleCustomerTypes	eligibleCustomerTypes	f	9	-1	-1	f	f	77	\N	\N	t	f	\N	\N	\N	t	f	f
 208	http://owl.sandre.eaufrance.fr/odp/1.1#NomOuvrageDepollution	20271	\N	76	NomOuvrageDepollution	NomOuvrageDepollution	f	0	1	\N	f	f	24	\N	\N	t	f	\N	\N	\N	t	f	f
 209	http://id.eaufrance.fr/ddd/APT/2.1/NomCommunAppelTaxon	22396	\N	81	NomCommunAppelTaxon	NomCommunAppelTaxon	f	0	-1	\N	f	f	17	\N	\N	t	f	\N	\N	\N	t	f	f
 175	http://www.w3.org/1999/02/22-rdf-syntax-ns#type	1965257	\N	1	type	type	f	1965257	-1	-1	f	f	\N	\N	\N	t	t	t	\N	t	t	f	f
-210	http://www.openlinksw.com/schemas/virtrdf#qmObjectRange-rvrRestrictions	36	\N	17	qmObjectRange-rvrRestrictions	qmObjectRange-rvrRestrictions	f	36	-1	-1	f	f	69	\N	\N	t	f	\N	\N	\N	t	f	f
 211	http://www.w3.org/2002/07/owl#equivalentClass	63	\N	7	equivalentClass	equivalentClass	f	63	-1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 212	http://id.eaufrance.fr/ddd/COM/4/CdCommune	66	\N	80	CdCommune	CdCommune	f	0	1	\N	f	f	31	\N	\N	t	f	\N	\N	\N	t	f	f
 213	http://purl.org/dc/elements/1.1/date	228517	\N	6	date	date	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
@@ -3681,7 +3245,6 @@ COPY http_id_eaufrance_fr_sparql.properties (id, iri, cnt, data, ns_id, display_
 220	http://id.eaufrance.fr/ddd/APT/2.1/CdAlternatif	123205	\N	81	CdAlternatif	CdAlternatif	f	0	-1	\N	f	f	73	\N	\N	t	f	\N	\N	\N	t	f	f
 221	http://owl.sandre.eaufrance.fr/pmo/1.2#InSituAnalyse	147429	\N	85	InSituAnalyse	InSituAnalyse	f	0	1	\N	f	f	84	\N	\N	t	f	\N	\N	\N	t	f	f
 222	http://purl.org/goodrelations/v1#validThrough	3	\N	36	validThrough	validThrough	f	0	-1	\N	f	f	77	\N	\N	t	f	\N	\N	\N	t	f	f
-223	http://www.openlinksw.com/schemas/virtrdf#qmvColumnsFormKey	31	\N	17	qmvColumnsFormKey	qmvColumnsFormKey	f	0	1	\N	f	f	70	\N	\N	t	f	\N	\N	\N	t	f	f
 224	http://purl.org/dc/terms/creator	257738	\N	5	creator	creator	f	0	-1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 225	http://purl.org/dc/terms/type	90187	\N	5	type	type	f	0	-1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 226	http://id.eaufrance.fr/ddd/APT/2.1/RedacteurFicheAppelTaxon	67831	\N	81	RedacteurFicheAppelTaxon	RedacteurFicheAppelTaxon	f	0	1	\N	f	f	17	\N	\N	t	f	\N	\N	\N	t	f	f
@@ -3695,14 +3258,10 @@ COPY http_id_eaufrance_fr_sparql.properties (id, iri, cnt, data, ns_id, display_
 234	http://id.eaufrance.fr/ddd/INC/1.0/NomStructure	1910	\N	71	NomStructure	NomStructure	f	0	1	\N	f	f	63	\N	\N	t	f	\N	\N	\N	t	f	f
 235	http://www.w3.org/2002/07/owl#sameAs	228358	\N	7	sameAs	sameAs	f	228358	-1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 236	http://owl.sandre.eaufrance.fr/mat/2#APourScenario	12	\N	87	APourScenario	APourScenario	f	12	1	-1	f	f	56	\N	\N	t	f	\N	\N	\N	t	f	f
-237	http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfUriTmpl	2	\N	17	qmfExistingShortOfUriTmpl	qmfExistingShortOfUriTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-238	http://www.openlinksw.com/schemas/virtrdf#qmvConds	14	\N	17	qmvConds	qmvConds	f	14	1	1	f	f	70	71	\N	t	f	\N	\N	\N	t	f	f
-239	http://www.openlinksw.com/schemas/virtrdf#qmvftConds	2	\N	17	qmvftConds	qmvftConds	f	2	1	1	f	f	37	71	\N	t	f	\N	\N	\N	t	f	f
 240	http://purl.org/dc/terms/language	84386	\N	5	language	language	f	0	-1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 241	http://purl.org/goodrelations/v1#offers	3	\N	36	offers	offers	f	3	-1	1	f	f	76	77	\N	t	f	\N	\N	\N	t	f	f
 242	http://id.eaufrance.fr/ddd/APT/2.1/CdAppelTaxon	67831	\N	81	CdAppelTaxon	CdAppelTaxon	f	0	1	\N	f	f	17	\N	\N	t	f	\N	\N	\N	t	f	f
 243	http://id.eaufrance.fr/ddd/MAT/3.1/StNomenclature	787	\N	84	StNomenclature	StNomenclature	f	787	1	-1	f	f	51	83	\N	t	f	\N	\N	\N	t	f	f
-244	http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrLanguage	1	\N	17	qmfValRange-rvrLanguage	qmfValRange-rvrLanguage	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 245	http://www.w3.org/2000/01/rdf-schema#type	2	\N	2	type	type	f	2	1	-1	f	f	38	\N	\N	t	f	\N	\N	\N	t	f	f
 246	http://www.w3.org/2000/01/rdf-schema#label	225423	\N	2	label	label	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 247	http://purl.org/dc/terms/title	103378	\N	5	title	title	f	0	-1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
@@ -3710,27 +3269,18 @@ COPY http_id_eaufrance_fr_sparql.properties (id, iri, cnt, data, ns_id, display_
 249	http://www.w3.org/2004/02/skos/core#prefLabel	241890	\N	4	prefLabel	prefLabel	f	0	-1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 250	http://id.eaufrance.fr/ddd/par/3/CdParametre	5858	\N	72	CdParametre	CdParametre	f	0	1	\N	f	f	18	\N	\N	t	f	\N	\N	\N	t	f	f
 251	http://www.w3.org/1999/02/22-rdf-syntax-ns#value	4	\N	1	value	value	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-252	http://www.openlinksw.com/schemas/virtrdf#qmfIsblankOfShortTmpl	31	\N	17	qmfIsblankOfShortTmpl	qmfIsblankOfShortTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 253	http://www.openlinksw.com/ontology/acl#hasApplicableAccess	2	\N	82	hasApplicableAccess	hasApplicableAccess	f	2	-1	1	f	f	50	\N	\N	t	f	\N	\N	\N	t	f	f
 254	http://id.eaufrance.fr/ddd/APT/2.1/Contributor	67831	\N	81	Contributor	Contributor	f	67831	1	-1	f	f	17	44	\N	t	f	\N	\N	\N	t	f	f
-255	http://www.openlinksw.com/schemas/virtrdf#qmfLongTmpl	45	\N	17	qmfLongTmpl	qmfLongTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-256	http://www.openlinksw.com/schemas/virtrdf#item	133	\N	17	item	item	f	133	-1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 257	http://owl.sandre.eaufrance.fr/pmo/1.2#NumeroPointMesure	786	\N	85	NumeroPointMesure	NumeroPointMesure	f	0	1	\N	f	f	53	\N	\N	t	f	\N	\N	\N	t	f	f
 258	http://id.eaufrance.fr/ddd/APT/2.1/TypeAppelTaxon	67831	\N	81	TypeAppelTaxon	TypeAppelTaxon	f	67831	1	-1	f	f	17	\N	\N	t	f	\N	\N	\N	t	f	f
 259	http://id.eaufrance.fr/ddd/INC/1.0/EtabSiege	125067	\N	71	EtabSiege	EtabSiege	f	0	1	\N	f	f	61	\N	\N	t	f	\N	\N	\N	t	f	f
 260	http://owl.sandre.eaufrance.fr/com/3#NomCommune	195	\N	89	NomCommune	NomCommune	f	0	1	\N	f	f	58	\N	\N	t	f	\N	\N	\N	t	f	f
-261	http://www.openlinksw.com/schemas/virtrdf#qmfDtpOfNiceSqlval	6	\N	17	qmfDtpOfNiceSqlval	qmfDtpOfNiceSqlval	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-262	http://www.openlinksw.com/schemas/virtrdf#qmfSqlvalTmpl	53	\N	17	qmfSqlvalTmpl	qmfSqlvalTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 263	http://www.w3.org/ns/sparql-service-description#resultFormat	40	\N	27	resultFormat	resultFormat	f	40	-1	1	f	f	39	\N	\N	t	f	\N	\N	\N	t	f	f
 264	http://id.eaufrance.fr/ddd/par/3/ParametreCalcule	5858	\N	72	ParametreCalcule	ParametreCalcule	f	0	1	\N	f	f	18	\N	\N	t	f	\N	\N	\N	t	f	f
 265	http://id.eaufrance.fr/ddd/APT/2.1/ComAppelTaxon	31544	\N	81	ComAppelTaxon	ComAppelTaxon	f	0	1	\N	f	f	17	\N	\N	t	f	\N	\N	\N	t	f	f
 266	http://id.eaufrance.fr/ddd/INC/1.0/DestinataireAdresse	143381	\N	71	DestinataireAdresse	DestinataireAdresse	f	0	1	\N	f	f	45	\N	\N	t	f	\N	\N	\N	t	f	f
 267	http://purl.org/dc/terms/coverage	576679	\N	5	coverage	coverage	f	531606	-1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 268	http://www.w3.org/2002/07/owl#complementOf	2	\N	7	complementOf	complementOf	f	2	1	1	f	f	40	40	\N	t	f	\N	\N	\N	t	f	f
-269	http://www.openlinksw.com/schemas/virtrdf#qmfOkForAnySqlvalue	31	\N	17	qmfOkForAnySqlvalue	qmfOkForAnySqlvalue	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-270	http://www.openlinksw.com/schemas/virtrdf#qmvColumns	31	\N	17	qmvColumns	qmvColumns	f	31	1	1	f	f	70	11	\N	t	f	\N	\N	\N	t	f	f
-271	http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfSqlvalTmpl	2	\N	17	qmfExistingShortOfSqlvalTmpl	qmfExistingShortOfSqlvalTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-272	http://www.openlinksw.com/schemas/virtrdf#qmfValRange-rvrDatatype	7	\N	17	qmfValRange-rvrDatatype	qmfValRange-rvrDatatype	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 273	http://id.eaufrance.fr/ddd/INC/1.0/CdAlternInterlocuteur	333100	\N	71	CdAlternInterlocuteur	CdAlternInterlocuteur	f	0	-1	\N	f	f	72	\N	\N	t	f	\N	\N	\N	t	f	f
 274	http://owl.sandre.eaufrance.fr/scl/1.1#LbSystemeCollecte	19693	\N	88	LbSystemeCollecte	LbSystemeCollecte	f	0	-1	\N	f	f	57	\N	\N	t	f	\N	\N	\N	t	f	f
 275	http://www.w3.org/2000/01/rdf-schema#comment	144	\N	2	comment	comment	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
@@ -3739,136 +3289,76 @@ COPY http_id_eaufrance_fr_sparql.properties (id, iri, cnt, data, ns_id, display_
 278	http://id.eaufrance.fr/ddd/par/3/ReferenceParametre	1593	\N	72	ReferenceParametre	ReferenceParametre	f	0	1	\N	f	f	18	\N	\N	t	f	\N	\N	\N	t	f	f
 279	http://id.eaufrance.fr/ddd/INC/1.0/LbNAF	137517	\N	71	LbNAF	LbNAF	f	137517	1	-1	f	f	1	\N	\N	t	f	\N	\N	\N	t	f	f
 280	http://id.eaufrance.fr/ddd/INC/1.0/ComInterlocuteur	12803	\N	71	ComInterlocuteur	ComInterlocuteur	f	0	1	\N	f	f	43	\N	\N	t	f	\N	\N	\N	t	f	f
-281	http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLong	8	\N	17	qmfIsSubformatOfLong	qmfIsSubformatOfLong	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 282	http://www.w3.org/2000/01/rdf-schema#domain	279	\N	2	domain	domain	f	279	-1	-1	f	f	38	\N	\N	t	f	\N	\N	\N	t	f	f
 283	http://purl.org/dc/terms/alternative	271	\N	5	alternative	alternative	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 284	http://id.eaufrance.fr/ddd/COM/4/OrCdCommune	66	\N	80	OrCdCommune	OrCdCommune	f	0	1	\N	f	f	31	\N	\N	t	f	\N	\N	\N	t	f	f
-285	http://www.openlinksw.com/schemas/virtrdf#qmfIsnumericOfShortTmpl	19	\N	17	qmfIsnumericOfShortTmpl	qmfIsnumericOfShortTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-286	http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenEqToSql	2	\N	17	qmfIsSubformatOfLongWhenEqToSql	qmfIsSubformatOfLongWhenEqToSql	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 287	http://id.eaufrance.fr/ddd/INC/1.0/Compl2Adresse	32562	\N	71	Compl2Adresse	Compl2Adresse	f	0	1	\N	f	f	45	\N	\N	t	f	\N	\N	\N	t	f	f
 288	http://purl.org/dc/elements/1.1/contributor	265771	\N	6	contributor	contributor	f	228516	-1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-289	http://www.openlinksw.com/schemas/virtrdf#qmfIsSubformatOfLongWhenRef	4	\N	17	qmfIsSubformatOfLongWhenRef	qmfIsSubformatOfLongWhenRef	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-290	http://www.w3.org/1999/02/22-rdf-syntax-ns#_27	1	\N	1	_27	_27	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
 291	http://owl.sandre.eaufrance.fr/pmo/1.2#APourParametre	147429	\N	85	APourParametre	APourParametre	f	147429	1	-1	f	f	84	18	\N	t	f	\N	\N	\N	t	f	f
-292	http://www.w3.org/1999/02/22-rdf-syntax-ns#_28	1	\N	1	_28	_28	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
-293	http://www.w3.org/1999/02/22-rdf-syntax-ns#_29	1	\N	1	_29	_29	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
 294	http://www.w3.org/2004/02/skos/core#altLabel	20551	\N	4	altLabel	altLabel	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 295	http://id.eaufrance.fr/ddd/par/3/ParametreHydrobiologique	477	\N	72	ParametreHydrobiologique	ParametreHydrobiologique	f	477	1	1	f	f	65	65	\N	t	f	\N	\N	\N	t	f	f
-296	http://www.w3.org/1999/02/22-rdf-syntax-ns#_23	1	\N	1	_23	_23	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
-297	http://www.openlinksw.com/schemas/virtrdf#qmvATables	31	\N	17	qmvATables	qmvATables	f	31	1	-1	f	f	70	10	\N	t	f	\N	\N	\N	t	f	f
-298	http://www.w3.org/1999/02/22-rdf-syntax-ns#_24	1	\N	1	_24	_24	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
-299	http://www.w3.org/1999/02/22-rdf-syntax-ns#_25	1	\N	1	_25	_25	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
-300	http://www.w3.org/1999/02/22-rdf-syntax-ns#_26	1	\N	1	_26	_26	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
 301	http://id.eaufrance.fr/ddd/par/3/AuteurParametre	5858	\N	72	AuteurParametre	AuteurParametre	f	0	1	\N	f	f	18	\N	\N	t	f	\N	\N	\N	t	f	f
-302	http://www.openlinksw.com/schemas/virtrdf#qmvftAlias	3	\N	17	qmvftAlias	qmvftAlias	f	0	1	\N	f	f	37	\N	\N	t	f	\N	\N	\N	t	f	f
 303	http://id.eaufrance.fr/ddd/par/3/ParametrePhysique	622	\N	72	ParametrePhysique	ParametrePhysique	f	622	1	1	f	f	2	2	\N	t	f	\N	\N	\N	t	f	f
 304	http://id.eaufrance.fr/ddd/par/3/ParPhysiqueQuant	480	\N	72	ParPhysiqueQuant	ParPhysiqueQuant	f	480	1	1	f	f	2	33	\N	t	f	\N	\N	\N	t	f	f
 305	http://owl.sandre.eaufrance.fr/pmo/1.2#DatePrlvt	104095	\N	85	DatePrlvt	DatePrlvt	f	0	1	\N	f	f	54	\N	\N	t	f	\N	\N	\N	t	f	f
-306	http://www.w3.org/1999/02/22-rdf-syntax-ns#_30	1	\N	1	_30	_30	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
 307	http://owl.sandre.eaufrance.fr/mat/2#APourSystemeCollecte	14	\N	87	APourSystemeCollecte	APourSystemeCollecte	f	14	-1	1	f	f	56	57	\N	t	f	\N	\N	\N	t	f	f
-308	http://www.openlinksw.com/schemas/virtrdf#qmPredicateRange-rvrRestrictions	144	\N	17	qmPredicateRange-rvrRestrictions	qmPredicateRange-rvrRestrictions	f	144	-1	-1	f	f	69	\N	\N	t	f	\N	\N	\N	t	f	f
-309	http://www.w3.org/1999/02/22-rdf-syntax-ns#_31	1	\N	1	_31	_31	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
-310	http://www.w3.org/1999/02/22-rdf-syntax-ns#_32	1	\N	1	_32	_32	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
-311	http://www.w3.org/1999/02/22-rdf-syntax-ns#_33	1	\N	1	_33	_33	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
 312	http://id.eaufrance.fr/ddd/par/3/DfParametre	5858	\N	72	DfParametre	DfParametre	f	0	1	\N	f	f	18	\N	\N	t	f	\N	\N	\N	t	f	f
-313	http://www.openlinksw.com/schemas/virtrdf#qsUserMaps	3	\N	17	qsUserMaps	qsUserMaps	f	3	1	1	f	f	9	68	\N	t	f	\N	\N	\N	t	f	f
 314	http://id.eaufrance.fr/ddd/par/3/LbLongParametre	5858	\N	72	LbLongParametre	LbLongParametre	f	0	1	\N	f	f	18	\N	\N	t	f	\N	\N	\N	t	f	f
 315	http://id.eaufrance.fr/ddd/INC/1.0/CdAlternatifInt	314317	\N	71	CdAlternatifInt	CdAlternatifInt	f	314317	-1	1	f	f	43	72	\N	t	f	\N	\N	\N	t	f	f
-316	http://www.w3.org/1999/02/22-rdf-syntax-ns#_34	1	\N	1	_34	_34	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
 317	http://id.eaufrance.fr/ddd/MAT/3.1/Element	16079	\N	84	Element	Element	f	16079	-1	1	f	f	51	83	\N	t	f	\N	\N	\N	t	f	f
-318	http://www.openlinksw.com/schemas/virtrdf#qmfIidOfShortTmpl	57	\N	17	qmfIidOfShortTmpl	qmfIidOfShortTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-319	http://www.w3.org/1999/02/22-rdf-syntax-ns#_35	1	\N	1	_35	_35	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
-320	http://www.w3.org/1999/02/22-rdf-syntax-ns#_36	1	\N	1	_36	_36	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
 321	http://www.openlinksw.com/schemas/VAD#packageDeveloper	2	\N	90	packageDeveloper	packageDeveloper	f	0	1	\N	f	f	74	\N	\N	t	f	\N	\N	\N	t	f	f
 322	http://www.w3.org/2001/vcard-rdf/3.0#Street	2	\N	79	Street	Street	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-323	http://www.openlinksw.com/schemas/virtrdf#qmfShortOfSqlvalTmpl	31	\N	17	qmfShortOfSqlvalTmpl	qmfShortOfSqlvalTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 324	http://id.eaufrance.fr/ddd/par/3/ParametreChimique	3978	\N	72	ParametreChimique	ParametreChimique	f	3978	1	1	f	f	18	64	\N	t	f	\N	\N	\N	t	f	f
-325	http://www.openlinksw.com/schemas/virtrdf#qmfTypemaxTmpl	39	\N	17	qmfTypemaxTmpl	qmfTypemaxTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-326	http://www.openlinksw.com/schemas/virtrdf#qmfIsStable	47	\N	17	qmfIsStable	qmfIsStable	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 327	http://www.w3.org/2001/vcard-rdf/3.0#ADR	2	\N	79	ADR	ADR	f	2	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-328	http://www.openlinksw.com/schemas/virtrdf#qmGraphRange-rvrRestrictions	148	\N	17	qmGraphRange-rvrRestrictions	qmGraphRange-rvrRestrictions	f	148	-1	-1	f	f	69	\N	\N	t	f	\N	\N	\N	t	f	f
 329	http://id.eaufrance.fr/ddd/INC/1.0/NomService	936	\N	71	NomService	NomService	f	0	1	\N	f	f	62	\N	\N	t	f	\N	\N	\N	t	f	f
 330	http://www.w3.org/ns/sparql-service-description#url	5	\N	27	url	url	f	5	1	1	f	f	39	39	\N	t	f	\N	\N	\N	t	f	f
 331	http://id.eaufrance.fr/ddd/INC/1.0/PaysInterlocuteur	159899	\N	71	PaysInterlocuteur	PaysInterlocuteur	f	159899	1	1	f	f	43	30	\N	t	f	\N	\N	\N	t	f	f
 332	http://id.eaufrance.fr/ddd/par/3/aPourSupport	477	\N	72	aPourSupport	aPourSupport	f	477	1	-1	f	f	65	\N	\N	t	f	\N	\N	\N	t	f	f
 333	http://purl.org/goodrelations/v1#typeOfGood	3	\N	36	typeOfGood	typeOfGood	f	3	1	1	f	f	49	80	\N	t	f	\N	\N	\N	t	f	f
-334	http://www.openlinksw.com/schemas/virtrdf#isGcResistantType	2	\N	17	isGcResistantType	isGcResistantType	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-335	http://www.openlinksw.com/schemas/virtrdf#qmfHasCheapSqlval	22	\N	17	qmfHasCheapSqlval	qmfHasCheapSqlval	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-336	http://www.openlinksw.com/schemas/virtrdf#qmUserSubMaps	1	\N	17	qmUserSubMaps	qmUserSubMaps	f	1	1	1	f	f	69	68	\N	t	f	\N	\N	\N	t	f	f
 337	http://owl.sandre.eaufrance.fr/pmo/1.2#CdRemAnalyse	147429	\N	85	CdRemAnalyse	CdRemAnalyse	f	0	1	\N	f	f	84	\N	\N	t	f	\N	\N	\N	t	f	f
 338	http://id.eaufrance.fr/ddd/par/3/GroupeParametres	8548	\N	72	GroupeParametres	GroupeParametres	f	8548	-1	-1	f	f	18	\N	\N	t	f	\N	\N	\N	t	f	f
 339	http://xmlns.com/foaf/0.1/maker	1	\N	8	maker	maker	f	1	1	1	f	f	76	\N	\N	t	f	\N	\N	\N	t	f	f
 340	http://www.openlinksw.com/schemas/DAV#ownerUser	3456	\N	18	ownerUser	ownerUser	f	3456	1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 341	http://owl.sandre.eaufrance.fr/pmo/1.2#APourFractionAnalysee	147429	\N	85	APourFractionAnalysee	APourFractionAnalysee	f	147429	1	-1	f	f	84	\N	\N	t	f	\N	\N	\N	t	f	f
 342	http://id.eaufrance.fr/ddd/COM/4/NomPays	159899	\N	80	NomPays	NomPays	f	0	1	\N	f	f	30	\N	\N	t	f	\N	\N	\N	t	f	f
-343	http://www.openlinksw.com/schemas/virtrdf#version	2	\N	17	version	version	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-344	http://www.openlinksw.com/schemas/virtrdf#qmfShortOfNiceSqlvalTmpl	6	\N	17	qmfShortOfNiceSqlvalTmpl	qmfShortOfNiceSqlvalTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 345	http://id.eaufrance.fr/ddd/APT/2.1/RefBiblioAppelTaxon	53363	\N	81	RefBiblioAppelTaxon	RefBiblioAppelTaxon	f	0	1	\N	f	f	17	\N	\N	t	f	\N	\N	\N	t	f	f
 346	http://owl.sandre.eaufrance.fr/com/3#Intersecte	195	\N	89	Intersecte	Intersecte	f	195	1	-1	f	f	58	\N	\N	t	f	\N	\N	\N	t	f	f
 347	http://id.eaufrance.fr/ddd/COM/4/CdPays	159899	\N	80	CdPays	CdPays	f	0	1	\N	f	f	30	\N	\N	t	f	\N	\N	\N	t	f	f
-348	http://www.w3.org/1999/02/22-rdf-syntax-ns#_10	1	\N	1	_10	_10	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
-349	http://www.w3.org/1999/02/22-rdf-syntax-ns#_11	1	\N	1	_11	_11	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
 350	http://id.eaufrance.fr/ddd/par/3/Methode	4998	\N	72	Methode	Methode	f	4998	-1	-1	f	f	18	\N	\N	t	f	\N	\N	\N	t	f	f
-351	http://www.w3.org/1999/02/22-rdf-syntax-ns#_16	1	\N	1	_16	_16	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
-352	http://www.w3.org/1999/02/22-rdf-syntax-ns#_17	1	\N	1	_17	_17	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
-353	http://www.w3.org/1999/02/22-rdf-syntax-ns#_18	1	\N	1	_18	_18	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
-354	http://www.w3.org/1999/02/22-rdf-syntax-ns#_19	1	\N	1	_19	_19	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
 355	http://owl.sandre.eaufrance.fr/pmo/1.2#APourUniteMesure	147429	\N	85	APourUniteMesure	APourUniteMesure	f	147429	1	-1	f	f	84	25	\N	t	f	\N	\N	\N	t	f	f
-356	http://www.w3.org/1999/02/22-rdf-syntax-ns#_12	1	\N	1	_12	_12	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
-357	http://www.w3.org/1999/02/22-rdf-syntax-ns#_13	1	\N	1	_13	_13	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
 358	http://purl.org/dc/terms/identifier	263708	\N	5	identifier	identifier	f	0	-1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-359	http://www.w3.org/1999/02/22-rdf-syntax-ns#_14	1	\N	1	_14	_14	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
-360	http://www.w3.org/1999/02/22-rdf-syntax-ns#_15	1	\N	1	_15	_15	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
 361	http://id.eaufrance.fr/ddd/APT/2.1/NomLatinAppelTaxon	67831	\N	81	NomLatinAppelTaxon	NomLatinAppelTaxon	f	0	1	\N	f	f	17	\N	\N	t	f	\N	\N	\N	t	f	f
-362	http://www.openlinksw.com/schemas/virtrdf#qmfCustomString1	26	\N	17	qmfCustomString1	qmfCustomString1	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-363	http://www.openlinksw.com/schemas/virtrdf#qmfColumnCount	45	\N	17	qmfColumnCount	qmfColumnCount	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 364	http://id.eaufrance.fr/ddd/par/3/PasParHydQuant	1	\N	72	PasParHydQuant	PasParHydQuant	f	0	1	\N	f	f	66	\N	\N	t	f	\N	\N	\N	t	f	f
 365	http://owl.sandre.eaufrance.fr/pmo/1.2#APourPrelevement	104095	\N	85	APourPrelevement	APourPrelevement	f	104095	-1	1	f	f	53	54	\N	t	f	\N	\N	\N	t	f	f
-366	http://www.w3.org/1999/02/22-rdf-syntax-ns#_20	1	\N	1	_20	_20	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
 367	http://id.eaufrance.fr/ddd/par/3/DateMajParametre	5858	\N	72	DateMajParametre	DateMajParametre	f	0	1	\N	f	f	18	\N	\N	t	f	\N	\N	\N	t	f	f
-368	http://www.w3.org/1999/02/22-rdf-syntax-ns#_21	1	\N	1	_21	_21	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
-369	http://www.w3.org/1999/02/22-rdf-syntax-ns#_22	1	\N	1	_22	_22	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
-370	http://www.openlinksw.com/schemas/virtrdf#qmfIsuriOfShortTmpl	31	\N	17	qmfIsuriOfShortTmpl	qmfIsuriOfShortTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 371	http://purl.org/dc/elements/1.1/source	355118	\N	6	source	source	f	165757	-1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-372	http://www.openlinksw.com/schemas/virtrdf#qmvaAlias	29	\N	17	qmvaAlias	qmvaAlias	f	0	1	\N	f	f	12	\N	\N	t	f	\N	\N	\N	t	f	f
 373	http://id.eaufrance.fr/ddd/MAT/3.1/CdNomenclature	787	\N	84	CdNomenclature	CdNomenclature	f	0	1	\N	f	f	51	\N	\N	t	f	\N	\N	\N	t	f	f
-374	http://www.openlinksw.com/schemas/virtrdf#qmfShortOfTypedsqlvalTmpl	31	\N	17	qmfShortOfTypedsqlvalTmpl	qmfShortOfTypedsqlvalTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 375	http://id.eaufrance.fr/ddd/par/3/LangueNomTradPar	1211	\N	72	LangueNomTradPar	LangueNomTradPar	f	1211	1	-1	f	f	32	\N	\N	t	f	\N	\N	\N	t	f	f
-376	http://www.openlinksw.com/schemas/virtrdf#isSpecialPredicate	5	\N	17	isSpecialPredicate	isSpecialPredicate	f	5	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-377	http://www.openlinksw.com/schemas/virtrdf#qmfMapsOnlyNullToNull	40	\N	17	qmfMapsOnlyNullToNull	qmfMapsOnlyNullToNull	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 378	http://www.w3.org/2000/01/rdf-schema#subClassOf	79	\N	2	subClassOf	subClassOf	f	79	-1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 379	http://owl.sandre.eaufrance.fr/par/2.3#LbUniteMesure	591	\N	86	LbUniteMesure	LbUniteMesure	f	0	1	\N	f	f	25	\N	\N	t	f	\N	\N	\N	t	f	f
 380	http://rs.tdwg.org/dwc/terms/scientificName	67831	\N	73	scientificName	scientificName	f	0	1	\N	f	f	17	\N	\N	t	f	\N	\N	\N	t	f	f
 381	http://www.w3.org/2002/07/owl#equivalentProperty	192	\N	7	equivalentProperty	equivalentProperty	f	192	-1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 382	http://id.eaufrance.fr/ddd/INC/1.0/TypeInterlocuteur	159899	\N	71	TypeInterlocuteur	TypeInterlocuteur	f	159899	1	-1	f	f	43	\N	\N	t	f	\N	\N	\N	t	f	f
 383	http://id.eaufrance.fr/ddd/INC/1.0/SigleService	185	\N	71	SigleService	SigleService	f	0	1	\N	f	f	62	\N	\N	t	f	\N	\N	\N	t	f	f
-384	http://www.openlinksw.com/schemas/virtrdf#qmfIslitOfShortTmpl	31	\N	17	qmfIslitOfShortTmpl	qmfIslitOfShortTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 385	http://id.eaufrance.fr/ddd/par/3/parPhysiqueEstExprimeEn	485	\N	72	parPhysiqueEstExprimeEn	parPhysiqueEstExprimeEn	f	485	-1	-1	f	f	33	\N	\N	t	f	\N	\N	\N	t	f	f
 386	http://id.eaufrance.fr/ddd/INC/1.0/Compl3Adresse	662	\N	71	Compl3Adresse	Compl3Adresse	f	0	1	\N	f	f	45	\N	\N	t	f	\N	\N	\N	t	f	f
 387	http://www.w3.org/2001/vcard-rdf/3.0#Country	2	\N	79	Country	Country	f	0	1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 388	http://owl.sandre.eaufrance.fr/com/3#APourCommuneAdjacente	218418	\N	89	APourCommuneAdjacente	APourCommuneAdjacente	f	218418	-1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 389	http://www.openlinksw.com/schemas/VAD#packageDownload	4	\N	90	packageDownload	packageDownload	f	0	-1	\N	f	f	74	\N	\N	t	f	\N	\N	\N	t	f	f
 390	http://www.w3.org/2000/01/rdf-schema#seeAlso	5	\N	2	seeAlso	seeAlso	f	5	-1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-391	http://www.openlinksw.com/schemas/virtrdf#qmGraphRange-rvrFixedValue	37	\N	17	qmGraphRange-rvrFixedValue	qmGraphRange-rvrFixedValue	f	37	1	-1	f	f	69	\N	\N	t	f	\N	\N	\N	t	f	f
 392	http://id.eaufrance.fr/ddd/INC/1.0/Structure	1910	\N	71	Structure	Structure	f	1910	1	1	f	f	19	63	\N	t	f	\N	\N	\N	t	f	f
 393	http://somewhere/ApplicationSchema#hasExactGeometry	6	\N	77	hasExactGeometry	hasExactGeometry	f	6	1	1	f	f	26	\N	\N	t	f	\N	\N	\N	t	f	f
 394	http://id.eaufrance.fr/ddd/APT/2.1/DateMajAppelTaxon	67831	\N	81	DateMajAppelTaxon	DateMajAppelTaxon	f	0	1	\N	f	f	17	\N	\N	t	f	\N	\N	\N	t	f	f
 395	http://id.eaufrance.fr/ddd/INC/1.0/DateDebActEtab	41540	\N	71	DateDebActEtab	DateDebActEtab	f	0	1	\N	f	f	61	\N	\N	t	f	\N	\N	\N	t	f	f
 396	http://owl.sandre.eaufrance.fr/pmo/1.2#LbPointMesure	786	\N	85	LbPointMesure	LbPointMesure	f	0	1	\N	f	f	53	\N	\N	t	f	\N	\N	\N	t	f	f
 397	http://id.eaufrance.fr/ddd/par/3/ParSyntheseQual	274	\N	72	ParSyntheseQual	ParSyntheseQual	f	274	1	1	f	f	6	34	\N	t	f	\N	\N	\N	t	f	f
-398	http://www.openlinksw.com/schemas/virtrdf#qmfExistingShortOfTypedsqlvalTmpl	2	\N	17	qmfExistingShortOfTypedsqlvalTmpl	qmfExistingShortOfTypedsqlvalTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
-399	http://www.w3.org/1999/02/22-rdf-syntax-ns#_9	1	\N	1	_9	_9	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
-400	http://www.w3.org/1999/02/22-rdf-syntax-ns#_7	1	\N	1	_7	_7	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
-401	http://www.w3.org/1999/02/22-rdf-syntax-ns#_8	1	\N	1	_8	_8	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
 402	http://www.openlinksw.com/schemas/VAD#packageCopyright	2	\N	90	packageCopyright	packageCopyright	f	0	1	\N	f	f	74	\N	\N	t	f	\N	\N	\N	t	f	f
 403	http://www.w3.org/1999/02/22-rdf-syntax-ns#_5	4	\N	1	_5	_5	f	4	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-404	http://www.w3.org/1999/02/22-rdf-syntax-ns#_6	1	\N	1	_6	_6	f	1	1	1	f	f	68	69	\N	t	f	\N	\N	\N	t	f	f
 405	http://www.w3.org/1999/02/22-rdf-syntax-ns#_3	12	\N	1	_3	_3	f	11	1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 406	http://www.w3.org/1999/02/22-rdf-syntax-ns#_4	4	\N	1	_4	_4	f	4	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 407	http://purl.org/goodrelations/v1#validFrom	3	\N	36	validFrom	validFrom	f	0	-1	\N	f	f	77	\N	\N	t	f	\N	\N	\N	t	f	f
 408	http://id.eaufrance.fr/ddd/INC/1.0/Commune	317488	\N	71	Commune	Commune	f	317488	-1	-1	f	f	45	\N	\N	t	f	\N	\N	\N	t	f	f
 409	http://www.w3.org/1999/02/22-rdf-syntax-ns#_1	171	\N	1	_1	_1	f	119	1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
-410	http://www.openlinksw.com/schemas/virtrdf#qmfLanguageOfShortTmpl	31	\N	17	qmfLanguageOfShortTmpl	qmfLanguageOfShortTmpl	f	0	1	\N	f	f	8	\N	\N	t	f	\N	\N	\N	t	f	f
 411	http://www.w3.org/1999/02/22-rdf-syntax-ns#_2	28	\N	1	_2	_2	f	26	1	-1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 412	http://www.w3.org/2001/vcard-rdf/3.0#TEL	2	\N	79	TEL	TEL	f	2	1	1	f	f	\N	28	\N	t	f	\N	\N	\N	t	f	f
 413	http://www.openlinksw.com/ontology/acl#hasDefaultAccess	2	\N	82	hasDefaultAccess	hasDefaultAccess	f	2	-1	1	f	f	50	\N	\N	t	f	\N	\N	\N	t	f	f
@@ -3879,6 +3369,37 @@ COPY http_id_eaufrance_fr_sparql.properties (id, iri, cnt, data, ns_id, display_
 418	http://purl.org/dc/terms/created	232759	\N	5	created	created	f	0	-1	\N	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 419	http://id.eaufrance.fr/ddd/par/3/LbSynonymeParametre	4004	\N	72	LbSynonymeParametre	LbSynonymeParametre	f	0	-1	\N	f	f	18	\N	\N	t	f	\N	\N	\N	t	f	f
 420	http://id.eaufrance.fr/ddd/par/3/LbPolysemeParametre	279	\N	72	LbPolysemeParametre	LbPolysemeParametre	f	0	-1	\N	f	f	18	\N	\N	t	f	\N	\N	\N	t	f	f
+399	http://www.w3.org/1999/02/22-rdf-syntax-ns#_9	1	\N	1	_9	_9	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+290	http://www.w3.org/1999/02/22-rdf-syntax-ns#_27	1	\N	1	_27	_27	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+292	http://www.w3.org/1999/02/22-rdf-syntax-ns#_28	1	\N	1	_28	_28	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+293	http://www.w3.org/1999/02/22-rdf-syntax-ns#_29	1	\N	1	_29	_29	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+296	http://www.w3.org/1999/02/22-rdf-syntax-ns#_23	1	\N	1	_23	_23	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+298	http://www.w3.org/1999/02/22-rdf-syntax-ns#_24	1	\N	1	_24	_24	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+299	http://www.w3.org/1999/02/22-rdf-syntax-ns#_25	1	\N	1	_25	_25	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+300	http://www.w3.org/1999/02/22-rdf-syntax-ns#_26	1	\N	1	_26	_26	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+306	http://www.w3.org/1999/02/22-rdf-syntax-ns#_30	1	\N	1	_30	_30	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+309	http://www.w3.org/1999/02/22-rdf-syntax-ns#_31	1	\N	1	_31	_31	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+310	http://www.w3.org/1999/02/22-rdf-syntax-ns#_32	1	\N	1	_32	_32	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+311	http://www.w3.org/1999/02/22-rdf-syntax-ns#_33	1	\N	1	_33	_33	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+316	http://www.w3.org/1999/02/22-rdf-syntax-ns#_34	1	\N	1	_34	_34	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+319	http://www.w3.org/1999/02/22-rdf-syntax-ns#_35	1	\N	1	_35	_35	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+320	http://www.w3.org/1999/02/22-rdf-syntax-ns#_36	1	\N	1	_36	_36	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+348	http://www.w3.org/1999/02/22-rdf-syntax-ns#_10	1	\N	1	_10	_10	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+349	http://www.w3.org/1999/02/22-rdf-syntax-ns#_11	1	\N	1	_11	_11	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+351	http://www.w3.org/1999/02/22-rdf-syntax-ns#_16	1	\N	1	_16	_16	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+352	http://www.w3.org/1999/02/22-rdf-syntax-ns#_17	1	\N	1	_17	_17	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+353	http://www.w3.org/1999/02/22-rdf-syntax-ns#_18	1	\N	1	_18	_18	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+354	http://www.w3.org/1999/02/22-rdf-syntax-ns#_19	1	\N	1	_19	_19	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+356	http://www.w3.org/1999/02/22-rdf-syntax-ns#_12	1	\N	1	_12	_12	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+357	http://www.w3.org/1999/02/22-rdf-syntax-ns#_13	1	\N	1	_13	_13	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+359	http://www.w3.org/1999/02/22-rdf-syntax-ns#_14	1	\N	1	_14	_14	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+360	http://www.w3.org/1999/02/22-rdf-syntax-ns#_15	1	\N	1	_15	_15	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+366	http://www.w3.org/1999/02/22-rdf-syntax-ns#_20	1	\N	1	_20	_20	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+368	http://www.w3.org/1999/02/22-rdf-syntax-ns#_21	1	\N	1	_21	_21	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+369	http://www.w3.org/1999/02/22-rdf-syntax-ns#_22	1	\N	1	_22	_22	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+400	http://www.w3.org/1999/02/22-rdf-syntax-ns#_7	1	\N	1	_7	_7	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+401	http://www.w3.org/1999/02/22-rdf-syntax-ns#_8	1	\N	1	_8	_8	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
+404	http://www.w3.org/1999/02/22-rdf-syntax-ns#_6	1	\N	1	_6	_6	f	1	1	1	f	f	\N	\N	\N	t	f	\N	\N	\N	t	f	f
 \.
 
 

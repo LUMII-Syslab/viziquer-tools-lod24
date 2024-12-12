@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped by pg_dump version 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -27437,7 +27437,6 @@ COPY http_libris_kb_se_sparql.ns (id, name, value, priority, is_local, basic_ord
 14	shacl	http://www.w3.org/ns/shacl#	0	f	0
 15	dcat	http://www.w3.org/ns/dcat#	0	f	0
 16	void	http://rdfs.org/ns/void#	0	f	0
-73	n_2	http://www.w3.org/ns/json-ld#	0	f	0
 18	dav	http://www.openlinksw.com/schemas/DAV#	0	f	0
 19	dbp	http://dbpedia.org/property/	0	f	0
 20	dbr	http://dbpedia.org/resource/	0	f	0
@@ -27466,8 +27465,9 @@ COPY http_libris_kb_se_sparql.ns (id, name, value, priority, is_local, basic_ord
 17	openlinks	http://www.openlinksw.com/schemas/virtrdf#	0	f	0
 70	vs	http://www.w3.org/2003/06/sw-vocab-status/ns#	0	f	0
 71	kbv	https://id.kb.se/vocab/	0	f	0
-72	n_1	https://id.kb.se/term/swepub/	0	f	0
-74	n_3	http://protege.stanford.edu/plugins/owl/protege#	0	f	0
+72	swepub	https://id.kb.se/term/swepub/	0	f	0
+73	org-ld	http://www.w3.org/ns/json-ld#	0	f	0
+74	protege-plugin	http://protege.stanford.edu/plugins/owl/protege#	0	f	0
 \.
 
 

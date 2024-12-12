@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped by pg_dump version 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1888,7 +1888,7 @@ COPY http_datos_bne_es_sparql.ns (id, name, value, priority, is_local, basic_ord
 68	bif	http://www.openlinksw.com/schemas/bif#	0	f	0
 69		https://datos.bne.es/def/	0	t	0
 70	madsrdf	http://www.loc.gov/mads/rdf/v1#	0	f	0
-71	n_1	http://www.rdaregistry.info/Elements/a/	0	f	0
+71	rdaa	http://www.rdaregistry.info/Elements/a/	0	f	0
 \.
 
 

@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped by pg_dump version 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -55489,8 +55489,8 @@ COPY http_en_openei_org_sparql.ns (id, name, value, priority, is_local, basic_or
 40	obo	http://purl.obolibrary.org/obo/	0	f	0
 68	bif	http://www.openlinksw.com/schemas/bif#	0	f	0
 69		http://en.openei.org/lod/resource/wiki/	0	t	0
-70	n_1	http://openei.org/resources/	0	f	0
 71	swivt	http://semantic-mediawiki.org/swivt/1.0#	0	f	0
+70	openei	http://openei.org/resources/	0	f	0
 \.
 
 

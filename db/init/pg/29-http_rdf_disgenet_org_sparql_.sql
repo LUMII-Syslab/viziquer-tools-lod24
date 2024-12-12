@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped by pg_dump version 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -4072,27 +4072,27 @@ COPY http_rdf_disgenet_org_sparql_.ns (id, name, value, priority, is_local, basi
 70	sio	http://semanticscience.org/resource/	0	f	0
 71	dcmit	http://purl.org/dc/dcmitype/	0	f	0
 72	ncit	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#	0	f	0
-73	n_1	http://www.w3.org/2001/vcard-rdf/3.0#	0	f	0
 74	idot	http://identifiers.org/idot/	0	f	0
 75	eco	http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#	0	f	0
 76	oplacl	http://www.openlinksw.com/ontology/acl#	0	f	0
-77	n_2	http://www.openlinksw.com/schemas/VAD#	0	f	0
 78	oboinowl	http://www.geneontology.org/formats/oboInOwl#	0	f	0
-79	n_3	http://purl.obolibrary.org/obo#	0	f	0
 80	pav	http://purl.org/pav/	0	f	0
-81	n_4	http://www.openlinksw.com/virtdav#	0	f	0
-82	n_5	http://purl.obolibrary.org/obo/mondo#	0	f	0
-83	n_6	http://purl.obolibrary.org/obo/ncbitaxon#	0	f	0
-84	n_7	http://vocabularies.bridgedb.org/ops#	0	f	0
-85	n_8	http://www.drugtargetontology.org/dto/	0	f	0
-86	n_9	http://purl.obolibrary.org/obo/hsapdv#	0	f	0
 87	cito	http://purl.org/spar/cito/	0	f	0
-88	n_10	http://www.co-ode.org/patterns#	0	f	0
-89	n_11	http://protege.stanford.edu/plugins/owl/protege#	0	f	0
-90	n_12	http://purl.obolibrary.org/obo/uberon/core#	0	f	0
 91	wi	http://purl.org/ontology/wi/core#	0	f	0
-92	n_13	http://purl.obolibrary.org/obo/uberon#	0	f	0
-93	n_14	http://www.orpha.net/ORDO/Orphanet_#	0	f	0
+73	vcard-rdf	http://www.w3.org/2001/vcard-rdf/3.0#	0	f	0
+77	vad	http://www.openlinksw.com/schemas/VAD#	0	f	0
+79	obo-1	http://purl.obolibrary.org/obo#	0	f	0
+81	virtdav	http://www.openlinksw.com/virtdav#	0	f	0
+82	o-mondo	http://purl.obolibrary.org/obo/mondo#	0	f	0
+83	o-taxon	http://purl.obolibrary.org/obo/ncbitaxon#	0	f	0
+84	v-ops	http://vocabularies.bridgedb.org/ops#	0	f	0
+85	dto	http://www.drugtargetontology.org/dto/	0	f	0
+86	o-hsapdv	http://purl.obolibrary.org/obo/hsapdv#	0	f	0
+88	ode-patents	http://www.co-ode.org/patterns#	0	f	0
+89	protege-plugins	http://protege.stanford.edu/plugins/owl/protege#	0	f	0
+90	ou-core	http://purl.obolibrary.org/obo/uberon/core#	0	f	0
+92	o-uberon	http://purl.obolibrary.org/obo/uberon#	0	f	0
+93	orpha	http://www.orpha.net/ORDO/Orphanet_#	0	f	0
 \.
 
 

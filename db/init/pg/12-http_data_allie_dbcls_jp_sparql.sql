@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped by pg_dump version 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1773,7 +1773,6 @@ COPY http_data_allie_dbcls_jp_sparql.ns (id, name, value, priority, is_local, ba
 33	umbel-rc	http://umbel.org/umbel/rc/	0	f	0
 34	dul	http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#	0	f	0
 35	voaf	http://purl.org/vocommons/voaf#	0	f	0
-73	n_3	http://purl.org/allie/ontology/201108#	0	f	0
 37	org	http://www.w3.org/ns/org#	0	f	0
 38	sioc	http://rdfs.org/sioc/ns#	0	f	0
 39	vcard	http://www.w3.org/2006/vcard/ns#	0	f	0
@@ -1781,10 +1780,11 @@ COPY http_data_allie_dbcls_jp_sparql.ns (id, name, value, priority, is_local, ba
 68	bif	http://www.openlinksw.com/schemas/bif#	0	f	0
 36		http://purl.org/goodrelations/v1#	0	t	0
 70	dcmit	http://purl.org/dc/dcmitype/	0	f	0
-71	n_1	http://www.openlinksw.com/schemas/VSPX#	0	f	0
-72	n_2	http://www.w3.org/2001/vcard-rdf/3.0#	0	f	0
 74	eco	http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#	0	f	0
 75	pav	http://purl.org/pav/	0	f	0
+71	vspx	http://www.openlinksw.com/schemas/VSPX#	0	f	0
+72	vcard3	http://www.w3.org/2001/vcard-rdf/3.0#	0	f	0
+73	allie	http://purl.org/allie/ontology/201108#	0	f	0
 \.
 
 

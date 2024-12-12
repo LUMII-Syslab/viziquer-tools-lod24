@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped by pg_dump version 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -3671,20 +3671,20 @@ COPY http_kaiko_getalp_org_sparql.ns (id, name, value, priority, is_local, basic
 73	vs	http://www.w3.org/2003/06/sw-vocab-status/ns#	0	f	0
 74	ldp	http://www.w3.org/ns/ldp#	0	f	0
 75	ov	http://open.vocab.org/terms/	0	f	0
-76	n_1	http://etytree-virtuoso.wmflabs.org/dbnaryetymology#	0	f	0
 77	ontolex	http://www.w3.org/ns/lemon/ontolex#	0	f	0
 78	dbnary	http://kaiko.getalp.org/dbnary#	0	f	0
-79	n_2	http://www.w3.org/2001/vcard-rdf/3.0#	0	f	0
 80	eco	http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#	0	f	0
 81	olia	http://purl.org/olia/olia.owl#	0	f	0
-82	n_3	http://www.openlinksw.com/schemas/VSPX#	0	f	0
 83	lime	http://www.w3.org/ns/lemon/lime#	0	f	0
-84	n_4	http://purl.org/dc/elements/1.1/#	0	f	0
 85	sdo	https://schema.org/	0	f	0
 86	wdrs	http://www.w3.org/2007/05/powder-s#	0	f	0
 87	dcr	http://www.isocat.org/ns/dcr.rdf#	0	f	0
 88	vartrans	http://www.w3.org/ns/lemon/vartrans#	0	f	0
 89	grddl	http://www.w3.org/2003/g/data-view#	0	f	0
+76	ethym	http://etytree-virtuoso.wmflabs.org/dbnaryetymology#	0	f	0
+79	vcard-rdf	http://www.w3.org/2001/vcard-rdf/3.0#	0	f	0
+82	vspx	http://www.openlinksw.com/schemas/VSPX#	0	f	0
+84	dc-11	http://purl.org/dc/elements/1.1/#	0	f	0
 \.
 
 

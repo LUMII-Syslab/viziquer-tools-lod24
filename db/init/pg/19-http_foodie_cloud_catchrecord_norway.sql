@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped by pg_dump version 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1598,7 +1598,6 @@ COPY http_foodie_cloud_catchrecord_norway.ns (id, name, value, priority, is_loca
 22	dbc	http://dbpedia.org/resource/Category:	0	f	0
 23	cc	http://creativecommons.org/ns#	0	f	0
 24	vann	http://purl.org/vocab/vann/	0	f	0
-72	n_3	http://w3id.org/foodie/open/gear#	0	f	0
 26	prov	http://www.w3.org/ns/prov#	0	f	0
 27	sd	http://www.w3.org/ns/sparql-service-description#	0	f	0
 28	frbr	http://vocab.org/frbr/core#	0	f	0
@@ -1617,11 +1616,12 @@ COPY http_foodie_cloud_catchrecord_norway.ns (id, name, value, priority, is_loca
 68	bif	http://www.openlinksw.com/schemas/bif#	0	f	0
 69		http://w3id.org/foodie/open/catchrecord/norway#	0	t	0
 25	geo	http://www.w3.org/2003/01/geo/wgs84_pos#	0	f	0
-70	n_1	http://w3id.org/foodie/open/vessels#	0	f	0
-71	n_2	https://www.omg.org/spec/LCC/Countries/CountryRepresentation#	0	f	0
-73	n_4	http://www.fao.org/aims/aos/fi/species_taxonomic.owl#	0	f	0
-74	n_5	http://www.ontologydesignpatterns.org/cp/owl/fsdas/catchrecord.owl#	0	f	0
-75	n_6	http://w3id.org/foodie/open/FDIR#	0	f	0
+70	f-vessels	http://w3id.org/foodie/open/vessels#	0	f	0
+71	countries	https://www.omg.org/spec/LCC/Countries/CountryRepresentation#	0	f	0
+72	f-gear	http://w3id.org/foodie/open/gear#	0	f	0
+73	aims	http://www.fao.org/aims/aos/fi/species_taxonomic.owl#	0	f	0
+74	odp-catchr	http://www.ontologydesignpatterns.org/cp/owl/fsdas/catchrecord.owl#	0	f	0
+75	f-fdir	http://w3id.org/foodie/open/FDIR#	0	f	0
 \.
 
 

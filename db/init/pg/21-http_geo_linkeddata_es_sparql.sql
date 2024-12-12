@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped by pg_dump version 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -5629,7 +5629,6 @@ COPY http_geo_linkeddata_es_sparql.ns (id, name, value, priority, is_local, basi
 14	shacl	http://www.w3.org/ns/shacl#	0	f	0
 15	dcat	http://www.w3.org/ns/dcat#	0	f	0
 16	void	http://rdfs.org/ns/void#	0	f	0
-72	n_1	http://geo.linkeddata.es/def/btn100#	0	f	0
 18	dav	http://www.openlinksw.com/schemas/DAV#	0	f	0
 19	dbp	http://dbpedia.org/property/	0	f	0
 20	dbr	http://dbpedia.org/resource/	0	f	0
@@ -5637,7 +5636,6 @@ COPY http_geo_linkeddata_es_sparql.ns (id, name, value, priority, is_local, basi
 22	dbc	http://dbpedia.org/resource/Category:	0	f	0
 23	cc	http://creativecommons.org/ns#	0	f	0
 24	vann	http://purl.org/vocab/vann/	0	f	0
-73	n_2	http://code.google.com/p/map4rdf/wiki/ontology#	0	f	0
 26	prov	http://www.w3.org/ns/prov#	0	f	0
 27	sd	http://www.w3.org/ns/sparql-service-description#	0	f	0
 28	frbr	http://vocab.org/frbr/core#	0	f	0
@@ -5659,11 +5657,13 @@ COPY http_geo_linkeddata_es_sparql.ns (id, name, value, priority, is_local, basi
 25	geo	http://www.w3.org/2003/01/geo/wgs84_pos#	0	f	0
 71	geonames	http://www.geonames.org/ontology#	0	f	0
 74	geoes	http://geo.linkeddata.es/ontology/	0	f	0
-75	n_3	http://www.opengis.net/ont/geosparql/	0	f	0
-76	n_4	http://geo.linkeddata.es/recurso/btn100/cantera/	0	f	0
 77	esadm	http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#	0	f	0
-78	n_5	http://geo.linkeddata.es/def/geo_core#	0	f	0
 79	cjr	http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#	0	f	0
+72	btn-100	http://geo.linkeddata.es/def/btn100#	0	f	0
+73	map4rdf	http://code.google.com/p/map4rdf/wiki/ontology#	0	f	0
+75	geosparql	http://www.opengis.net/ont/geosparql/	0	f	0
+76	cantera	http://geo.linkeddata.es/recurso/btn100/cantera/	0	f	0
+78	geo_core	http://geo.linkeddata.es/def/geo_core#	0	f	0
 \.
 
 

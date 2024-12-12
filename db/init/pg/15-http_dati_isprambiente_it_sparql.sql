@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped by pg_dump version 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -3074,29 +3074,29 @@ COPY http_dati_isprambiente_it_sparql.ns (id, name, value, priority, is_local, b
 71	adms	http://www.w3.org/ns/adms#	0	f	0
 72	time	http://www.w3.org/2006/time#	0	f	0
 73	vs	http://www.w3.org/2003/06/sw-vocab-status/ns#	0	f	0
-74	n_1	https://w3id.org/whow/onto/water-monitoring/	0	f	0
 75	dcatapit	http://dati.gov.it/onto/dcatapit#	0	f	0
-76	n_2	https://w3id.org/italia/env/onto/inspire-mf/	0	f	0
-77	n_3	https://w3id.org/whow/onto/weather-monitoring/	0	f	0
 78	dwc	http://rs.tdwg.org/dwc/terms/	0	f	0
-79	n_4	https://w3id.org/italia/env/onto/place/	0	f	0
-80	n_5	https://w3id.org/italia/env/onto/core#	0	f	0
-81	n_6	https://w3id.org/whow/onto/water-indicator/	0	f	0
 82	sem	http://semanticweb.cs.vu.nl/2009/11/sem/	0	f	0
-83	n_7	https://w3id.org/italia/onto/ADMS/	0	f	0
-84	n_8	https://w3id.org/italia/onto/CLV/	0	f	0
-85	n_9	https://w3id.org/whow/onto/hydrography/	0	f	0
-86	n_10	https://www.w3.org/2002/07/owl#	0	f	0
 87	dsw	http://purl.org/dsw/	0	f	0
-88	n_11	http://www.w3.orgS/ns/org#	0	f	0
 89	n_12	https://	0	f	0
 90	n_13		0	f	0
-91	n_14	https://www.w3.org/ns/prov#	0	f	0
 92	dwciri	http://rs.tdwg.org/dwc/iri/	0	f	0
-93	n_15	https://w3id.org/italia/onto/l0/	0	f	0
-94	n_16	https://w3id.org/italia/onto/NDC/	0	f	0
-95	n_17	http://qudt.org/vocab/unit#	0	f	0
 96	xkos	http://rdf-vocabulary.ddialliance.org/xkos#	0	f	0
+74	water-mon	https://w3id.org/whow/onto/water-monitoring/	0	f	0
+76	inspire-mf	https://w3id.org/italia/env/onto/inspire-mf/	0	f	0
+77	weather-mon	https://w3id.org/whow/onto/weather-monitoring/	0	f	0
+79	place-it	https://w3id.org/italia/env/onto/place/	0	f	0
+80	core-it	https://w3id.org/italia/env/onto/core#	0	f	0
+81	water-indic	https://w3id.org/whow/onto/water-indicator/	0	f	0
+83	adms-it	https://w3id.org/italia/onto/ADMS/	0	f	0
+84	clv-it	https://w3id.org/italia/onto/CLV/	0	f	0
+85	hydrogr	https://w3id.org/whow/onto/hydrography/	0	f	0
+86	owl_s	https://www.w3.org/2002/07/owl#	0	f	0
+88	org_1	http://www.w3.orgS/ns/org#	0	f	0
+91	prov_s	https://www.w3.org/ns/prov#	0	f	0
+93	id_it	https://w3id.org/italia/onto/l0/	0	f	0
+94	ndc_it	https://w3id.org/italia/onto/NDC/	0	f	0
+95	qudt	http://qudt.org/vocab/unit#	0	f	0
 \.
 
 

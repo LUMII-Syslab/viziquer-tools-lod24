@@ -3,7 +3,7 @@
 --
 
 -- Dumped from database version 14.5
--- Dumped by pg_dump version 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+-- Dumped by pg_dump version 14.15 (Ubuntu 14.15-0ubuntu0.22.04.1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -2787,15 +2787,15 @@ COPY http_dati_camera_it_sparql.ns (id, name, value, priority, is_local, basic_o
 71	bio	http://purl.org/vocab/bio/0.1/	0	f	0
 72	nfo	http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#	0	f	0
 73	vs	http://www.w3.org/2003/06/sw-vocab-status/ns#	0	f	0
-74	n_1	http://culturalis.org/oad#	0	f	0
 75	lgdo	http://linkedgeodata.org/ontology/	0	f	0
-76	n_2	http://culturalis.org/cult/0.1#	0	f	0
-77	n_3	http://culturalis.org/eac-cpf#	0	f	0
 78	skos08	http://www.w3.org/2008/05/skos#	0	f	0
 79	ods	http://lod.xdams.org/ontologies/ods/	0	f	0
 80	lode	http://linkedevents.org/ontology/	0	f	0
-81	n_4	http://labs.mondeca.com/vocab/voaf#	0	f	0
-82	n_5	http://dati.camera.it/ocd/uod/	0	f	0
+74	oad	http://culturalis.org/oad#	0	f	0
+76	cult	http://culturalis.org/cult/0.1#	0	f	0
+77	ezc-cpf	http://culturalis.org/eac-cpf#	0	f	0
+81	mvoaf	http://labs.mondeca.com/vocab/voaf#	0	f	0
+82	uod	http://dati.camera.it/ocd/uod/	0	f	0
 \.
 
 
