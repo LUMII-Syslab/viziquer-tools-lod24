@@ -1,13 +1,19 @@
 # ViziQuer Tools LOD24
 
-This repository contains scripts and initial data for starting your own copy of ViziQuer Tools, LOD24 edition, as a set of interlinked containers.
+This repository contains scripts and initial data for starting your own copy of ViziQuer Tools, 
+LOD24 edition, as a set of interlinked containers.
 
-This repository is a fork of the main repository, [ViziQuer Tools](https://github.com/LUMII-Syslab/viziquer-tools), extended with a rich set of schemas from NNN popular Linked Open Data endpoints.
+It provides the supporting material for the KGSWC'24 paper 
+"Visual Presentation and Summarization of Linked Data Schemas".
+
+This repository is a fork of [ViziQuer Tools](https://github.com/LUMII-Syslab/viziquer-tools), 
+extended with a set of schemas from 24 popular Linked Open Data endpoints.
+
+The `diagrams` folder contains visual presentations of the included schema diagrams.
 
 This repository is just a glue + initial data; the tools themselves come from the following repositories:
 - [ViziQuer](https://github.com/LUMII-Syslab/viziquer)
 - [Data Shape Server](https://github.com/LUMII-Syslab/data-shape-server)
-- [OBIS-SchemaExtractor](https://github.com/LUMII-Syslab/OBIS-SchemaExtractor)
 
 For more information on the ViziQuer tools family, please visit [viziquer.lumii.lv](https://viziquer.lumii.lv/).
 
