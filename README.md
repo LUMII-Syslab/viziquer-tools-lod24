@@ -9,7 +9,9 @@ It provides the supporting material for the KGSWC'24 paper
 This repository is a fork of [ViziQuer Tools](https://github.com/LUMII-Syslab/viziquer-tools), 
 extended with a set of schemas from 24 popular Linked Open Data endpoints.
 
-The `diagrams` folder contains visual presentations of the included schema diagrams.
+The `diagrams` folder contains visual presentations of diagrams of included schemas.
+
+The pre-built data schemas are in `db/init/pg`. The bundled ViziQuer tool shall have these available after startup for schema visualization and visual query support.
 
 This repository is just a glue + initial data; the tools themselves come from the following repositories:
 - [ViziQuer](https://github.com/LUMII-Syslab/viziquer)
